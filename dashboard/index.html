@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>타사 신상품 — Qoo10 JP 경쟁사 트래커</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1 class="brand">타사 신상품 트래커</h1>
+      <p class="subtitle">Qoo10.jp 경쟁사 K-뷰티 셀러 ─ 최근 30일 신상품 자동 수집</p>
+      <p class="meta" id="meta-line">로딩중...</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="summary-grid" id="summary-grid">
+      <div class="card skeleton"></div>
+      <div class="card skeleton"></div>
+      <div class="card skeleton"></div>
+      <div class="card skeleton"></div>
+    </section>
+
+    <section class="insights-section">
+      <h2>📌 이번 주 인사이트 (자동 생성)</h2>
+      <p class="section-hint">데이터 → 액션. 상품기획팀에 그대로 전달 가능한 코멘트.</p>
+      <div id="insights-list" class="insights-list"></div>
+    </section>
+
+    <section class="filters">
+      <div class="filter-group">
+        <label>카테고리</label>
+        <div class="chip-row" id="category-chips">
+          <button class="chip active" data-cat="all">전체</button>
+          <button class="chip" data-cat="skin">스킨케어</button>
+          <button class="chip" data-cat="color">색조</button>
+          <button class="chip" data-cat="device">ETC</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>구분</label>
+        <div class="chip-row" id="kind-chips">
+          <button class="chip active" data-kind="all">전체</button>
+          <button class="chip" data-kind="신제품">신제품</button>
+          <button class="chip" data-kind="신규 색상">신규 색상</button>
+          <button class="chip" data-kind="리뉴얼">리뉴얼</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>브랜드</label>
+        <select id="brand-select"><option value="all">전체</option></select>
+      </div>
+      <div class="filter-group">
+        <label>검색</label>
+        <input type="search" id="q" placeholder="제품명/마커 키워드">
+      </div>
+    </section>
+
+    <section class="result-bar">
+      <span id="result-count">0건</span> · <span class="hint">시트 양식 동일 컬럼 — 클릭하면 Qoo10 상세 열림</span>
+      <button id="copy-tsv" class="btn-sm" title="현재 필터 결과를 TSV로 복사 → 구글 시트 붙여넣기">📋 시트로 복사 (TSV)</button>
+    </section>
+
+    <section class="table-wrap">
+      <table id="products-table">
+        <thead>
+          <tr>
+            <th>카테고리</th>
+            <th>브랜드</th>
+            <th>이미지</th>
+            <th>제품명</th>
+            <th>구분</th>
+            <th>참고가</th>
+            <th>판매가</th>
+            <th>할인%</th>
+            <th>신규 시그널</th>
+            <th>링크</th>
+          </tr>
+        </thead>
+        <tbody id="products-tbody"></tbody>
+      </table>
+    </section>
+
+    <section class="suspect-section">
+      <h2>⚠ 수집 누락 브랜드 (slug 재확인 필요)</h2>
+      <p class="section-hint">Qoo10 셀러 slug가 변경/오류로 수집 실패한 브랜드. 운영 화면에서 정식 slug 확인 후 <code>crawler/_brands.py</code> 수정 필요.</p>
+      <ul id="suspect-list"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>크롤 시각: <span id="footer-ts">-</span> · 데이터: <a href="./data/new_products.json">new_products.json</a> · <a href="https://docs.google.com/spreadsheets/d/19bS3Kh9-jXc8aNtAtR8z87OYfIvYrKSoqlg0fJVBZ4k/edit" target="_blank">구글 시트 원본</a></p>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -79,13 +79,17 @@ ORIG_PRICE_RE  = re.compile(r'class="price_origin_value[^"]*"[^>]*>\s*([\d,]+)')
 DISCOUNT_RE    = re.compile(r'class="price_final_deco"[^>]*>\s*(\d{1,2})%OFF')
 
 # 신상품 마커 — 상품명에 포함되면 candidate
+# 강한 마커 → 단독 만으로 신상품 인정
 NEW_MARKERS = [
     "【NEW】", "【新】", "【新発売】", "【新商品】", "【新登場】",
     "NEW商品", "新発売", "新登場", "新着", "Newly",
     "リニューアル", "リニュアル", "新色", "新カラー",
+    "新作", "新製品", "新ライン", "新シリーズ", "新パッケージ",
+    "先行発売", "先行販売", "先行リリース", "Qoo10先行",
+    "月新作", "月新商品",
 ]
 # 약한 마커 (혼자서는 부족하지만 함께 있으면 가중)
-WEAK_MARKERS = ["NEW", "★NEW", "✨NEW"]
+WEAK_MARKERS = ["NEW", "★NEW", "✨NEW", "🆕"]
 
 CATEGORY_LABEL = {
     "skin":   "스킨케어",
@@ -129,10 +133,11 @@ def is_new_product(title: str) -> tuple[bool, list[str], str]:
     for m in NEW_MARKERS:
         if m in title:
             matched.append(m)
-            if "リニューアル" in m or "リニュアル" in m:
-                classification = "리뉴얼"
+            if "リニューアル" in m or "リニュアル" in m or "リニュパッケ" in m or "新パッケージ" in m:
+                if not classification:
+                    classification = "리뉴얼"
             elif "新色" in m or "新カラー" in m:
-                classification = "신규 색상"
+                classification = "신규 색상"  # 강하게 덮어쓰기
             elif not classification:
                 classification = "신제품"
     # 약한 마커는 강한 마커가 이미 있을 때만 보조
@@ -197,19 +202,52 @@ def parse_products(html: str, source_section: str) -> list[dict]:
     return products
 
 
-def crawl_shop(slug: str, kr_label: str) -> dict:
+def validate_shop_match(products: list[dict], expected_keywords: list[str]) -> dict:
+    """셀러 페이지가 진짜 그 브랜드의 shop인지 판정.
+
+    Qoo10이 invalid slug 일 때 "유사 검색" 페이지를 200개 잡탕으로 응답하는 경우 차단.
+
+    기준:
+      - brand_label_raw 가 있는 상품 중, expected_keywords에 매치되는 비율 ≥ 30%
+      - 또는 brand_label_raw 가 대다수 비어있고 (셀러 직접 등록 = 자사 브랜드 추정)
+    """
+    if not products:
+        return {"valid": True, "reason": "empty page", "match_ratio": 0.0}
+    with_brand = [p for p in products if p.get("brand_label_raw")]
+    if not with_brand:
+        return {"valid": True, "reason": "no brand labels (self-listed)", "match_ratio": None}
+
+    kw_lc = [k.strip().lower() for k in expected_keywords if k.strip()]
+    matched = 0
+    for p in with_brand:
+        b = (p.get("brand_label_raw") or "").lower()
+        if any(k in b for k in kw_lc):
+            matched += 1
+    ratio = matched / len(with_brand) if with_brand else 0.0
+    return {
+        "valid": ratio >= 0.30,
+        "reason": f"{matched}/{len(with_brand)} branded products match expected keywords",
+        "match_ratio": round(ratio, 2),
+    }
+
+
+def crawl_shop(slug: str, kr_label: str, expected_keywords: list[str]) -> dict:
     """한 셀러 페이지에서 신상품 후보 추출.
 
     두 번 fetch:
       1) 기본 페이지 (인기 정렬 — NEW商品 섹션 포함될 수 있음)
       2) 新着順 정렬 페이지 (gd_no 정렬)
+
+    expected_keywords: 브랜드 식별 키워드. shop slug가 invalid해서 검색결과로 리다이렉트된 경우 차단.
     """
     results: list[dict] = []
+    page_sizes: list[int] = []
 
     # 1) 기본 페이지
     url_default = f"https://m.qoo10.jp/shop/{slug}"
     html = fetch(url_default)
     if html:
+        page_sizes.append(len(html))
         results.extend(parse_products(html, source_section="top"))
 
     # 2) 신착순 페이지 — qoo10 mobile shop의 정렬 파라미터
@@ -217,8 +255,8 @@ def crawl_shop(slug: str, kr_label: str) -> dict:
     url_new = f"https://m.qoo10.jp/shop/{slug}?sortby=neworder"
     html2 = fetch(url_new)
     if html2:
+        page_sizes.append(len(html2))
         new_products = parse_products(html2, source_section="new_arrival")
-        # 합치되 중복 제거
         existing_codes = {p["goodscode"] for p in results}
         for p in new_products:
             if p["goodscode"] in existing_codes:
@@ -226,12 +264,16 @@ def crawl_shop(slug: str, kr_label: str) -> dict:
             results.append(p)
             existing_codes.add(p["goodscode"])
 
+    validity = validate_shop_match(results, expected_keywords)
+
     return {
         "slug": slug,
         "kr_label": kr_label,
         "fetched_at": NOW_JST.isoformat(timespec="seconds"),
         "products_total": len(results),
-        "products": results,
+        "products": results if validity["valid"] else [],
+        "validity": validity,
+        "page_size_bytes": sum(page_sizes),
     }
 
 
@@ -311,23 +353,42 @@ def main() -> int:
         "stats": {},
     }
 
+    suspect_slugs: list[dict] = []  # slug 유효성 실패 셀러 추적
     for category, shops in shops_by_cat.items():
         print(f"\n[{category.upper()}] crawling {len(shops)} shops ...")
         for shop in shops:
             slug = shop["slug"]
-            time.sleep(2.0)  # rate limit
-            r = crawl_shop(slug, shop["kr_label"])
+            time.sleep(2.0)
+            expected_kw = ALL_COMPETITORS.get(shop["key"], {}).get("keywords", [shop["label"]])
+            r = crawl_shop(slug, shop["kr_label"], expected_kw)
             all_snapshots["shops"].append({
                 "slug": slug,
                 "category": category,
                 "products": r["products"],
                 "products_total": r["products_total"],
+                "validity": r.get("validity"),
             })
+            if not r.get("validity", {}).get("valid", True):
+                suspect_slugs.append({
+                    "slug": slug,
+                    "kr_label": shop["kr_label"],
+                    "category": category,
+                    "reason": r["validity"]["reason"],
+                    "match_ratio": r["validity"]["match_ratio"],
+                    "raw_product_count": r["products_total"],
+                })
+                print(f"  [{shop['kr_label']:<14} ({slug:<18})] ✗ INVALID slug — {r['validity']['reason']}  ratio={r['validity']['match_ratio']}")
+                continue
             new_only = [p for p in r["products"] if p["is_new_candidate"]]
             for p in new_only:
                 row = to_sheet_row(p, shop["label"], shop["kr_label"], category)
                 output["categories"][category].append(row)
-            print(f"  [{shop['kr_label']:<14} ({slug:<18})] total={r['products_total']:>3}  new_candidates={len(new_only):>2}")
+            print(f"  [{shop['kr_label']:<14} ({slug:<18})] total={r['products_total']:>3}  new_candidates={len(new_only):>2}  match={r['validity']['match_ratio']}")
+
+    output["suspect_slugs"] = suspect_slugs
+    print(f"\n[NEW-PRODUCTS] suspect slugs to fix: {len(suspect_slugs)}")
+    for s in suspect_slugs:
+        print(f"  ✗ {s['kr_label']:<14} ({s['slug']:<18}) [{s['category']}]  ratio={s['match_ratio']}  raw={s['raw_product_count']}")
 
     # 통계
     for cat in ("skin", "color", "device"):

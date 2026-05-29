@@ -1,0 +1,44 @@
+name: Daily Competitor New Products Crawl
+
+on:
+  schedule:
+    # 매일 00:00 UTC = 09:00 JST 1회
+    - cron: '0 0 * * *'
+  workflow_dispatch:   # 수동 실행 허용
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run crawler
+        run: |
+          python crawler/qoo10_new_products.py
+
+      - name: Copy data into dashboard/ (Cloudflare Pages reads from here)
+        run: |
+          mkdir -p dashboard/data
+          cp data/new_products.json dashboard/data/new_products.json
+
+      - name: Commit + push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ dashboard/data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "chore(crawl): daily snapshot ${DATE}"
+          git push
