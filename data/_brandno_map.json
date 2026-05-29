@@ -142,7 +142,8 @@
         "keyword_hits": 1,
         "page_size": 321867
       },
-      "used_keyword": "TOCOBO"
+      "used_keyword": "TOCOBO",
+      "recovered_at": true
     },
     "pyunkangyul": {
       "brandno": null,
@@ -151,10 +152,16 @@
       "used_keyword": null
     },
     "haruharu": {
-      "brandno": null,
-      "discovered_brandno": null,
-      "verify": null,
-      "used_keyword": null
+      "brandno": 102517,
+      "discovered_brandno": 102517,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 3,
+        "page_size": 381610
+      },
+      "used_keyword": "HARUHARU WONDER",
+      "recovered_at": true
     },
     "roundlab": {
       "brandno": null,
@@ -487,6 +494,30 @@
       "discovered_brandno": null,
       "verify": null,
       "used_keyword": null
+    },
+    "medicube_ager": {
+      "brandno": 57780,
+      "discovered_brandno": 57780,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 410628
+      },
+      "used_keyword": "MEDICUBE AGE-R",
+      "recovered_at": true
+    },
+    "mtg": {
+      "brandno": 42282,
+      "discovered_brandno": 42282,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 301877
+      },
+      "used_keyword": "ReFa",
+      "recovered_at": true
     }
   }
 }
