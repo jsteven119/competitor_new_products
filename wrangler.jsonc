@@ -1,0 +1,14 @@
+{
+  // Cloudflare Workers with Static Assets — dashboard/ 정적 배포
+  // https://developers.cloudflare.com/workers/static-assets/
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "competitor-new-products",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./dashboard",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
