@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Data — 일일 스냅샷 raw HTML은 저장소에 포함하지 않음
+crawler/_cache/
+data/_raw/
+data/_snapshots/*.html
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Secrets
+.env
+.env.local
+*.secret
