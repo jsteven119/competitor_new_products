@@ -1,0 +1,773 @@
+{
+  "last_updated": "2026-05-29T13:23:43+09:00",
+  "results": {
+    "aestura": {
+      "current_slug": "aestura",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "AESTURA",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 430356
+          }
+        },
+        {
+          "keyword": "エストラ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 430913
+          }
+        },
+        {
+          "keyword": "aestura",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 429437
+          }
+        }
+      ]
+    },
+    "isntree": {
+      "current_slug": "isntree",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "isntree",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 404060
+          }
+        },
+        {
+          "keyword": "イズントゥリー",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 139727
+          }
+        },
+        {
+          "keyword": "イズエントリ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 139656
+          }
+        }
+      ]
+    },
+    "mixsoon": {
+      "current_slug": "mixsoon",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "mixsoon",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 467872
+          }
+        },
+        {
+          "keyword": "ミクスーン",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 464462
+          }
+        }
+      ]
+    },
+    "samu": {
+      "current_slug": "samu",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "SAMU",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 397303
+          }
+        },
+        {
+          "keyword": "サミュ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 399313
+          }
+        },
+        {
+          "keyword": "samu",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 397847
+          }
+        }
+      ]
+    },
+    "fwee": {
+      "current_slug": "fwee",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "fwee",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 432166
+          }
+        },
+        {
+          "keyword": "プゥイ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 139443
+          }
+        },
+        {
+          "keyword": "プイ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 215037
+          }
+        }
+      ]
+    },
+    "abouttone": {
+      "current_slug": "abouttone",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "About Tone",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 360067
+          }
+        },
+        {
+          "keyword": "アバウトトーン",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 369690
+          }
+        }
+      ]
+    },
+    "dasique": {
+      "current_slug": "dasique",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "DASIQUE",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 440924
+          }
+        },
+        {
+          "keyword": "デイジーク",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 445948
+          }
+        },
+        {
+          "keyword": "dasique",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 441711
+          }
+        }
+      ]
+    },
+    "peripera": {
+      "current_slug": "peripera",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "PERIPERA",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 440187
+          }
+        },
+        {
+          "keyword": "ペリペラ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 441823
+          }
+        },
+        {
+          "keyword": "peripera",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 440538
+          }
+        }
+      ]
+    },
+    "hince": {
+      "current_slug": "hince",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "hince",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 448754
+          }
+        },
+        {
+          "keyword": "ヒンス",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 447242
+          }
+        }
+      ]
+    },
+    "millefee": {
+      "current_slug": "millefee",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "MilleFée",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 442678
+          }
+        },
+        {
+          "keyword": "ミルフィー",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 443587
+          }
+        },
+        {
+          "keyword": "millefee",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 443369
+          }
+        }
+      ]
+    },
+    "2aN": {
+      "current_slug": "2anjp",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "2aN",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 389515
+          }
+        },
+        {
+          "keyword": "ツーエーエヌ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 312636
+          }
+        },
+        {
+          "keyword": "2an",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 389023
+          }
+        }
+      ]
+    },
+    "abib": {
+      "current_slug": "abib",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "ABIB",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 407763
+          }
+        },
+        {
+          "keyword": "アビブ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 406643
+          }
+        },
+        {
+          "keyword": "abib",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 409113
+          }
+        }
+      ]
+    },
+    "tocobo": {
+      "current_slug": "tocobo",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "TOCOBO",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 374040
+          }
+        },
+        {
+          "keyword": "トコボ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 374120
+          }
+        },
+        {
+          "keyword": "tocobo",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 373719
+          }
+        }
+      ]
+    },
+    "pyunkangyul": {
+      "current_slug": "pyunkangyul",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "PYUNKANG YUL",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 329282
+          }
+        },
+        {
+          "keyword": "ピョンガンユル",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 330890
+          }
+        },
+        {
+          "keyword": "pyunkang",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 156111
+          }
+        }
+      ]
+    },
+    "haruharu": {
+      "current_slug": "haruharu",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "HARUHARU",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 330297
+          }
+        },
+        {
+          "keyword": "ハルハル",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 329001
+          }
+        },
+        {
+          "keyword": "haruharu",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 328292
+          }
+        }
+      ]
+    },
+    "roundlab": {
+      "current_slug": "roundlab",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "Round Lab",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 339349
+          }
+        },
+        {
+          "keyword": "ラウンドラボ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 334777
+          }
+        },
+        {
+          "keyword": "roundlab",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 339207
+          }
+        }
+      ]
+    },
+    "ongredients": {
+      "current_slug": "ongredients",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "ONGREDIENTS",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 386751
+          }
+        },
+        {
+          "keyword": "オングレディエンツ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 139869
+          }
+        }
+      ]
+    },
+    "beautyofjoseon": {
+      "current_slug": "beautyofjoseon",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "Beauty of Joseon",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 409303
+          }
+        },
+        {
+          "keyword": "ビューティーオブジョソン",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 319737
+          }
+        }
+      ]
+    },
+    "drjart": {
+      "current_slug": "drjart",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "Dr.Jart+",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 427856
+          }
+        },
+        {
+          "keyword": "ドクタージャルト",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 427841
+          }
+        }
+      ]
+    },
+    "laka": {
+      "current_slug": "laka",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "LAKA",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 440889
+          }
+        },
+        {
+          "keyword": "ラカ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 438915
+          }
+        }
+      ]
+    },
+    "23yearsold": {
+      "current_slug": "23yearsold",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "23 years old",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 362146
+          }
+        },
+        {
+          "keyword": "23イヤーズオールド",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 361642
+          }
+        }
+      ]
+    },
+    "clio": {
+      "current_slug": "clio",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "CLIO",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 426674
+          }
+        },
+        {
+          "keyword": "クリオ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 429277
+          }
+        }
+      ]
+    },
+    "lilybyred": {
+      "current_slug": "lilybyred",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "lilybyred",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 413319
+          }
+        },
+        {
+          "keyword": "リリーバイレッド",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 413937
+          }
+        }
+      ]
+    },
+    "bbia": {
+      "current_slug": "bbia",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "BBIA",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 398075
+          }
+        },
+        {
+          "keyword": "ピアジャパン",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 154741
+          }
+        },
+        {
+          "keyword": "bbia",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 397969
+          }
+        }
+      ]
+    },
+    "olens": {
+      "current_slug": "olens",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "OLENS",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 178844
+          }
+        },
+        {
+          "keyword": "オーレンズ",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 178649
+          }
+        }
+      ]
+    },
+    "etude": {
+      "current_slug": "etude",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "ETUDE HOUSE",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 412079
+          }
+        },
+        {
+          "keyword": "エチュードハウス",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 414665
+          }
+        },
+        {
+          "keyword": "etude",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 412413
+          }
+        }
+      ]
+    },
+    "3ce": {
+      "current_slug": "3ce",
+      "discovered_slug": null,
+      "verified": false,
+      "verify_detail": null,
+      "attempts": [
+        {
+          "keyword": "3CE",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 363211
+          }
+        },
+        {
+          "keyword": "スリーシーイー",
+          "best": null,
+          "debug": {
+            "error": "no_shop_links",
+            "html_size": 361716
+          }
+        }
+      ]
+    }
+  }
+}

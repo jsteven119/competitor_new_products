@@ -232,25 +232,19 @@ def validate_shop_match(products: list[dict], expected_keywords: list[str]) -> d
 
 
 def crawl_shop(slug: str, kr_label: str, expected_keywords: list[str]) -> dict:
-    """한 셀러 페이지에서 신상품 후보 추출.
+    """[Legacy] 셀러 페이지 단위 fetch. Qoo10이 invalid slug면 검색결과 리다이렉트.
 
-    두 번 fetch:
-      1) 기본 페이지 (인기 정렬 — NEW商品 섹션 포함될 수 있음)
-      2) 新着順 정렬 페이지 (gd_no 정렬)
-
-    expected_keywords: 브랜드 식별 키워드. shop slug가 invalid해서 검색결과로 리다이렉트된 경우 차단.
+    brandno 방식을 우선 사용하므로 이 함수는 backup 용도.
     """
     results: list[dict] = []
     page_sizes: list[int] = []
 
-    # 1) 기본 페이지
     url_default = f"https://m.qoo10.jp/shop/{slug}"
     html = fetch(url_default)
     if html:
         page_sizes.append(len(html))
         results.extend(parse_products(html, source_section="top"))
 
-    # 2) 신착순 페이지 — qoo10 mobile shop의 정렬 파라미터
     time.sleep(1.5)
     url_new = f"https://m.qoo10.jp/shop/{slug}?sortby=neworder"
     html2 = fetch(url_new)
@@ -275,6 +269,63 @@ def crawl_shop(slug: str, kr_label: str, expected_keywords: list[str]) -> dict:
         "validity": validity,
         "page_size_bytes": sum(page_sizes),
     }
+
+
+def crawl_brand(brandno: int, kr_label: str, first_keyword: str) -> dict:
+    """Brand.aspx?brandno=N 페이지에서 신상품 후보 추출.
+
+    Qoo10의 공식 브랜드 단위 페이지 → 해당 브랜드 상품만 깨끗하게 노출.
+    /shop/{slug} 방식보다 정확하고 invalid 리스크 없음.
+    """
+    import urllib.parse as _up
+    referer = f"https://m.qoo10.jp/gmkt.inc/Mobile/Search/Default.aspx?keyword={_up.quote(first_keyword)}&kwclick=P"
+    url = f"https://m.qoo10.jp/gmkt.inc/Mobile/Search/Brand.aspx?brandno={brandno}&ga_priority=-1&ga_prdlist=srp"
+    # Brand.aspx는 Referer 필수
+    import urllib.request as _ur
+    headers = dict(HEADERS, Referer=referer)
+    products: list[dict] = []
+    page_size = 0
+    try:
+        req = _ur.Request(url, headers=headers)
+        with _ur.urlopen(req, timeout=20) as resp:
+            raw = resp.read()
+            if resp.headers.get("Content-Encoding") == "gzip":
+                raw = gzip.decompress(raw)
+            html = raw.decode("utf-8", errors="replace")
+            page_size = len(html)
+            if len(html) >= 5000 and "523 Error" not in html:
+                products = parse_products(html, source_section="brand_page")
+    except Exception as e:
+        return {
+            "brandno": brandno,
+            "kr_label": kr_label,
+            "fetched_at": NOW_JST.isoformat(timespec="seconds"),
+            "products_total": 0,
+            "products": [],
+            "error": str(e),
+            "page_size_bytes": page_size,
+        }
+
+    return {
+        "brandno": brandno,
+        "kr_label": kr_label,
+        "fetched_at": NOW_JST.isoformat(timespec="seconds"),
+        "products_total": len(products),
+        "products": products,
+        "page_size_bytes": page_size,
+    }
+
+
+def load_brandno_map() -> dict:
+    """data/_brandno_map.json 로드. 없으면 빈 dict."""
+    p = DATA / "_brandno_map.json"
+    if not p.exists():
+        return {}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        return {k: v.get("brandno") for k, v in data.get("results", {}).items() if v.get("brandno")}
+    except Exception:
+        return {}
 
 
 def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) -> dict:
@@ -353,42 +404,81 @@ def main() -> int:
         "stats": {},
     }
 
-    suspect_slugs: list[dict] = []  # slug 유효성 실패 셀러 추적
-    for category, shops in shops_by_cat.items():
-        print(f"\n[{category.upper()}] crawling {len(shops)} shops ...")
-        for shop in shops:
-            slug = shop["slug"]
-            time.sleep(2.0)
-            expected_kw = ALL_COMPETITORS.get(shop["key"], {}).get("keywords", [shop["label"]])
-            r = crawl_shop(slug, shop["kr_label"], expected_kw)
-            all_snapshots["shops"].append({
-                "slug": slug,
-                "category": category,
-                "products": r["products"],
-                "products_total": r["products_total"],
-                "validity": r.get("validity"),
-            })
-            if not r.get("validity", {}).get("valid", True):
-                suspect_slugs.append({
-                    "slug": slug,
-                    "kr_label": shop["kr_label"],
-                    "category": category,
-                    "reason": r["validity"]["reason"],
-                    "match_ratio": r["validity"]["match_ratio"],
-                    "raw_product_count": r["products_total"],
-                })
-                print(f"  [{shop['kr_label']:<14} ({slug:<18})] ✗ INVALID slug — {r['validity']['reason']}  ratio={r['validity']['match_ratio']}")
-                continue
-            new_only = [p for p in r["products"] if p["is_new_candidate"]]
-            for p in new_only:
-                row = to_sheet_row(p, shop["label"], shop["kr_label"], category)
-                output["categories"][category].append(row)
-            print(f"  [{shop['kr_label']:<14} ({slug:<18})] total={r['products_total']:>3}  new_candidates={len(new_only):>2}  match={r['validity']['match_ratio']}")
+    # brandno map 로드 — 우선 사용
+    brandno_map = load_brandno_map()
+    print(f"[NEW-PRODUCTS] brandno_map loaded: {len(brandno_map)} brands")
 
-    output["suspect_slugs"] = suspect_slugs
-    print(f"\n[NEW-PRODUCTS] suspect slugs to fix: {len(suspect_slugs)}")
-    for s in suspect_slugs:
-        print(f"  ✗ {s['kr_label']:<14} ({s['slug']:<18}) [{s['category']}]  ratio={s['match_ratio']}  raw={s['raw_product_count']}")
+    # 브랜드 키 → 카테고리/라벨 통합 (slug 중복 dedupe)
+    brand_runs: dict[str, dict] = {}
+    for category, shops in shops_by_cat.items():
+        for shop in shops:
+            key = shop["key"]
+            if key in brand_runs:
+                continue
+            brand_runs[key] = {
+                "key": key,
+                "category": category,
+                "kr_label": shop["kr_label"],
+                "label": shop["label"],
+                "shop_slug": shop["slug"],
+                "brandno": brandno_map.get(key),
+                "keywords": ALL_COMPETITORS.get(key, {}).get("keywords", [shop["label"]]),
+            }
+
+    missing_brands: list[dict] = []
+    for key, b in brand_runs.items():
+        cat = b["category"]
+        first_kw = b["keywords"][0] if b["keywords"] else b["label"]
+        products: list[dict] = []
+        source = ""
+
+        # 1) brandno 우선
+        if b["brandno"]:
+            time.sleep(2.0)
+            r = crawl_brand(b["brandno"], b["kr_label"], first_kw)
+            if r["products_total"] >= 3:
+                products = r["products"]
+                source = f"brandno={b['brandno']}"
+
+        # 2) brandno 없거나 빈약 → shop_slug fallback
+        if not products and b["shop_slug"]:
+            time.sleep(2.0)
+            r2 = crawl_shop(b["shop_slug"], b["kr_label"], b["keywords"])
+            if r2.get("validity", {}).get("valid"):
+                products = r2["products"]
+                source = f"shop_slug={b['shop_slug']}"
+
+        all_snapshots["shops"].append({
+            "brand_key": key,
+            "category": cat,
+            "source": source,
+            "products_total": len(products),
+            "products": products,
+        })
+
+        if not products:
+            missing_brands.append({
+                "brand_key": key,
+                "kr_label": b["kr_label"],
+                "category": cat,
+                "tried_brandno": b["brandno"],
+                "tried_shop_slug": b["shop_slug"],
+            })
+            print(f"  [{cat[:5]:<5}] {b['kr_label']:<14} ✗ MISSING (brandno={b['brandno']}, slug={b['shop_slug']})")
+            continue
+
+        new_only = [p for p in products if p["is_new_candidate"]]
+        for p in new_only:
+            row = to_sheet_row(p, b["label"], b["kr_label"], cat)
+            row["_meta"]["source"] = source
+            output["categories"][cat].append(row)
+        print(f"  [{cat[:5]:<5}] {b['kr_label']:<14} {source:<22} total={len(products):>3}  new={len(new_only):>2}")
+
+    output["missing_brands"] = missing_brands
+    output["suspect_slugs"] = missing_brands  # dashboard backward compat
+    print(f"\n[NEW-PRODUCTS] missing brands (수집 실패): {len(missing_brands)}")
+    for m in missing_brands:
+        print(f"  ✗ {m['kr_label']:<14} [{m['category']}]  brandno={m['tried_brandno']}  slug={m['tried_shop_slug']}")
 
     # 통계
     for cat in ("skin", "color", "device"):

@@ -1,0 +1,492 @@
+{
+  "last_updated": "2026-05-29T13:34:58+09:00",
+  "results": {
+    "aestura": {
+      "brandno": 105367,
+      "discovered_brandno": 105367,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 328507
+      },
+      "used_keyword": "AESTURA"
+    },
+    "isntree": {
+      "brandno": 53500,
+      "discovered_brandno": 53500,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 329512
+      },
+      "used_keyword": "isntree"
+    },
+    "mixsoon": {
+      "brandno": 104817,
+      "discovered_brandno": 104817,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 332326
+      },
+      "used_keyword": "mixsoon"
+    },
+    "samu": {
+      "brandno": 66667,
+      "discovered_brandno": 66667,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 342982
+      },
+      "used_keyword": "SAMU"
+    },
+    "fwee": {
+      "brandno": 109319,
+      "discovered_brandno": 109319,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 321876
+      },
+      "used_keyword": "fwee"
+    },
+    "abouttone": {
+      "brandno": 112529,
+      "discovered_brandno": 112529,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 318669
+      },
+      "used_keyword": "About Tone"
+    },
+    "dasique": {
+      "brandno": 101095,
+      "discovered_brandno": 101095,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 312337
+      },
+      "used_keyword": "DASIQUE"
+    },
+    "peripera": {
+      "brandno": 27833,
+      "discovered_brandno": 27833,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 337125
+      },
+      "used_keyword": "peripera"
+    },
+    "hince": {
+      "brandno": 65191,
+      "discovered_brandno": 65191,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 332732
+      },
+      "used_keyword": "hince"
+    },
+    "millefee": {
+      "brandno": 118831,
+      "discovered_brandno": 118831,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 322524
+      },
+      "used_keyword": "MilleFée"
+    },
+    "2aN": {
+      "brandno": 66574,
+      "discovered_brandno": 66574,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 322307
+      },
+      "used_keyword": "2aN"
+    },
+    "abib": {
+      "brandno": 57029,
+      "discovered_brandno": 57029,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 336159
+      },
+      "used_keyword": "ABIB"
+    },
+    "tocobo": {
+      "brandno": 115771,
+      "discovered_brandno": 115771,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 321867
+      },
+      "used_keyword": "TOCOBO"
+    },
+    "pyunkangyul": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "haruharu": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "roundlab": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "ongredients": {
+      "brandno": 110434,
+      "discovered_brandno": 110434,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 327710
+      },
+      "used_keyword": "ONGREDIENTS"
+    },
+    "beautyofjoseon": {
+      "brandno": 63647,
+      "discovered_brandno": 63647,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 316531
+      },
+      "used_keyword": "Beauty of Joseon"
+    },
+    "drjart": {
+      "brandno": 22935,
+      "discovered_brandno": 22935,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 339165
+      },
+      "used_keyword": "Dr.Jart+"
+    },
+    "laka": {
+      "brandno": 100539,
+      "discovered_brandno": 100539,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 334339
+      },
+      "used_keyword": "LAKA"
+    },
+    "23yearsold": {
+      "brandno": 33875,
+      "discovered_brandno": 33875,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 322207
+      },
+      "used_keyword": "23 years old"
+    },
+    "clio": {
+      "brandno": 27754,
+      "discovered_brandno": 27754,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 341475
+      },
+      "used_keyword": "CLIO"
+    },
+    "lilybyred": {
+      "brandno": 63782,
+      "discovered_brandno": 63782,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 350081
+      },
+      "used_keyword": "lilybyred"
+    },
+    "bbia": {
+      "brandno": 36185,
+      "discovered_brandno": 36185,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 325353
+      },
+      "used_keyword": "BBIA"
+    },
+    "olens": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "etude": {
+      "brandno": 44460,
+      "discovered_brandno": 44460,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 327785
+      },
+      "used_keyword": "ETUDE HOUSE"
+    },
+    "3ce": {
+      "brandno": 40282,
+      "discovered_brandno": 40282,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 307076
+      },
+      "used_keyword": "3CE"
+    },
+    "anua": {
+      "brandno": 66607,
+      "discovered_brandno": 66607,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 359789
+      },
+      "used_keyword": "Anua"
+    },
+    "medicube": {
+      "brandno": 57780,
+      "discovered_brandno": 57780,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 403411
+      },
+      "used_keyword": "medicube"
+    },
+    "romand": {
+      "brandno": 63783,
+      "discovered_brandno": 63783,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 3,
+        "page_size": 337175
+      },
+      "used_keyword": "ロムアンド"
+    },
+    "cosrx": {
+      "brandno": 55360,
+      "discovered_brandno": 55360,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 353824
+      },
+      "used_keyword": "COSRX"
+    },
+    "tirtir": {
+      "brandno": 101233,
+      "discovered_brandno": 101233,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 332745
+      },
+      "used_keyword": "TIRTIR"
+    },
+    "mediheal": {
+      "brandno": 36924,
+      "discovered_brandno": 36924,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 352129
+      },
+      "used_keyword": "mediheal"
+    },
+    "celimax": {
+      "brandno": 65704,
+      "discovered_brandno": 65704,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 338491
+      },
+      "used_keyword": "celimax"
+    },
+    "amuse": {
+      "brandno": 29171,
+      "discovered_brandno": 29171,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 332492
+      },
+      "used_keyword": "AMUSE"
+    },
+    "banilaco": {
+      "brandno": 443,
+      "discovered_brandno": 443,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 345602
+      },
+      "used_keyword": "banila co"
+    },
+    "skin1004": {
+      "brandno": 44426,
+      "discovered_brandno": 44426,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 373110
+      },
+      "used_keyword": "skin1004"
+    },
+    "vt": {
+      "brandno": 57851,
+      "discovered_brandno": 57851,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 322520
+      },
+      "used_keyword": "VT cosmetics"
+    },
+    "torriden": {
+      "brandno": 100626,
+      "discovered_brandno": 100626,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 351452
+      },
+      "used_keyword": "torriden"
+    },
+    "kopher": {
+      "brandno": 109238,
+      "discovered_brandno": 109238,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 340638
+      },
+      "used_keyword": "Kopher"
+    },
+    "dalba": {
+      "brandno": 58242,
+      "discovered_brandno": 58242,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 394041
+      },
+      "used_keyword": "d'Alba"
+    },
+    "manyo": {
+      "brandno": 46905,
+      "discovered_brandno": 46905,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 3,
+        "page_size": 344666
+      },
+      "used_keyword": "manyo"
+    },
+    "biodance": {
+      "brandno": 120696,
+      "discovered_brandno": 120696,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 328320
+      },
+      "used_keyword": "biodance"
+    },
+    "numbuzin": {
+      "brandno": 105364,
+      "discovered_brandno": 105364,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 317889
+      },
+      "used_keyword": "numbuzin"
+    },
+    "dinto": {
+      "brandno": 107378,
+      "discovered_brandno": 107378,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 324208
+      },
+      "used_keyword": "DINTO"
+    },
+    "ohora": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "age20s": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    }
+  }
+}
