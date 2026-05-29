@@ -20,6 +20,7 @@
     kindFilter: 'all',
     brandFilter: 'all',
     q: '',
+    sort: 'default',
     dcat: 'skin',
   };
 
@@ -374,15 +375,28 @@
       });
     }
 
-    // ⑦ 신상 → 랭킹 진입 SKU (검증된 신상)
+    // ⑦ 신상 → Qoo10 랭킹 진입 SKU (구매 검증)
     const ranked = rows.filter(r => r['랭킹'] != null).sort((a, b) => a['랭킹'] - b['랭킹']);
     if (ranked.length >= 1) {
       const top3 = ranked.slice(0, 3);
       insights.push({
         level: 'high',
-        title: `🔥 신상 ${ranked.length}건이 Qoo10 뷰티 Top 200 진입 — 시장 검증된 SKU`,
+        title: `🔥 신상 ${ranked.length}건이 Qoo10 뷰티 Top 200 진입 — 구매 검증된 SKU`,
         body: `최상위: ${top3.map(r => `#${r['랭킹']} ${esc(r['브랜드'])} ${esc((r['제품명']||'').slice(0,28))}`).join(' / ')}. 출시 직후 랭킹 진입 = 광고+자연유입 모두 우호적.`,
         action: '→ 이 SKU들의 가격대·제형·소구 키워드 자사 차기 신제품에 벤치마크'
+      });
+    }
+
+    // ⑧ LIPS 화제 SKU (SNS 검증) — brand-only 제외하고 정확 매칭만
+    const lipsHot = rows.filter(r => r.lips_rank != null && !r.lips_brand_only)
+      .sort((a, b) => a.lips_rank - b.lips_rank);
+    if (lipsHot.length >= 1) {
+      const top3 = lipsHot.slice(0, 3);
+      insights.push({
+        level: 'high',
+        title: `⭐ 신상 ${lipsHot.length}건이 LIPS 카테고리 랭킹 진입 — 10s~30s SNS 화제`,
+        body: `최상위: ${top3.map(r => `${esc(r.lips_category||'')} #${r.lips_rank} ${esc(r['브랜드'])}`).join(' / ')}. Qoo10 구매 신호 + LIPS 화제 신호 동시 = 자사 차기 기획 1순위 벤치마크.`,
+        action: '→ LIPS Top 10 진입한 신상은 출시 1~2개월 내 카테고리 표준 SKU로 정착 가능성 높음'
       });
     }
 
@@ -428,6 +442,7 @@
       }));
     $('#brand-select').addEventListener('change', e => { state.brandFilter = e.target.value; applyFilters(); });
     $('#q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); applyFilters(); });
+    $('#sort-select').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
     $('#copy-tsv').addEventListener('click', copyTSV);
   }
 
@@ -442,6 +457,23 @@
       }
       return true;
     });
+
+    // 정렬 — null은 항상 마지막
+    const sortFns = {
+      'qoo10_rank':  (a, b) => (a['랭킹'] ?? 9999) - (b['랭킹'] ?? 9999),
+      'lips_rank':   (a, b) => {
+        // brand-only 매칭은 ranked 매칭보다 뒤로
+        const ar = a.lips_brand_only ? 9999 : (a.lips_rank ?? 9999);
+        const br = b.lips_brand_only ? 9999 : (b.lips_rank ?? 9999);
+        return ar - br;
+      },
+      'price_low':   (a, b) => (a['판매가'] ?? 999999) - (b['판매가'] ?? 999999),
+      'price_high':  (a, b) => (b['판매가'] ?? 0) - (a['판매가'] ?? 0),
+      'discount':    (a, b) => (b['할인율%'] ?? 0) - (a['할인율%'] ?? 0),
+      'review_count':(a, b) => (b['리뷰_수'] ?? 0) - (a['리뷰_수'] ?? 0),
+    };
+    if (sortFns[state.sort]) state.filtered.sort(sortFns[state.sort]);
+
     $('#result-count').textContent = `${state.filtered.length}건`;
     renderTable();
   }
@@ -450,7 +482,7 @@
   function renderTable() {
     const tbody = $('#products-tbody');
     if (state.filtered.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:32px;color:#9ca3af">조건 일치 신상품 없음</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="14" style="text-align:center;padding:32px;color:#9ca3af">조건 일치 신상품 없음</td></tr>';
       return;
     }
     tbody.innerHTML = state.filtered.map(r => {
@@ -470,6 +502,29 @@
       const reviewCell = (rs != null || rc != null)
         ? `<span class="review-score">★${rs ?? '-'}</span> <span class="review-count">(${rc ?? 0})</span>`
         : '-';
+
+      // LIPS 뱃지
+      let lipsCell = '<span class="badge-none">—</span>';
+      if (r.lips_rank != null) {
+        const lipsClass = r.lips_brand_only ? 'brand-only' :
+          r.lips_rank <= 10 ? 'top10' :
+          r.lips_rank <= 50 ? 'top50' : '';
+        const catShort = (r.lips_category || '').slice(0, 7);
+        lipsCell = r.lips_brand_only
+          ? `<span class="lips-badge brand-only" title="${esc(r.lips_category||'')} 카테고리에 브랜드는 진입, 정확 매칭 X">★ brand</span>`
+          : `<span class="lips-badge ${lipsClass}" title="LIPS ${esc(r.lips_category||'')} 카테고리 ${r.lips_rank}위${r.lips_reviews ? ' · '+r.lips_reviews.toLocaleString()+' reviews':''}">★ #${r.lips_rank}<span class="lips-cat">${esc(catShort)}</span></span>`;
+      }
+
+      // @cosme 뱃지
+      let cosmeCell = '<span class="badge-none">—</span>';
+      if (r.cosme_rank != null) {
+        const cosmeClass = r.cosme_brand_only ? 'brand-only' :
+          r.cosme_rank <= 3 ? 'top3' : '';
+        cosmeCell = r.cosme_brand_only
+          ? `<span class="cosme-badge brand-only" title="@cosme Top 10에 브랜드 진입, 정확 매칭 X">brand</span>`
+          : `<span class="cosme-badge ${cosmeClass}" title="@cosme 주간 #${r.cosme_rank} (${r.cosme_date||''})">#${r.cosme_rank}</span>`;
+      }
+
       return `
         <tr>
           <td><span class="cat-badge">${esc(CAT_LABEL[r._cat])}</span></td>
@@ -481,6 +536,8 @@
           <td class="price-cell">${priceCell}</td>
           <td class="price-cell">${r['할인율%'] != null ? `<span class="discount-pct">${r['할인율%']}%</span>` : '-'}</td>
           <td>${rankCell}</td>
+          <td>${lipsCell}</td>
+          <td>${cosmeCell}</td>
           <td class="review-cell">${reviewCell}</td>
           <td class="markers-cell">${markers || '-'}</td>
           <td><a href="${esc(r['링크'])}" target="_blank" rel="noopener">열기 ↗</a></td>
@@ -495,6 +552,8 @@
                      '참고가', '판매가', '타임세일가', '최종할인가', '할인율%',
                      '소구포인트', '출시_홋수', '효과', '메인_성분', '기능',
                      '비고', '링크', '랭킹', '랭킹_카테고리', '리뷰_점수', '리뷰_수',
+                     'lips_rank', 'lips_category', 'lips_rating', 'lips_reviews',
+                     'cosme_rank', 'cosme_date',
                      '주요_후기', '프로모션'];
     const lines = [headers.join('\t')];
     for (const r of state.filtered) {

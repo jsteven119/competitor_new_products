@@ -335,6 +335,8 @@ def load_brandno_map() -> dict:
 
 
 _RANK_MAP_CACHE: dict | None = None
+_LIPS_MAP_CACHE: dict | None = None
+_COSME_MAP_CACHE: dict | None = None
 
 
 def load_rank_map() -> dict:
@@ -353,6 +355,84 @@ def load_rank_map() -> dict:
     return _RANK_MAP_CACHE
 
 
+def load_lips_map() -> dict:
+    global _LIPS_MAP_CACHE
+    if _LIPS_MAP_CACHE is not None:
+        return _LIPS_MAP_CACHE
+    p = DATA / "_lips_match.json"
+    if not p.exists():
+        _LIPS_MAP_CACHE = {}
+        return _LIPS_MAP_CACHE
+    try:
+        _LIPS_MAP_CACHE = json.loads(p.read_text(encoding="utf-8")).get("by_brand", {})
+    except Exception:
+        _LIPS_MAP_CACHE = {}
+    return _LIPS_MAP_CACHE
+
+
+def load_cosme_map() -> dict:
+    global _COSME_MAP_CACHE
+    if _COSME_MAP_CACHE is not None:
+        return _COSME_MAP_CACHE
+    p = DATA / "_cosme_match.json"
+    if not p.exists():
+        _COSME_MAP_CACHE = {}
+        return _COSME_MAP_CACHE
+    try:
+        _COSME_MAP_CACHE = json.loads(p.read_text(encoding="utf-8")).get("by_brand", {})
+    except Exception:
+        _COSME_MAP_CACHE = {}
+    return _COSME_MAP_CACHE
+
+
+def _normalize_for_match(s: str) -> str:
+    """LIPS/cosme normalize_brand와 동일 로직 — 의존성 회피 위해 inline 구현."""
+    import unicodedata as _u
+    if not s:
+        return ""
+    s = _u.normalize("NFKC", s)
+    s = s.lower()
+    s = re.sub(r"[【】\[\]\(\)（）\s・/,.+&_-]+", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def _lookup_external(brand_label: str, title: str, ext_map: dict) -> dict | None:
+    """brand → 후보 items 중 title token overlap 최고를 반환.
+    Returns: {'rank', 'category_name', 'rating'?, 'review_count'?, 'date'?, 'url'?} or None
+    """
+    try:
+        from lips_rank import normalize_brand as _nb
+    except Exception:
+        _nb = _normalize_for_match
+    b_norm = _nb(brand_label) if brand_label else ""
+    if not b_norm or b_norm not in ext_map:
+        return None
+    candidates = ext_map[b_norm]
+    if not candidates:
+        return None
+    # title token overlap
+    t_norm = _normalize_for_match(title or "")
+    t_tokens = set(t_norm.split())
+    if not t_tokens:
+        return candidates[0]  # brand 일치만으로도 후보 (rank 가장 높은 것)
+    best = None
+    best_score = 0
+    for c in candidates:
+        c_tokens = set((c.get("name_norm") or "").split())
+        if not c_tokens:
+            continue
+        overlap = len(t_tokens & c_tokens) / max(len(c_tokens), 1)
+        if overlap > best_score:
+            best_score = overlap
+            best = c
+    # threshold — overlap ≥ 0.3 또는 brand만 일치하면 첫번째
+    if best and best_score >= 0.3:
+        return {**best, "_match_score": round(best_score, 2)}
+    # brand 일치만 — top1 후보를 brand-level 매칭으로 반환
+    return {**candidates[0], "_match_score": 0.0, "_brand_only": True}
+
+
 def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) -> dict:
     """크롤 결과 → 구글 시트 "타사 신제품" 컬럼 양식으로 변환 + 랭킹/리뷰 결합."""
     sp = product.get("sale_price")
@@ -365,10 +445,15 @@ def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) 
         판매가 = lp
     할인율 = product.get("discount_pct")
 
-    # 랭킹 lookup
+    # Qoo10 랭킹 lookup
     rank_map = load_rank_map()
     gc = str(product.get("goodscode", ""))
     rank_info = rank_map.get(gc)
+
+    # LIPS / @cosme 화제도 lookup (brand + title token 기반)
+    title = product.get("title") or ""
+    lips_hit = _lookup_external(kr_label or brand_label, title, load_lips_map())
+    cosme_hit = _lookup_external(kr_label or brand_label, title, load_cosme_map())
 
     base = {
         "카테고리": CATEGORY_LABEL.get(category, category),
@@ -394,6 +479,16 @@ def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) 
         "랭킹_카테고리": rank_info["category"] if rank_info else None,
         "리뷰_점수": product.get("review_score"),
         "리뷰_수": product.get("review_count"),
+        # LIPS — SNS 화제도 (10s~30s 여성)
+        "lips_rank": lips_hit["rank"] if lips_hit else None,
+        "lips_category": lips_hit["category_name"] if lips_hit else None,
+        "lips_rating": lips_hit.get("rating") if lips_hit else None,
+        "lips_reviews": lips_hit.get("review_count") if lips_hit else None,
+        "lips_brand_only": lips_hit.get("_brand_only") if lips_hit else None,
+        # @cosme — 평점 권위 (30s~50s)
+        "cosme_rank": cosme_hit["rank"] if cosme_hit else None,
+        "cosme_date": cosme_hit.get("date") if cosme_hit else None,
+        "cosme_brand_only": cosme_hit.get("_brand_only") if cosme_hit else None,
         "주요_후기": None,
         "프로모션": None,
         "_meta": {

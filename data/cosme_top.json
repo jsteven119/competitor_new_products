@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "source": "@cosme weekly top (bootstrap from ad_dash, 1-time only)",
+  "last_updated": "2026-05-29T16:03:54+09:00",
+  "records": [
+    {
+      "date": "2026-05-22",
+      "rank": 1,
+      "item_id": "10289905",
+      "item_name": "アプソリュ ザ UV クリーム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10289905/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 2,
+      "item_id": "10248076",
+      "item_name": "ルース パウダー",
+      "brand": "コスメデコルテ",
+      "url": "https://www.cosme.net/products/10248076/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 3,
+      "item_id": "10264930",
+      "item_name": "D-UVシールド トーンアップ",
+      "brand": "アスタリフト",
+      "url": "https://www.cosme.net/products/10264930/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 4,
+      "item_id": "10292084",
+      "item_name": "マイクロ泡セラム洗顔料",
+      "brand": "SOFINA iP",
+      "url": "https://www.cosme.net/products/10292084/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 5,
+      "item_id": "10147158",
+      "item_name": "クリーミータッチライナー",
+      "brand": "キャンメイク",
+      "url": "https://www.cosme.net/products/10147158/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 6,
+      "item_id": "10292366",
+      "item_name": "ザ・タイムR アクア e",
+      "brand": "イプサ",
+      "url": "https://www.cosme.net/products/10292366/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 7,
+      "item_id": "10243030",
+      "item_name": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+      "brand": "アテニア",
+      "url": "https://www.cosme.net/products/10243030/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 8,
+      "item_id": "10289351",
+      "item_name": "ディオール アディクト リップ グロウ オイル",
+      "brand": "ディオール",
+      "url": "https://www.cosme.net/products/10289351/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 9,
+      "item_id": "10146071",
+      "item_name": "超細芯アイブロウ",
+      "brand": "セザンヌ",
+      "url": "https://www.cosme.net/products/10146071/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+    },
+    {
+      "date": "2026-05-22",
+      "rank": 10,
+      "item_id": "2893546",
+      "item_name": "フェイシャル トリートメント エッセンス",
+      "brand": "SK-II",
+      "url": "https://www.cosme.net/products/2893546/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 1,
+      "item_id": "10289905",
+      "item_name": "アプソリュ ザ UV クリーム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10289905/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 2,
+      "item_id": "10248076",
+      "item_name": "ルース パウダー",
+      "brand": "コスメデコルテ",
+      "url": "https://www.cosme.net/products/10248076/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 3,
+      "item_id": "10264930",
+      "item_name": "D-UVシールド トーンアップ",
+      "brand": "アスタリフト",
+      "url": "https://www.cosme.net/products/10264930/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 4,
+      "item_id": "10292084",
+      "item_name": "マイクロ泡セラム洗顔料",
+      "brand": "SOFINA iP",
+      "url": "https://www.cosme.net/products/10292084/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 5,
+      "item_id": "10147158",
+      "item_name": "クリーミータッチライナー",
+      "brand": "キャンメイク",
+      "url": "https://www.cosme.net/products/10147158/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 6,
+      "item_id": "10292366",
+      "item_name": "ザ・タイムR アクア e",
+      "brand": "イプサ",
+      "url": "https://www.cosme.net/products/10292366/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 7,
+      "item_id": "10243030",
+      "item_name": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+      "brand": "アテニア",
+      "url": "https://www.cosme.net/products/10243030/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 8,
+      "item_id": "10289351",
+      "item_name": "ディオール アディクト リップ グロウ オイル",
+      "brand": "ディオール",
+      "url": "https://www.cosme.net/products/10289351/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 9,
+      "item_id": "10146071",
+      "item_name": "超細芯アイブロウ",
+      "brand": "セザンヌ",
+      "url": "https://www.cosme.net/products/10146071/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+    },
+    {
+      "date": "2026-05-23",
+      "rank": 10,
+      "item_id": "2893546",
+      "item_name": "フェイシャル トリートメント エッセンス",
+      "brand": "SK-II",
+      "url": "https://www.cosme.net/products/2893546/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 1,
+      "item_id": "10289905",
+      "item_name": "アプソリュ ザ UV クリーム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10289905/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 2,
+      "item_id": "10248076",
+      "item_name": "ルース パウダー",
+      "brand": "コスメデコルテ",
+      "url": "https://www.cosme.net/products/10248076/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 3,
+      "item_id": "10264930",
+      "item_name": "D-UVシールド トーンアップ",
+      "brand": "アスタリフト",
+      "url": "https://www.cosme.net/products/10264930/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 4,
+      "item_id": "10292084",
+      "item_name": "マイクロ泡セラム洗顔料",
+      "brand": "SOFINA iP",
+      "url": "https://www.cosme.net/products/10292084/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 5,
+      "item_id": "10147158",
+      "item_name": "クリーミータッチライナー",
+      "brand": "キャンメイク",
+      "url": "https://www.cosme.net/products/10147158/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 6,
+      "item_id": "10292366",
+      "item_name": "ザ・タイムR アクア e",
+      "brand": "イプサ",
+      "url": "https://www.cosme.net/products/10292366/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 7,
+      "item_id": "10243030",
+      "item_name": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+      "brand": "アテニア",
+      "url": "https://www.cosme.net/products/10243030/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 8,
+      "item_id": "10289351",
+      "item_name": "ディオール アディクト リップ グロウ オイル",
+      "brand": "ディオール",
+      "url": "https://www.cosme.net/products/10289351/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 9,
+      "item_id": "10146071",
+      "item_name": "超細芯アイブロウ",
+      "brand": "セザンヌ",
+      "url": "https://www.cosme.net/products/10146071/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+    },
+    {
+      "date": "2026-05-24",
+      "rank": 10,
+      "item_id": "2893546",
+      "item_name": "フェイシャル トリートメント エッセンス",
+      "brand": "SK-II",
+      "url": "https://www.cosme.net/products/2893546/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 1,
+      "item_id": "10289905",
+      "item_name": "アプソリュ ザ UV クリーム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10289905/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 2,
+      "item_id": "10248076",
+      "item_name": "ルース パウダー",
+      "brand": "コスメデコルテ",
+      "url": "https://www.cosme.net/products/10248076/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 3,
+      "item_id": "10264930",
+      "item_name": "D-UVシールド トーンアップ",
+      "brand": "アスタリフト",
+      "url": "https://www.cosme.net/products/10264930/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 4,
+      "item_id": "10292084",
+      "item_name": "マイクロ泡セラム洗顔料",
+      "brand": "SOFINA iP",
+      "url": "https://www.cosme.net/products/10292084/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 5,
+      "item_id": "10147158",
+      "item_name": "クリーミータッチライナー",
+      "brand": "キャンメイク",
+      "url": "https://www.cosme.net/products/10147158/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 6,
+      "item_id": "10292366",
+      "item_name": "ザ・タイムR アクア e",
+      "brand": "イプサ",
+      "url": "https://www.cosme.net/products/10292366/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 7,
+      "item_id": "10243030",
+      "item_name": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+      "brand": "アテニア",
+      "url": "https://www.cosme.net/products/10243030/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 8,
+      "item_id": "10289351",
+      "item_name": "ディオール アディクト リップ グロウ オイル",
+      "brand": "ディオール",
+      "url": "https://www.cosme.net/products/10289351/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 9,
+      "item_id": "10146071",
+      "item_name": "超細芯アイブロウ",
+      "brand": "セザンヌ",
+      "url": "https://www.cosme.net/products/10146071/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 10,
+      "item_id": "2893546",
+      "item_name": "フェイシャル トリートメント エッセンス",
+      "brand": "SK-II",
+      "url": "https://www.cosme.net/products/2893546/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 1,
+      "item_id": "10289905",
+      "item_name": "アプソリュ ザ UV クリーム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10289905/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 2,
+      "item_id": "10248076",
+      "item_name": "ルース パウダー",
+      "brand": "コスメデコルテ",
+      "url": "https://www.cosme.net/products/10248076/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 3,
+      "item_id": "10264930",
+      "item_name": "D-UVシールド トーンアップ",
+      "brand": "アスタリフト",
+      "url": "https://www.cosme.net/products/10264930/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 4,
+      "item_id": "10292084",
+      "item_name": "マイクロ泡セラム洗顔料",
+      "brand": "SOFINA iP",
+      "url": "https://www.cosme.net/products/10292084/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 5,
+      "item_id": "10147158",
+      "item_name": "クリーミータッチライナー",
+      "brand": "キャンメイク",
+      "url": "https://www.cosme.net/products/10147158/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 6,
+      "item_id": "10292366",
+      "item_name": "ザ・タイムR アクア e",
+      "brand": "イプサ",
+      "url": "https://www.cosme.net/products/10292366/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 7,
+      "item_id": "10243030",
+      "item_name": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+      "brand": "アテニア",
+      "url": "https://www.cosme.net/products/10243030/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 8,
+      "item_id": "10289351",
+      "item_name": "ディオール アディクト リップ グロウ オイル",
+      "brand": "ディオール",
+      "url": "https://www.cosme.net/products/10289351/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 9,
+      "item_id": "10146071",
+      "item_name": "超細芯アイブロウ",
+      "brand": "セザンヌ",
+      "url": "https://www.cosme.net/products/10146071/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 10,
+      "item_id": "2893546",
+      "item_name": "フェイシャル トリートメント エッセンス",
+      "brand": "SK-II",
+      "url": "https://www.cosme.net/products/2893546/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 1,
+      "item_id": "10147158",
+      "item_name": "クリーミータッチライナー",
+      "brand": "キャンメイク",
+      "url": "https://www.cosme.net/products/10147158/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 2,
+      "item_id": "10243030",
+      "item_name": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+      "brand": "アテニア",
+      "url": "https://www.cosme.net/products/10243030/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 3,
+      "item_id": "10289905",
+      "item_name": "アプソリュ ザ UV クリーム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10289905/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 4,
+      "item_id": "10248076",
+      "item_name": "ルース パウダー",
+      "brand": "コスメデコルテ",
+      "url": "https://www.cosme.net/products/10248076/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 5,
+      "item_id": "10206485",
+      "item_name": "リップモンスター",
+      "brand": "ケイト",
+      "url": "https://www.cosme.net/products/10206485/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10206/skuimg_1076710_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 6,
+      "item_id": "10264930",
+      "item_name": "D-UVシールド トーンアップ",
+      "brand": "アスタリフト",
+      "url": "https://www.cosme.net/products/10264930/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 7,
+      "item_id": "10264676",
+      "item_name": "ジェノプティクス インフィニットオーラ エッセンス",
+      "brand": "SK-II",
+      "url": "https://www.cosme.net/products/10264676/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1021237_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 8,
+      "item_id": "10295005",
+      "item_name": "アルビオン ７０ＴＨ アニバーサリー キット Ａ",
+      "brand": "アルビオン",
+      "url": "https://www.cosme.net/products/10295005/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10295/skuimg_1103289_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 9,
+      "item_id": "10259468",
+      "item_name": "ジェニフィック アルティメ セラム",
+      "brand": "ランコム",
+      "url": "https://www.cosme.net/products/10259468/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10259/skuimg_988878_m.jpg"
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 10,
+      "item_id": "10146071",
+      "item_name": "超細芯アイブロウ",
+      "brand": "セザンヌ",
+      "url": "https://www.cosme.net/products/10146071/",
+      "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+    }
+  ]
+}

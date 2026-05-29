@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-29T15:22:20+09:00",
+  "last_updated": "2026-05-29T16:09:25+09:00",
   "skin": {
     "ingredients": [
       {
         "name": "PDRN",
-        "count": 19,
+        "count": 18,
         "brands_count": 10,
         "examples": [
           {
@@ -36,7 +36,7 @@
       },
       {
         "name": "コラーゲン",
-        "count": 15,
+        "count": 14,
         "brands_count": 3,
         "examples": [
           {
@@ -73,7 +73,7 @@
         "examples": [
           {
             "brand": "VT",
-            "title": "【12%OFF】【NEW】 レチナール ペプチド カプセルクリーム 50ml(レチナール / 肌キメケア / 毛穴ケア)",
+            "title": "【NEW】 レチナール ペプチド カプセルクリーム 50ml(レチナール / 肌キメケア / 毛穴ケア)",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1190074547"
           },
           {
@@ -289,7 +289,7 @@
       {
         "name": "クリーム",
         "count": 19,
-        "avg_price": 4275,
+        "avg_price": 4285,
         "examples": [
           {
             "brand": "d'Alba",
@@ -301,7 +301,7 @@
           },
           {
             "brand": "VT",
-            "title": "【12%OFF】【NEW】 レチナール ペプチド カプセルクリーム 50ml(レチナール / 肌キメケア / 毛穴ケア)"
+            "title": "【NEW】 レチナール ペプチド カプセルクリーム 50ml(レチナール / 肌キメケア / 毛穴ケア)"
           },
           {
             "brand": "VT",
@@ -490,7 +490,7 @@
     "concerns": [
       {
         "name": "鎮静 / トラブル",
-        "count": 28
+        "count": 27
       },
       {
         "name": "毛穴 / 角質",
@@ -513,16 +513,16 @@
         "count": 6
       }
     ],
-    "total_products": 74,
-    "avg_price": 4886,
-    "price_count": 74
+    "total_products": 73,
+    "avg_price": 4901,
+    "price_count": 73
   },
   "color": {
     "categories": [
       {
         "name": "リップティント",
-        "count": 31,
-        "avg_price": 2222,
+        "count": 32,
+        "avg_price": 2214,
         "examples": [
           {
             "brand": "fwee",
@@ -536,7 +536,7 @@
           },
           {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ザジューシーラスティングティント 全36色 / リップ / ティント 【豆乳カラー",
+            "title": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ザジューシーラスティングティント 全36色 / リップ / テ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1116420204"
           },
           {
@@ -553,17 +553,12 @@
       },
       {
         "name": "チーク / ブラッシャー",
-        "count": 26,
-        "avg_price": 2455,
+        "count": 25,
+        "avg_price": 2398,
         "examples": [
           {
-            "brand": "fwee",
-            "title": "【NEW限定カラー少量入荷 】リップアンドチークブラーリープリンポット（37色）",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1094313933"
-          },
-          {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレクション追加】",
+            "title": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレク",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=613431648"
           },
           {
@@ -580,6 +575,11 @@
             "brand": "DASIQUE",
             "title": "【NEW】シルキーベールブラッシュ /リキッドチーク",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1175052737"
+          },
+          {
+            "brand": "DASIQUE",
+            "title": "【NEW】シュガーボールブラッシュ2種／季節限定／チーク",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1187915136"
           }
         ]
       },
@@ -605,12 +605,12 @@
           },
           {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ジューシーフラッシュリップオイル 全12色 【豆乳カラーコレクション/DUOセット",
+            "title": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ジューシーフラッシュリップオイル 全12色 【豆乳カラーコレク",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1189882118"
           },
           {
             "brand": "rom&nd",
-            "title": "【公式】 グラスティングカラーグロス 新色12カラー登場 スパークルライン ヌードライン / グロス / リップ",
+            "title": "【公式】【メガ割限定セール】 グラスティングカラーグロス 新色12カラー登場 スパークルライン ヌードライン / グロス",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1076143786"
           }
         ]
@@ -618,11 +618,11 @@
       {
         "name": "アイシャドウ",
         "count": 16,
-        "avg_price": 2693,
+        "avg_price": 2703,
         "examples": [
           {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ベターザンパレット / アイシャドウ / アイパレット 【豆乳カラーコレクション追",
+            "title": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ベターザンパレット / アイシャドウ / アイパレット 【豆乳",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=867217096"
           },
           {
@@ -654,7 +654,7 @@
         "examples": [
           {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ハンオールブロウカラ / アイブロウ / 眉マスカラ / Qoo10 MEGA B",
+            "title": "【5/29~30限定1+1】【新色Qoo10先行発売】 ハンオールブロウカラ / アイブロウ / 眉マスカラ / Qoo",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1029825401"
           },
           {
@@ -686,7 +686,7 @@
         "examples": [
           {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレクション追加】",
+            "title": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレク",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=613431648"
           },
           {
@@ -718,7 +718,7 @@
         "examples": [
           {
             "brand": "rom&nd",
-            "title": "【5/25~新色Qoo10先行発売】 ハンオールブロウカラ / アイブロウ / 眉マスカラ / Qoo10 MEGA B",
+            "title": "【5/29~30限定1+1】【新色Qoo10先行発売】 ハンオールブロウカラ / アイブロウ / 眉マスカラ / Qoo",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1029825401"
           },
           {
@@ -819,7 +819,7 @@
           },
           {
             "brand": "AMUSE",
-            "title": "【NEW】エアリースシリーズ2種(エアリーポアカバークッション, エアリースポットコンシーラーパレット)",
+            "title": "【NEW】エアリーシリーズ2種(エアリーポアカバークッション, エアリースポットコンシーラーパレット)",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1161376682"
           },
           {
@@ -868,7 +868,7 @@
         "examples": [
           {
             "brand": "AMUSE",
-            "title": "【NEW】エアリースシリーズ2種(エアリーポアカバークッション, エアリースポットコンシーラーパレット)",
+            "title": "【NEW】エアリーシリーズ2種(エアリーポアカバークッション, エアリースポットコンシーラーパレット)",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1161376682"
           },
           {
@@ -911,6 +911,23 @@
         ]
       },
       {
+        "name": "フィクサー / セッティング",
+        "count": 2,
+        "avg_price": 2420,
+        "examples": [
+          {
+            "brand": "CLIO",
+            "title": "【NEW】キル カバー ファンウェア クッション #キルカバークッションファンデ / メッシュ グロウ エッセンシャル ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=879778549"
+          },
+          {
+            "brand": "CLIO",
+            "title": "【NEW】マッド ブラー メイクアップ フィクサー 50ml／猛暑耐久キープ・テカリオフキープ・メイクキープミスト",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1199492291"
+          }
+        ]
+      },
+      {
         "name": "アイライナー",
         "count": 2,
         "avg_price": 1510,
@@ -926,18 +943,6 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1062364095"
           }
         ]
-      },
-      {
-        "name": "リップスティック",
-        "count": 1,
-        "avg_price": 1667,
-        "examples": [
-          {
-            "brand": "fwee",
-            "title": "[NEW]グロイ スムージー ティンティド リップバーム 9.5g 17種（グロイ／ブラー／メルティング）",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1157423966"
-          }
-        ]
       }
     ],
     "category_groups": [
@@ -949,7 +954,7 @@
       {
         "name": "아이",
         "count": 24,
-        "avg_price": 2018
+        "avg_price": 2025
       },
       {
         "name": "베이스",
@@ -959,7 +964,7 @@
       {
         "name": "페이스",
         "count": 20,
-        "avg_price": 2108
+        "avg_price": 1997
       }
     ],
     "formulations": [
@@ -1002,7 +1007,7 @@
       {
         "name": "브라운",
         "count": 4,
-        "avg_price": 1760
+        "avg_price": 1801
       },
       {
         "name": "ヌード / 누드",
@@ -1029,7 +1034,7 @@
       {
         "brand": "rom&nd",
         "shades": 36,
-        "title": "【5/25~新色Qoo10先行発売】 ザジューシーラスティングティント 全36色 / リップ / ティント 【豆乳カラー"
+        "title": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ザジューシーラスティングティント 全36色 / リップ / テ"
       },
       {
         "brand": "hince",
@@ -1078,7 +1083,7 @@
       }
     ],
     "total_products": 146,
-    "avg_price": 2300,
+    "avg_price": 2286,
     "price_count": 146
   },
   "self_action": [
@@ -1086,14 +1091,14 @@
       "for_brand": "BOH / 브링그린 (스킨)",
       "category": "성분",
       "trend": "PDRN",
-      "evidence": "30일간 경쟁사 신상품 19건 (10개 브랜드)이 PDRN 채택",
+      "evidence": "30일간 경쟁사 신상품 18건 (10개 브랜드)이 PDRN 채택",
       "action": "자사 PDRN 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
     },
     {
       "for_brand": "BOH / 브링그린 (스킨)",
       "category": "성분",
       "trend": "コラーゲン",
-      "evidence": "30일간 경쟁사 신상품 15건 (3개 브랜드)이 コラーゲン 채택",
+      "evidence": "30일간 경쟁사 신상품 14건 (3개 브랜드)이 コラーゲン 채택",
       "action": "자사 コラーゲン 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
     },
     {
@@ -1114,7 +1119,7 @@
       "for_brand": "웨이크메이크 / 컬러그램 (색조)",
       "category": "카테고리",
       "trend": "リップティント",
-      "evidence": "30일 색조 신상품 중 1위 카테고리 — 31건",
+      "evidence": "30일 색조 신상품 중 1위 카테고리 — 32건",
       "action": "자사 リップティント 라인 SKU 수 확인. 부족 시 추가 기획 / 충분 시 기존 라인 마케팅 강화"
     },
     {

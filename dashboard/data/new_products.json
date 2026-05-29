@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T15:19:52+09:00",
+  "last_updated": "2026-05-29T16:06:53+09:00",
   "window_days": 30,
   "cutoff_date": "2026-04-29",
   "schema": {
@@ -54,6 +54,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 12387,
+        "lips_rank": 11,
+        "lips_category": "化粧水",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -62,7 +70,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66607"
         }
       },
@@ -90,6 +98,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 4433,
+        "lips_rank": 93,
+        "lips_category": "スキンケア基礎",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -99,7 +115,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66607"
         }
       },
@@ -127,6 +143,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 1175,
+        "lips_rank": 11,
+        "lips_category": "化粧水",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -135,7 +159,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66607"
         }
       },
@@ -163,6 +187,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 792,
+        "lips_rank": 10,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.25,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -171,7 +203,7 @@
             "先行販売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=58242"
         }
       },
@@ -199,6 +231,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1027,
+        "lips_rank": 10,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.25,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -207,7 +247,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=58242"
         }
       },
@@ -235,6 +275,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 492,
+        "lips_rank": 72,
+        "lips_category": "美容液",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -244,7 +292,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=57851"
         }
       },
@@ -272,6 +320,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 72,
+        "lips_category": "美容液",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -280,7 +336,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=57851"
         }
       },
@@ -290,8 +346,8 @@
         "브랜드_원문": "VT",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/736/717/8240717736.g_300-w-st_g.jpg",
-        "제품명": "【12%OFF】【NEW】 レチナール ペプチド カプセルクリーム 50ml(レチナール / 肌キメケア / 毛穴ケア)",
+        "이미지": "https://gd.image-qoo10.jp/li/097/914/8300914097.g_300-w-st_g.jpg",
+        "제품명": "【NEW】 レチナール ペプチド カプセルクリーム 50ml(レチナール / 肌キメケア / 毛穴ケア)",
         "참고가": 2640,
         "판매가": 2640,
         "타임세일가": 2125,
@@ -308,6 +364,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 491,
+        "lips_rank": 72,
+        "lips_category": "美容液",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -317,7 +381,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=57851"
         }
       },
@@ -327,7 +391,7 @@
         "브랜드_원문": "VT",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/987/718/8240718987.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/898/923/8300923898.g_300-w-st_g.jpg",
         "제품명": "【アゼライン酸】【NEW】 AZケア カプセルクリーム 50ml (アゼライン酸 / トラブルケア / 肌キメケア)",
         "참고가": 2640,
         "판매가": 2640,
@@ -345,6 +409,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 411,
+        "lips_rank": 72,
+        "lips_category": "美容液",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -354,7 +426,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=57851"
         }
       },
@@ -364,7 +436,7 @@
         "브랜드_원문": "VT",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/391/715/8240715391.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/753/951/8300951753.g_300-w-st_g.jpg",
         "제품명": "【新作】ビタミンCアスタキサンチンカプセルクリーム 50ml (乾燥くすみケア・透明感)",
         "참고가": 2640,
         "판매가": 2640,
@@ -382,6 +454,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 320,
+        "lips_rank": 72,
+        "lips_category": "美容液",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -390,7 +470,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=57851"
         }
       },
@@ -418,6 +498,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1359,
+        "lips_rank": 24,
+        "lips_category": "美容液",
+        "lips_rating": 4.24,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -426,7 +514,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44426"
         }
       },
@@ -454,6 +542,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 56,
+        "lips_rank": 24,
+        "lips_category": "美容液",
+        "lips_rating": 4.24,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -462,7 +558,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44426"
         }
       },
@@ -490,6 +586,14 @@
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
         "리뷰_수": 749,
+        "lips_rank": 50,
+        "lips_category": "美容液",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -501,7 +605,7 @@
             "月新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -529,6 +633,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 34976,
+        "lips_rank": 50,
+        "lips_category": "美容液",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -537,7 +649,7 @@
             "リニュアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -565,6 +677,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 4793,
+        "lips_rank": 50,
+        "lips_category": "美容液",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -573,7 +693,7 @@
             "リニュアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -601,6 +721,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 16354,
+        "lips_rank": 96,
+        "lips_category": "リップケア",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -611,7 +739,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -638,7 +766,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 880,
+        "리뷰_수": 881,
+        "lips_rank": 96,
+        "lips_category": "リップケア",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -647,7 +783,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -675,6 +811,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 3356,
+        "lips_rank": 96,
+        "lips_category": "リップケア",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -683,7 +827,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -711,6 +855,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 356,
+        "lips_rank": 96,
+        "lips_category": "リップケア",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -720,7 +872,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -748,6 +900,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.9,
         "리뷰_수": 23,
+        "lips_rank": 96,
+        "lips_category": "リップケア",
+        "lips_rating": 4.17,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -757,7 +917,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=55360"
         }
       },
@@ -785,6 +945,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 1,
+        "lips_rank": 91,
+        "lips_category": "美容液",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -793,7 +961,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109238"
         }
       },
@@ -821,6 +989,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 91,
+        "lips_category": "美容液",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -829,7 +1005,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109238"
         }
       },
@@ -857,6 +1033,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1284,
+        "lips_rank": 37,
+        "lips_category": "化粧水",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -865,7 +1049,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=46905"
         }
       },
@@ -893,6 +1077,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 8477,
+        "lips_rank": 37,
+        "lips_category": "化粧水",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -901,7 +1093,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=46905"
         }
       },
@@ -929,6 +1121,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 2527,
+        "lips_rank": 37,
+        "lips_category": "化粧水",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -937,7 +1137,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=46905"
         }
       },
@@ -965,6 +1165,14 @@
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
         "리뷰_수": 1750,
+        "lips_rank": 47,
+        "lips_category": "化粧水",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -973,7 +1181,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=105367"
         }
       },
@@ -1001,6 +1209,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 27,
+        "lips_rank": 47,
+        "lips_category": "化粧水",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1009,7 +1225,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=105367"
         }
       },
@@ -1036,7 +1252,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
-        "리뷰_수": 541,
+        "리뷰_수": 542,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1046,7 +1270,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1074,6 +1298,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 86,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1083,7 +1315,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1111,6 +1343,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1119,44 +1359,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
-          "source": "brandno=120696"
-        }
-      },
-      {
-        "카테고리": "스킨케어",
-        "브랜드": "Biodance",
-        "브랜드_원문": "Biodance",
-        "런칭일": null,
-        "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/327/008/8271008327.g_300-w-st_g.jpg",
-        "제품명": "【新発売】リポソーム バブルブースター 95ml 2種選択（コラーゲン / キャビアPDRN）/ ツヤ肌ケア / 泡パック / 簡単ホームケア / オーロラのような輝き肌へ",
-        "참고가": 3990,
-        "판매가": 3990,
-        "타임세일가": null,
-        "최종할인가": null,
-        "할인율%": null,
-        "소구포인트": null,
-        "출시_홋수": null,
-        "효과": null,
-        "메인_성분": null,
-        "기능": null,
-        "비고": null,
-        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1201157685",
-        "랭킹": null,
-        "랭킹_카테고리": null,
-        "리뷰_점수": null,
-        "리뷰_수": null,
-        "주요_후기": null,
-        "프로모션": null,
-        "_meta": {
-          "goodscode": "1201157685",
-          "new_markers": [
-            "【新発売】",
-            "新発売"
-          ],
-          "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1184,6 +1387,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1192,7 +1403,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1220,6 +1431,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 4,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1228,7 +1447,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1256,6 +1475,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 46,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1264,7 +1491,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1291,7 +1518,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 849,
+        "리뷰_수": 850,
+        "lips_rank": 69,
+        "lips_category": "化粧下地",
+        "lips_rating": 3.91,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1301,7 +1536,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=105364"
         }
       },
@@ -1329,6 +1564,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 10,
+        "lips_rank": 69,
+        "lips_category": "化粧下地",
+        "lips_rating": 3.91,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1337,7 +1580,7 @@
             "先行発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=105364"
         }
       },
@@ -1365,6 +1608,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 88003,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1373,7 +1624,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1401,6 +1652,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 33654,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1410,7 +1669,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1438,6 +1697,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 46627,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1446,7 +1713,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1474,6 +1741,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 1770,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1482,7 +1757,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1510,6 +1785,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 344,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1519,7 +1802,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1547,6 +1830,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 58,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1555,7 +1846,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1583,6 +1874,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 388,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1592,7 +1891,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1620,6 +1919,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 107,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1629,7 +1936,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1657,6 +1964,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 576,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1665,7 +1980,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1676,7 +1991,7 @@
         "런칭일": null,
         "구분": "신제품",
         "이미지": "https://gd.image-qoo10.jp/li/512/212/8294212512.g_300-w-st_g.jpg",
-        "제품명": "【COMING SOON】NEW【あやぱん共同開発】日焼け止め＆クレンジングシート 発売記念スペシャルセット/ UV膜強化 耐水性 スキンケア コウジ酸 乳酸 菌 ロングUVA ブルーライトカット",
+        "제품명": "NEW【特価セットOPEN】【あやぱん共同開発】日焼け止め＆クレンジングシート 発売記念スペシャルセット/ UV膜強化 耐水性 スキンケア コウジ酸 乳酸 菌 ロングUVA ブルーライトカット",
         "참고가": 99963,
         "판매가": 99963,
         "타임세일가": null,
@@ -1693,6 +2008,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 271,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1701,7 +2024,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1729,6 +2052,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 57,
+        "lips_rank": 92,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.02,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1737,7 +2068,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=115771"
         }
       },
@@ -1765,6 +2096,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 146,
+        "lips_rank": 53,
+        "lips_category": "化粧水",
+        "lips_rating": 4.33,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1774,7 +2113,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=53500"
         }
       },
@@ -1801,7 +2140,15 @@
         "랭킹": 5,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
-        "리뷰_수": 17898,
+        "리뷰_수": 17899,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1810,7 +2157,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1838,6 +2185,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 456,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1847,7 +2202,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1875,6 +2230,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 2126,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1883,7 +2246,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1911,6 +2274,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 2562,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1919,7 +2290,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1947,6 +2318,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 2812,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1955,7 +2334,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1983,6 +2362,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 202,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -1992,7 +2379,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -2020,6 +2407,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 316,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2029,7 +2424,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -2057,6 +2452,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 491,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2066,7 +2469,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36924"
         }
       },
@@ -2094,6 +2497,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 337,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2102,7 +2513,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=102517"
         }
       },
@@ -2130,6 +2541,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 626,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2139,7 +2558,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=102517"
         }
       },
@@ -2167,6 +2586,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 291,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2176,7 +2603,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=102517"
         }
       },
@@ -2204,6 +2631,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 13,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2212,7 +2647,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66667"
         }
       },
@@ -2240,6 +2675,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.9,
         "리뷰_수": 10,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2248,7 +2691,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66667"
         }
       },
@@ -2276,6 +2719,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.4,
         "리뷰_수": 7,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2284,7 +2735,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66667"
         }
       },
@@ -2311,7 +2762,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 368,
+        "리뷰_수": 369,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2321,7 +2780,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=110434"
         }
       },
@@ -2333,8 +2792,8 @@
         "구분": "리뉴얼",
         "이미지": "https://gd.image-qoo10.jp/li/924/321/4774321924.g_300-w-st_g.jpg",
         "제품명": "シカペア CCTクリーム, 50ml (シカペアリカバーリニューアル)",
-        "참고가": 2480,
-        "판매가": 2480,
+        "참고가": 2680,
+        "판매가": 2680,
         "타임세일가": null,
         "최종할인가": null,
         "할인율%": null,
@@ -2349,6 +2808,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 63,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2357,7 +2824,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=22935"
         }
       },
@@ -2385,6 +2852,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 39,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.15,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2393,7 +2868,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2421,6 +2896,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 1,
+        "lips_rank": 3,
+        "lips_category": "リップケア",
+        "lips_rating": 4.38,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2429,7 +2912,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2457,6 +2940,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 305,
+        "lips_rank": 39,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.15,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2465,7 +2956,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2493,6 +2984,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 3,
+        "lips_category": "リップケア",
+        "lips_rating": 4.38,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2502,7 +3001,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2530,6 +3029,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 369,
+        "lips_rank": 68,
+        "lips_category": "化粧水",
+        "lips_rating": 4.23,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2538,7 +3045,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=20802"
         }
       },
@@ -2566,6 +3073,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 73,
+        "lips_rank": 99,
+        "lips_category": "美容液",
+        "lips_rating": 4.22,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2574,7 +3089,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=20802"
         }
       },
@@ -2602,6 +3117,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 1,
+        "lips_rank": 58,
+        "lips_category": "乳液",
+        "lips_rating": 4.02,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2610,7 +3133,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=26516"
         }
       },
@@ -2638,6 +3161,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 11956,
+        "lips_rank": 43,
+        "lips_category": "スキンケア基礎",
+        "lips_rating": 4.45,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2646,7 +3177,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=39572"
         }
       },
@@ -2674,6 +3205,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 7001,
+        "lips_rank": 43,
+        "lips_category": "スキンケア基礎",
+        "lips_rating": 4.45,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2682,7 +3221,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=39572"
         }
       },
@@ -2710,6 +3249,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.9,
         "리뷰_수": 13249,
+        "lips_rank": 73,
+        "lips_category": "化粧水",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2718,7 +3265,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=39572"
         }
       }
@@ -2748,6 +3295,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 15,
+        "lips_rank": 12,
+        "lips_category": "口紅",
+        "lips_rating": 4.22,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2757,7 +3312,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2785,6 +3340,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 221,
+        "lips_rank": 12,
+        "lips_category": "口紅",
+        "lips_rating": 4.22,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2793,7 +3356,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2821,6 +3384,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 104,
+        "lips_rank": 3,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.35,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2829,7 +3400,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2857,6 +3428,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 4,
+        "lips_rank": 12,
+        "lips_category": "口紅",
+        "lips_rating": 4.22,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2866,7 +3445,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2894,6 +3473,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 2342,
+        "lips_rank": 3,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.35,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2902,7 +3489,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2930,6 +3517,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 30,
+        "lips_rank": 12,
+        "lips_category": "口紅",
+        "lips_rating": 4.22,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2938,7 +3533,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2966,6 +3561,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 16,
+        "lips_rank": 98,
+        "lips_category": "リップティント",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2974,43 +3577,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
-          "source": "brandno=109319"
-        }
-      },
-      {
-        "카테고리": "색조",
-        "브랜드": "fwee",
-        "브랜드_원문": "fwee",
-        "런칭일": null,
-        "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/422/949/7833949422.g_300-w-st_g.jpg",
-        "제품명": "【NEW限定カラー少量入荷 】リップアンドチークブラーリープリンポット（37色）",
-        "참고가": 3860,
-        "판매가": 3860,
-        "타임세일가": 1960,
-        "최종할인가": null,
-        "할인율%": 49,
-        "소구포인트": null,
-        "출시_홋수": null,
-        "효과": null,
-        "메인_성분": null,
-        "기능": null,
-        "비고": null,
-        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1094313933",
-        "랭킹": null,
-        "랭킹_카테고리": null,
-        "리뷰_점수": 4.7,
-        "리뷰_수": 69,
-        "주요_후기": null,
-        "프로모션": null,
-        "_meta": {
-          "goodscode": "1094313933",
-          "new_markers": [
-            "NEW"
-          ],
-          "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=109319"
         }
       },
@@ -3038,6 +3605,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 63,
+        "lips_category": "洗顔料",
+        "lips_rating": 4.28,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3046,7 +3621,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65704"
         }
       },
@@ -3056,8 +3631,8 @@
         "브랜드_원문": "rom&nd",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/322/072/8285072322.g_300-w-st_g.jpg",
-        "제품명": "【5/25~新色Qoo10先行発売】 ハンオールブロウカラ / アイブロウ / 眉マスカラ / Qoo10 MEGA BEAUTY AWARDS 2025 3冠受賞",
+        "이미지": "https://gd.image-qoo10.jp/li/804/036/8301036804.g_300-w-st_g.jpg",
+        "제품명": "【5/29~30限定1+1】【新色Qoo10先行発売】 ハンオールブロウカラ / アイブロウ / 眉マスカラ / Qoo10 MEGA BEAUTY AWARDS 2025 3冠受賞",
         "참고가": 1300,
         "판매가": 1300,
         "타임세일가": 969,
@@ -3074,6 +3649,14 @@
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
         "리뷰_수": 126181,
+        "lips_rank": 1,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.4,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3084,7 +3667,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3094,8 +3677,8 @@
         "브랜드_원문": "rom&nd",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/176/072/8285072176.g_300-w-st_g.jpg",
-        "제품명": "【5/25~新色Qoo10先行発売】 ジューシーフラッシュリップオイル 全12色 【豆乳カラーコレクション/DUOセット追加】",
+        "이미지": "https://gd.image-qoo10.jp/li/948/033/8301033948.g_300-w-st_g.jpg",
+        "제품명": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ジューシーフラッシュリップオイル 全12色 【豆乳カラーコレクション/DUOセット追加】",
         "참고가": 1500,
         "판매가": 1500,
         "타임세일가": 1189,
@@ -3112,6 +3695,14 @@
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
         "리뷰_수": 1327,
+        "lips_rank": 95,
+        "lips_category": "リップケア",
+        "lips_rating": 4.02,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3122,7 +3713,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3132,8 +3723,8 @@
         "브랜드_원문": "rom&nd",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/106/072/8285072106.g_300-w-st_g.jpg",
-        "제품명": "【5/25~新色Qoo10先行発売】 ザジューシーラスティングティント 全36色 / リップ / ティント 【豆乳カラーコレクション追加】",
+        "이미지": "https://gd.image-qoo10.jp/li/547/033/8301033547.g_300-w-st_g.jpg",
+        "제품명": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ザジューシーラスティングティント 全36色 / リップ / ティント 【豆乳カラーコレクション追加】",
         "참고가": 1400,
         "판매가": 1400,
         "타임세일가": 1059,
@@ -3149,7 +3740,15 @@
         "랭킹": 70,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
-        "리뷰_수": 22989,
+        "리뷰_수": 22990,
+        "lips_rank": 55,
+        "lips_category": "口紅",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3160,7 +3759,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3170,8 +3769,8 @@
         "브랜드_원문": "rom&nd",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/781/690/8262690781.g_300-w-st_g.jpg",
-        "제품명": "【公式】 グラスティングカラーグロス 新色12カラー登場 スパークルライン ヌードライン / グロス / リップ",
+        "이미지": "https://gd.image-qoo10.jp/li/616/040/8301040616.g_300-w-st_g.jpg",
+        "제품명": "【公式】【メガ割限定セール】 グラスティングカラーグロス 新色12カラー登場 スパークルライン ヌードライン / グロス / リップ",
         "참고가": 1400,
         "판매가": 1400,
         "타임세일가": 1320,
@@ -3187,7 +3786,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
-        "리뷰_수": 25968,
+        "리뷰_수": 25969,
+        "lips_rank": 4,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.33,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3196,7 +3803,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3223,7 +3830,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 173,
+        "리뷰_수": 174,
+        "lips_rank": 55,
+        "lips_category": "口紅",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3233,7 +3848,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3243,8 +3858,8 @@
         "브랜드_원문": "rom&nd",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/658/995/8291995658.g_300-w-st_g.jpg",
-        "제품명": "【5/25~新色Qoo10先行発売】 ベターザンパレット / アイシャドウ / アイパレット 【豆乳カラーコレクション追加】",
+        "이미지": "https://gd.image-qoo10.jp/li/603/035/8301035603.g_300-w-st_g.jpg",
+        "제품명": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ベターザンパレット / アイシャドウ / アイパレット 【豆乳カラーコレクション追加】",
         "참고가": 3300,
         "판매가": 3300,
         "타임세일가": 3190,
@@ -3261,6 +3876,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 33935,
+        "lips_rank": 12,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.38,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3271,7 +3894,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3281,8 +3904,8 @@
         "브랜드_원문": "rom&nd",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/765/994/8291994765.g_300-w-st_g.jpg",
-        "제품명": "【5/25~新色Qoo10先行発売】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレクション追加】",
+        "이미지": "https://gd.image-qoo10.jp/li/696/034/8301034696.g_300-w-st_g.jpg",
+        "제품명": "【5/25~新色Qoo10先行発売】【メガ割限定セール】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレクション追加】",
         "참고가": 1400,
         "판매가": 1400,
         "타임세일가": 1320,
@@ -3299,6 +3922,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 20616,
+        "lips_rank": 33,
+        "lips_category": "チーク",
+        "lips_rating": 4.21,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3309,7 +3940,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3337,6 +3968,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1073,
+        "lips_rank": 55,
+        "lips_category": "口紅",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3345,7 +3984,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3373,6 +4012,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 49,
+        "lips_rank": 55,
+        "lips_category": "口紅",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3381,7 +4028,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3409,6 +4056,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 5781,
+        "lips_rank": 55,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3417,7 +4072,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3445,6 +4100,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 257,
+        "lips_rank": 55,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3454,7 +4117,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3482,6 +4145,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 70,
+        "lips_rank": 55,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3491,7 +4162,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3519,6 +4190,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 6,
+        "lips_rank": 55,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3527,7 +4206,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3555,6 +4234,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 55,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3563,7 +4250,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3591,6 +4278,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 102,
+        "lips_rank": 55,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.07,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3599,7 +4294,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3627,6 +4322,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 451,
+        "lips_rank": 48,
+        "lips_category": "口紅",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3636,7 +4339,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3664,6 +4367,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 18908,
+        "lips_rank": 18,
+        "lips_category": "リップティント",
+        "lips_rating": 4.18,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3673,7 +4384,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3701,6 +4412,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 1222,
+        "lips_rank": 9,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3709,7 +4428,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3737,6 +4456,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.4,
         "리뷰_수": 283,
+        "lips_rank": 48,
+        "lips_category": "口紅",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3746,7 +4473,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3774,6 +4501,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 9027,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3782,7 +4517,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3810,6 +4545,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 25026,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3818,7 +4561,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3846,6 +4589,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 4245,
+        "lips_rank": 42,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.22,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3854,7 +4605,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3882,6 +4633,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 47705,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3890,7 +4649,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3917,7 +4676,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 15997,
+        "리뷰_수": 15998,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3926,7 +4693,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3954,6 +4721,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1377,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3962,7 +4737,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3990,6 +4765,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 7217,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3998,7 +4781,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4026,6 +4809,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 730,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4034,7 +4825,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4062,6 +4853,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 12,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4070,7 +4869,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4098,6 +4897,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 412,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4107,7 +4914,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4135,6 +4942,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 5915,
+        "lips_rank": 49,
+        "lips_category": "リップティント",
+        "lips_rating": 4.24,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4143,7 +4958,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4171,6 +4986,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 572,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4179,7 +5002,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4207,6 +5030,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4215,7 +5046,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4243,6 +5074,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 111,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4251,7 +5090,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4279,6 +5118,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 2,
+        "lips_rank": 47,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.25,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4287,7 +5134,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4315,6 +5162,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 117,
+        "lips_rank": 15,
+        "lips_category": "リップティント",
+        "lips_rating": 4.31,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4323,7 +5178,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4351,6 +5206,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 6,
+        "lips_rank": 17,
+        "lips_category": "リップティント",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4359,7 +5222,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4387,6 +5250,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 2,
+        "lips_rank": 47,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.25,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4395,7 +5266,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4423,6 +5294,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 25,
+        "lips_rank": 16,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4431,7 +5310,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4459,6 +5338,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 15015,
+        "lips_rank": 72,
+        "lips_category": "化粧下地",
+        "lips_rating": 3.94,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4467,7 +5354,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4495,6 +5382,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 67,
+        "lips_rank": 48,
+        "lips_category": "リップティント",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4503,7 +5398,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4531,6 +5426,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 10472,
+        "lips_rank": 48,
+        "lips_category": "リップティント",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4539,7 +5442,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4567,6 +5470,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 1788,
+        "lips_rank": 48,
+        "lips_category": "リップティント",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4575,7 +5486,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4603,6 +5514,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 1169,
+        "lips_rank": 48,
+        "lips_category": "リップティント",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4612,7 +5531,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4640,6 +5559,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 3411,
+        "lips_rank": 48,
+        "lips_category": "リップティント",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4648,7 +5575,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4676,6 +5603,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 1891,
+        "lips_rank": 48,
+        "lips_category": "リップティント",
+        "lips_rating": 4.13,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4684,7 +5619,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=443"
         }
       },
@@ -4712,6 +5647,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 36815,
+        "lips_rank": 9,
+        "lips_category": "リップティント",
+        "lips_rating": 4.23,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4720,7 +5663,7 @@
             "新カラー"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4730,8 +5673,8 @@
         "브랜드_원문": "AMUSE",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/681/538/8300538681.g_300-w-st_g.jpg",
-        "제품명": "【NEW】エアリースシリーズ2種(エアリーポアカバークッション, エアリースポットコンシーラーパレット)",
+        "이미지": "https://gd.image-qoo10.jp/li/336/794/8300794336.g_300-w-st_g.jpg",
+        "제품명": "【NEW】エアリーシリーズ2種(エアリーポアカバークッション, エアリースポットコンシーラーパレット)",
         "참고가": 3150,
         "판매가": 3150,
         "타임세일가": 2420,
@@ -4748,6 +5691,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 75,
+        "lips_rank": 20,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4757,7 +5708,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4785,6 +5736,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 2336,
+        "lips_rank": 20,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4793,7 +5752,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4821,6 +5780,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 65664,
+        "lips_rank": 20,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4829,7 +5796,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4857,6 +5824,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 428,
+        "lips_rank": 20,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4866,7 +5841,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4894,6 +5869,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 145,
+        "lips_rank": 20,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4903,7 +5886,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4931,6 +5914,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.4,
         "리뷰_수": 7,
+        "lips_rank": 7,
+        "lips_category": "リップティント",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4939,7 +5930,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=100539"
         }
       },
@@ -4967,6 +5958,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 37,
+        "lips_rank": 21,
+        "lips_category": "口紅",
+        "lips_rating": 4.27,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -4975,7 +5974,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=100539"
         }
       },
@@ -5003,6 +6002,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 110,
+        "lips_rank": 21,
+        "lips_category": "口紅",
+        "lips_rating": 4.27,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5011,7 +6018,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=100539"
         }
       },
@@ -5039,6 +6046,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 16,
+        "lips_rank": 32,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.23,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5047,7 +6062,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=107378"
         }
       },
@@ -5075,6 +6090,14 @@
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
         "리뷰_수": 2056,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5083,7 +6106,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=33875"
         }
       },
@@ -5111,6 +6134,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 100,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5119,7 +6150,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=33875"
         }
       },
@@ -5129,7 +6160,7 @@
         "브랜드_원문": "CLIO",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/183/431/8237431183.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/463/925/8300925463.g_300-w-st_g.jpg",
         "제품명": "【NEW】ミューズ マスター パレット（全5種）ヘリテージコレクション",
         "참고가": 3080,
         "판매가": 3080,
@@ -5147,6 +6178,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1121,
+        "lips_rank": 44,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.38,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5156,7 +6195,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5184,6 +6223,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 6097,
+        "lips_rank": 44,
+        "lips_category": "リップグロス",
+        "lips_rating": 3.89,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5192,7 +6239,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5220,6 +6267,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 21,
+        "lips_rank": 92,
+        "lips_category": "チーク",
+        "lips_rating": 4.1,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5228,7 +6283,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5256,6 +6311,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 1565,
+        "lips_rank": 76,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.03,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5265,7 +6328,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5293,6 +6356,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 737,
+        "lips_rank": 23,
+        "lips_category": "リップティント",
+        "lips_rating": 4.29,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5301,7 +6372,52 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
+          "source": "brandno=27754"
+        }
+      },
+      {
+        "카테고리": "색조",
+        "브랜드": "CLIO",
+        "브랜드_원문": "CLIO",
+        "런칭일": null,
+        "구분": "신제품",
+        "이미지": "https://gd.image-qoo10.jp/li/870/649/8253649870.g_300-w-st_g.jpg",
+        "제품명": "【NEW】マッド ブラー メイクアップ フィクサー 50ml／猛暑耐久キープ・テカリオフキープ・メイクキープミスト",
+        "참고가": 1650,
+        "판매가": 1650,
+        "타임세일가": 1500,
+        "최종할인가": null,
+        "할인율%": 9,
+        "소구포인트": null,
+        "출시_홋수": null,
+        "효과": null,
+        "메인_성분": null,
+        "기능": null,
+        "비고": null,
+        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1199492291",
+        "랭킹": null,
+        "랭킹_카테고리": null,
+        "리뷰_점수": 5.0,
+        "리뷰_수": 1,
+        "lips_rank": 44,
+        "lips_category": "リップグロス",
+        "lips_rating": 3.89,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
+        "주요_후기": null,
+        "프로모션": null,
+        "_meta": {
+          "goodscode": "1199492291",
+          "new_markers": [
+            "【NEW】",
+            "NEW"
+          ],
+          "source_section": "brand_page",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5311,8 +6427,8 @@
         "브랜드_원문": "hince",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/718/307/8284307718.g_300-w-st_g.jpg",
-        "제품명": "【Qoo10先行新色】ミラーデューグロス / 全10色",
+        "이미지": "https://gd.image-qoo10.jp/li/923/794/8300794923.g_300-w-st_g.jpg",
+        "제품명": "【Qoo10先行新色】ミラーデューグロス / 全10色/リップ/ツヤ/ボリューム/韓国コスメ/ティント/発色/乾燥しない/保湿",
         "참고가": 1980,
         "판매가": 1980,
         "타임세일가": 1881,
@@ -5329,6 +6445,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 729,
+        "lips_rank": 50,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.32,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5338,7 +6462,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5348,7 +6472,7 @@
         "브랜드_원문": "hince",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/032/985/8283985032.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/248/864/8300864248.g_300-w-st_g.jpg",
         "제품명": "【Qoo10先行新2色】 ロウグロウジェルティント(全25色)/レア膜ティント/飲み会リップ/ミニリップ/しっとり",
         "참고가": 1980,
         "판매가": 1980,
@@ -5366,6 +6490,14 @@
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
         "리뷰_수": 31300,
+        "lips_rank": 6,
+        "lips_category": "リップティント",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5374,7 +6506,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5384,7 +6516,7 @@
         "브랜드_원문": "hince",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/089/001/8284001089.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/336/839/8300839336.g_300-w-st_g.jpg",
         "제품명": "【夏限定パケ／新色】ハーフムーンチーク(全9色)",
         "참고가": 2000,
         "판매가": 2000,
@@ -5402,6 +6534,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 282,
+        "lips_rank": 62,
+        "lips_category": "口紅",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5410,7 +6550,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5420,7 +6560,7 @@
         "브랜드_원문": "hince",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/733/238/8284238733.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/316/845/8300845316.g_300-w-st_g.jpg",
         "제품명": "【NEW】ポアーショットプライマー/毛穴隠し/毛穴ブラー/AI肌/化粧下地/ベースメイク/韓国コスメ",
         "참고가": 2420,
         "판매가": 2420,
@@ -5438,6 +6578,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 589,
+        "lips_rank": 62,
+        "lips_category": "口紅",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5447,7 +6595,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5475,6 +6623,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 3,
+        "lips_rank": 62,
+        "lips_category": "口紅",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5483,7 +6639,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5511,6 +6667,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 1,
+        "lips_rank": 62,
+        "lips_category": "口紅",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5519,7 +6683,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5547,6 +6711,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 6,
+        "lips_rank": 6,
+        "lips_category": "リップティント",
+        "lips_rating": 4.3,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5556,7 +6728,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5584,6 +6756,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 62,
+        "lips_category": "口紅",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5592,7 +6772,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5620,6 +6800,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 18,
+        "lips_rank": 46,
+        "lips_category": "チーク",
+        "lips_rating": 4.2,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5628,7 +6816,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5656,6 +6844,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 46,
+        "lips_category": "チーク",
+        "lips_rating": 4.2,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5664,7 +6860,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5692,6 +6888,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 4,
+        "lips_rank": 53,
+        "lips_category": "リップティント",
+        "lips_rating": 4.12,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5700,7 +6904,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5728,6 +6932,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 1,
+        "lips_rank": 53,
+        "lips_category": "リップティント",
+        "lips_rating": 4.12,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5736,7 +6948,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5764,6 +6976,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 2,
+        "lips_rank": 53,
+        "lips_category": "リップティント",
+        "lips_rating": 4.12,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5772,7 +6992,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5800,6 +7020,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 4,
+        "lips_rank": 53,
+        "lips_category": "リップティント",
+        "lips_rating": 4.12,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5808,7 +7036,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5836,6 +7064,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 81,
+        "lips_rank": 46,
+        "lips_category": "チーク",
+        "lips_rating": 4.2,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5844,7 +7080,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5872,6 +7108,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 53,
+        "lips_category": "リップティント",
+        "lips_rating": 4.12,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5881,7 +7125,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5908,7 +7152,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 1481,
+        "리뷰_수": 1482,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5917,7 +7169,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5944,7 +7196,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 9759,
+        "리뷰_수": 9760,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5953,7 +7213,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5980,7 +7240,15 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
-        "리뷰_수": 7909,
+        "리뷰_수": 7910,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5989,7 +7257,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6017,6 +7285,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 6067,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6025,7 +7301,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6053,6 +7329,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1674,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6061,7 +7345,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6089,6 +7373,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 88,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6097,7 +7389,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6125,6 +7417,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.9,
         "리뷰_수": 48,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6133,7 +7433,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6161,6 +7461,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 1866,
+        "lips_rank": 47,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.34,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6169,7 +7477,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6197,6 +7505,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 63,
+        "lips_rank": 64,
+        "lips_category": "コンシーラー",
+        "lips_rating": 3.95,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6205,7 +7521,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6215,7 +7531,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/581/729/8300729581.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/247/859/8300859247.g_300-w-st_g.jpg",
         "제품명": "【NEW】アイドル2in1リップティント グロス ツヤ マット 保湿 ティント リップ 2wayリップ キープ 落ちにくい リップメイク 多幸感 透明感 ピンク ベージュ",
         "참고가": 1730,
         "판매가": 1730,
@@ -6233,6 +7549,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 181,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6242,7 +7566,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6252,7 +7576,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/234/729/8300729234.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/633/893/8300893633.g_300-w-st_g.jpg",
         "제품명": "【NEW】【公式】【2個購入300円OFF】モンチッチコラボコスメ （単品）ソフトムードシャドウパレット・うるうるフィットグロス・シェイクドロップチーク リップ チーク アイシャドウ アイシャドウパレ",
         "참고가": 1950,
         "판매가": 1950,
@@ -6270,6 +7594,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 26,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6279,7 +7611,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6289,7 +7621,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/611/729/8300729611.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/149/925/8300925149.g_300-w-st_g.jpg",
         "제품명": "【2個購入300円OFF】【限定タイムセール】【新作登場】絵画フレグランス 10mL オードパルファム オードパルファン 香水 レイヤード フレグランス お試し 持ち運び レディース 人気 ギフト プ",
         "참고가": 1730,
         "판매가": 1730,
@@ -6307,6 +7639,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 671,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6315,7 +7655,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6325,7 +7665,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/250/729/8300729250.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/585/890/8300890585.g_300-w-st_g.jpg",
         "제품명": "【NEW/指パフ付き】【公式】【2個購入300円OFF】モンチッチコラボセット メイクアップギフトセット (イエベセット/ブルべセット) チーク リップ グロス リキッドチーク アイシャドウ アイシャ",
         "참고가": 5780,
         "판매가": 5780,
@@ -6343,6 +7683,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 152,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6351,7 +7699,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6361,7 +7709,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/230/729/8300729230.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/649/935/8300935649.g_300-w-st_g.jpg",
         "제품명": "【NEW】【ちびパフ付き】アイドルハイライターパレット ハイライト パウダーハイライト ラメ ツヤ感 ピンク ブルー ホワイト ゴールド 透明感 多幸感 チーク ハイライトパレット 4色ハイライト",
         "참고가": 2500,
         "판매가": 2500,
@@ -6379,6 +7727,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 236,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6388,7 +7744,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6398,7 +7754,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/615/729/8300729615.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/519/898/8300898519.g_300-w-st_g.jpg",
         "제품명": "【NEW】【公式】【2個購入300円OFF】モンチッチメイクパフ コンプリートボックス（パフケース付き） メイクパフ メイク道具 メイクツール パフ パフセット パウダーパフ キャラクターパフ モンチ",
         "참고가": 3360,
         "판매가": 3360,
@@ -6416,6 +7772,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6425,7 +7789,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6453,6 +7817,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.9,
         "리뷰_수": 221,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6462,7 +7834,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6472,7 +7844,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/248/729/8300729248.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/866/906/8300906866.g_300-w-st_g.jpg",
         "제품명": "【NEW】【公式】【2個購入300円OFF】モンチッチメイクパフ　単品 [パウダーパフ マシュマロパフ 指パフ ちびパフ] メイクパフ パフ メイクツール パウダーパフ メイクブラシ モンチッチ　ベビ",
         "참고가": 850,
         "판매가": 850,
@@ -6490,6 +7862,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6499,7 +7879,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6509,7 +7889,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/632/729/8300729632.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/765/865/8300865765.g_300-w-st_g.jpg",
         "제품명": "【NEW】【ミラー/パフ付き】アイドルフィルターパウダー プレストパウダー 酸化亜鉛フリー パウダー カバー メイク崩れ防止 トーンアップ 毛穴 くすみ ベースメイク フェイスパウダー ピンク",
         "참고가": 2480,
         "판매가": 2480,
@@ -6527,6 +7907,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 4,
+        "lips_rank": 40,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6536,7 +7924,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6563,7 +7951,15 @@
         "랭킹": 76,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
-        "리뷰_수": 51525,
+        "리뷰_수": 51526,
+        "lips_rank": 13,
+        "lips_category": "マスカラ",
+        "lips_rating": 4.25,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6572,7 +7968,7 @@
             "先行発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6600,6 +7996,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 4727,
+        "lips_rank": 81,
+        "lips_category": "口紅",
+        "lips_rating": 3.96,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6609,7 +8013,7 @@
             "先行発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6637,6 +8041,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 217,
+        "lips_rank": 81,
+        "lips_category": "口紅",
+        "lips_rating": 3.96,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6646,7 +8058,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6674,6 +8086,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 439,
+        "lips_rank": 81,
+        "lips_category": "口紅",
+        "lips_rating": 3.96,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6683,7 +8103,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6711,6 +8131,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 406,
+        "lips_rank": 78,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.15,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6719,7 +8147,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6747,6 +8175,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 863,
+        "lips_rank": 81,
+        "lips_category": "口紅",
+        "lips_rating": 3.96,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6756,7 +8192,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6784,6 +8220,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 167,
+        "lips_rank": 66,
+        "lips_category": "ファンデーション",
+        "lips_rating": 3.99,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6793,7 +8237,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6821,6 +8265,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 684,
+        "lips_rank": 81,
+        "lips_category": "口紅",
+        "lips_rating": 3.96,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6830,7 +8282,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6858,6 +8310,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 3695,
+        "lips_rank": 63,
+        "lips_category": "リップティント",
+        "lips_rating": 4.06,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6866,7 +8326,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6894,6 +8354,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.9,
         "리뷰_수": 105,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6902,7 +8370,7 @@
             "新色"
           ],
           "source_section": "top",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "shop_slug=ohora"
         }
       },
@@ -6930,6 +8398,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 417,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6938,7 +8414,7 @@
             "新色"
           ],
           "source_section": "top",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "shop_slug=ohora"
         }
       },
@@ -6966,6 +8442,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 521,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -6974,7 +8458,7 @@
             "新色"
           ],
           "source_section": "top",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "shop_slug=ohora"
         }
       },
@@ -7002,6 +8486,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 261,
+        "lips_rank": 22,
+        "lips_category": "リップグロス",
+        "lips_rating": 4.26,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7010,7 +8502,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=40282"
         }
       },
@@ -7038,6 +8530,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 27954,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7046,7 +8546,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7074,6 +8574,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 20125,
+        "lips_rank": 93,
+        "lips_category": "チーク",
+        "lips_rating": 4.28,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7082,7 +8590,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7110,6 +8618,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 307,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7118,7 +8634,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7146,6 +8662,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 4040,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7154,7 +8678,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7182,6 +8706,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 2066,
+        "lips_rank": 81,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.32,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7190,7 +8722,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7218,6 +8750,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 1122,
+        "lips_rank": 93,
+        "lips_category": "チーク",
+        "lips_rating": 4.28,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7226,7 +8766,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7254,6 +8794,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 35,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7262,7 +8810,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7290,6 +8838,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 91,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7298,7 +8854,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7326,6 +8882,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 398,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7334,7 +8898,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7362,6 +8926,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 553,
+        "lips_rank": 94,
+        "lips_category": "リップティント",
+        "lips_rating": 3.8,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7371,7 +8943,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7399,6 +8971,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 2965,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7407,7 +8987,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7435,6 +9015,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 426,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7443,7 +9031,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7471,6 +9059,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 65,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7479,7 +9075,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7507,6 +9103,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7515,7 +9119,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7543,6 +9147,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 1,
+        "lips_rank": null,
+        "lips_category": null,
+        "lips_rating": null,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7551,7 +9163,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7579,6 +9191,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 6,
+        "lips_rank": 59,
+        "lips_category": "口紅",
+        "lips_rating": 3.9,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": 5,
+        "cosme_date": "2026-05-29",
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7587,7 +9207,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=49767"
         }
       },
@@ -7601,9 +9221,9 @@
         "제품명": "エッセンス リッププランパー 全9色 新色 & 限定色登場 リップグロス 口紅 リップケア リップルージュ 5.5ml ピタッと密着 ツヤ唇 自然感 血色感 スパイシープランプ成分 乾燥を防ぐ",
         "참고가": 1345,
         "판매가": 1345,
-        "타임세일가": 1210,
+        "타임세일가": null,
         "최종할인가": null,
-        "할인율%": 10,
+        "할인율%": null,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -7615,6 +9235,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.6,
         "리뷰_수": 121,
+        "lips_rank": 16,
+        "lips_category": "口紅",
+        "lips_rating": 4.11,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7623,7 +9251,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63854"
         }
       },
@@ -7637,9 +9265,9 @@
         "제품명": "フラッフデザイン アイブロウパウダー 3.4g 全4色 ブラシ・ミラー付き リニューアル アイブロウ アイブロウパウダー 眉パウダー 4色を組み合わせ 立体感 美発色 粉っぽさない 高発色",
         "참고가": 1212,
         "판매가": 1212,
-        "타임세일가": 1091,
+        "타임세일가": null,
         "최종할인가": null,
-        "할인율%": 9,
+        "할인율%": null,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -7651,6 +9279,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.0,
         "리뷰_수": 2,
+        "lips_rank": 62,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.19,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7659,7 +9295,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63854"
         }
       },
@@ -7673,9 +9309,9 @@
         "제품명": "フラッフデザイン アイブロウカラー 7g 全4色 リニューアル アイブロウ アイブロウマスカラ 眉マスカラ 高発色 柔らかな立体眉へ ふんわりボリュームアップ ソフトキープ成分配合 美容液成分",
         "참고가": 980,
         "판매가": 980,
-        "타임세일가": 882,
+        "타임세일가": null,
         "최종할인가": null,
-        "할인율%": 10,
+        "할인율%": null,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -7687,6 +9323,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 5.0,
         "리뷰_수": 3,
+        "lips_rank": 65,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7695,7 +9339,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=63854"
         }
       },
@@ -7709,9 +9353,9 @@
         "제품명": "ザ プライムアイブロウ 全8色 リニューアル発売 ペンシル・パウダー・ブラシの3機能一体型アイブロウ ブランド内売上圧倒的1位 持続性メイク 長持ちする耐久性 耐水処方 美容液成分 保湿成分 密着",
         "참고가": 1556,
         "판매가": 1556,
-        "타임세일가": 1400,
+        "타임세일가": null,
         "최종할인가": null,
-        "할인율%": 10,
+        "할인율%": null,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -7723,6 +9367,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 19,
+        "lips_rank": 44,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7731,7 +9383,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7759,6 +9411,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 91,
+        "lips_rank": 44,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7767,7 +9427,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7781,9 +9441,9 @@
         "제품명": "ザ プライムアイブロウ 全8色 リニューアル発売 ペンシル・パウダー・ブラシの3機能一体型アイブロウ ブランド内売上圧倒的1位 持続性メイク 長持ちする耐久性 耐水処方 美容液成分 保湿成分 密着",
         "참고가": 1556,
         "판매가": 1556,
-        "타임세일가": 1400,
+        "타임세일가": null,
         "최종할인가": null,
-        "할인율%": 10,
+        "할인율%": null,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -7795,6 +9455,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.5,
         "리뷰_수": 16,
+        "lips_rank": 44,
+        "lips_category": "アイブロウ",
+        "lips_rating": 4.16,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7803,7 +9471,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7817,9 +9485,9 @@
         "제품명": "グリームオンフィットシャドウ 全9色 新登場のカラーも！ アイシャドウ スティックアイシャドウ メイクアップ メイク アイカラー 持ちやすい 使いやすい 落ちにくい 塗りやすい",
         "참고가": 1223,
         "판매가": 1223,
-        "타임세일가": 1101,
+        "타임세일가": null,
         "최종할인가": null,
-        "할인율%": 9,
+        "할인율%": null,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -7831,6 +9499,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.7,
         "리뷰_수": 51,
+        "lips_rank": 97,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.37,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7839,7 +9515,7 @@
             "新登場"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7867,6 +9543,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 62,
+        "lips_rank": 97,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.37,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7875,7 +9559,7 @@
             "新登場"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7887,8 +9571,8 @@
         "구분": "리뉴얼",
         "이미지": "https://gd.image-qoo10.jp/li/411/660/8068660411.g_300-w-st_g.jpg",
         "제품명": "【New】excel(エクセル) スキニーリッチシャドウ Ｎ SK06 センシュアルブラウン パレットアイシャドウ リニューアル",
-        "참고가": 2310,
-        "판매가": 2310,
+        "참고가": 2475,
+        "판매가": 2475,
         "타임세일가": null,
         "최종할인가": null,
         "할인율%": null,
@@ -7903,6 +9587,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 58,
+        "lips_category": "アイシャドウ",
+        "lips_rating": 4.36,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7911,7 +9603,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7939,6 +9631,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": null,
         "리뷰_수": null,
+        "lips_rank": 7,
+        "lips_category": "アイライナー",
+        "lips_rating": 4.37,
+        "lips_reviews": null,
+        "lips_brand_only": true,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7947,7 +9647,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=54368"
         }
       },
@@ -7975,6 +9675,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 593,
+        "lips_rank": 77,
+        "lips_category": "ファンデーション",
+        "lips_rating": 4.05,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -7983,7 +9691,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=108368"
         }
       },
@@ -8011,6 +9719,14 @@
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
         "리뷰_수": 260,
+        "lips_rank": 69,
+        "lips_category": "アイライナー",
+        "lips_rating": 4.37,
+        "lips_reviews": null,
+        "lips_brand_only": null,
+        "cosme_rank": null,
+        "cosme_date": null,
+        "cosme_brand_only": null,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -8019,7 +9735,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "crawled_at": "2026-05-29T16:06:53+09:00",
           "source": "brandno=108368"
         }
       }
@@ -8028,7 +9744,7 @@
   },
   "stats": {
     "skin": {
-      "new_products": 74,
+      "new_products": 73,
       "brands_represented": 22
     },
     "color": {
@@ -8039,7 +9755,7 @@
       "new_products": 0,
       "brands_represented": 0
     },
-    "total_new_products": 220
+    "total_new_products": 219
   },
   "missing_brands": [
     {

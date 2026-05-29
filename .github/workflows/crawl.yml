@@ -21,24 +21,29 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run rank crawler (Qoo10 뷰티 Best 200)
+      - name: Run Qoo10 rank crawler (Best 200)
         run: |
-          python crawler/qoo10_rank.py || echo "rank crawl failed — proceed without"
+          python crawler/qoo10_rank.py || echo "qoo10 rank failed — proceed"
 
-      - name: Run main crawler (new products + 랭킹/리뷰 결합)
+      - name: Run LIPS rank crawler (19 카테고리 Top 100)
+        run: |
+          python crawler/lips_rank.py || echo "lips rank failed — proceed"
+
+      - name: Run main crawler (new products + Qoo10/LIPS/cosme 결합)
         run: |
           python crawler/qoo10_new_products.py
 
-      - name: Run direction analyzer (성분/제형/카테고리/색조 트렌드)
+      - name: Run direction analyzer
         run: |
           python crawler/product_direction.py
 
-      - name: Copy data into dashboard/ (Cloudflare reads from here)
+      - name: Copy data into dashboard/
         run: |
           mkdir -p dashboard/data
           cp data/new_products.json dashboard/data/new_products.json
           cp data/_direction.json dashboard/data/_direction.json
           [ -f data/rank_beauty.json ] && cp data/rank_beauty.json dashboard/data/rank_beauty.json || true
+          [ -f data/lips_rank.json ] && cp data/lips_rank.json dashboard/data/lips_rank.json || true
 
       - name: Commit + push
         run: |

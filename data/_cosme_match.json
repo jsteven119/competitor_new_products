@@ -1,0 +1,509 @@
+{
+  "last_updated": "2026-05-29T16:03:54+09:00",
+  "by_brand": {
+    "ランコム": [
+      {
+        "name_norm": "アプソリュ ザ uv クリーム",
+        "name_raw": "アプソリュ ザ UV クリーム",
+        "rank": 1,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10289905/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+      },
+      {
+        "name_norm": "アプソリュ ザ uv クリーム",
+        "name_raw": "アプソリュ ザ UV クリーム",
+        "rank": 1,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10289905/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+      },
+      {
+        "name_norm": "アプソリュ ザ uv クリーム",
+        "name_raw": "アプソリュ ザ UV クリーム",
+        "rank": 1,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10289905/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+      },
+      {
+        "name_norm": "アプソリュ ザ uv クリーム",
+        "name_raw": "アプソリュ ザ UV クリーム",
+        "rank": 1,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10289905/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+      },
+      {
+        "name_norm": "アプソリュ ザ uv クリーム",
+        "name_raw": "アプソリュ ザ UV クリーム",
+        "rank": 1,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10289905/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+      },
+      {
+        "name_norm": "アプソリュ ザ uv クリーム",
+        "name_raw": "アプソリュ ザ UV クリーム",
+        "rank": 3,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10289905/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1086375_m.jpg"
+      },
+      {
+        "name_norm": "ジェニフィック アルティメ セラム",
+        "name_raw": "ジェニフィック アルティメ セラム",
+        "rank": 9,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10259468/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10259/skuimg_988878_m.jpg"
+      }
+    ],
+    "コスメデコルテ": [
+      {
+        "name_norm": "ルース パウダー",
+        "name_raw": "ルース パウダー",
+        "rank": 2,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10248076/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+      },
+      {
+        "name_norm": "ルース パウダー",
+        "name_raw": "ルース パウダー",
+        "rank": 2,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10248076/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+      },
+      {
+        "name_norm": "ルース パウダー",
+        "name_raw": "ルース パウダー",
+        "rank": 2,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10248076/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+      },
+      {
+        "name_norm": "ルース パウダー",
+        "name_raw": "ルース パウダー",
+        "rank": 2,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10248076/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+      },
+      {
+        "name_norm": "ルース パウダー",
+        "name_raw": "ルース パウダー",
+        "rank": 2,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10248076/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+      },
+      {
+        "name_norm": "ルース パウダー",
+        "name_raw": "ルース パウダー",
+        "rank": 4,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10248076/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10248/skuimg_947990_m.jpg"
+      }
+    ],
+    "アスタリフト": [
+      {
+        "name_norm": "d uvシールド トーンアップ",
+        "name_raw": "D-UVシールド トーンアップ",
+        "rank": 3,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10264930/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+      },
+      {
+        "name_norm": "d uvシールド トーンアップ",
+        "name_raw": "D-UVシールド トーンアップ",
+        "rank": 3,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10264930/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+      },
+      {
+        "name_norm": "d uvシールド トーンアップ",
+        "name_raw": "D-UVシールド トーンアップ",
+        "rank": 3,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10264930/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+      },
+      {
+        "name_norm": "d uvシールド トーンアップ",
+        "name_raw": "D-UVシールド トーンアップ",
+        "rank": 3,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10264930/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+      },
+      {
+        "name_norm": "d uvシールド トーンアップ",
+        "name_raw": "D-UVシールド トーンアップ",
+        "rank": 3,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10264930/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+      },
+      {
+        "name_norm": "d uvシールド トーンアップ",
+        "name_raw": "D-UVシールド トーンアップ",
+        "rank": 6,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10264930/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1008542_m.jpg"
+      }
+    ],
+    "sofina ip": [
+      {
+        "name_norm": "マイクロ泡セラム洗顔料",
+        "name_raw": "マイクロ泡セラム洗顔料",
+        "rank": 4,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10292084/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+      },
+      {
+        "name_norm": "マイクロ泡セラム洗顔料",
+        "name_raw": "マイクロ泡セラム洗顔料",
+        "rank": 4,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10292084/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+      },
+      {
+        "name_norm": "マイクロ泡セラム洗顔料",
+        "name_raw": "マイクロ泡セラム洗顔料",
+        "rank": 4,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10292084/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+      },
+      {
+        "name_norm": "マイクロ泡セラム洗顔料",
+        "name_raw": "マイクロ泡セラム洗顔料",
+        "rank": 4,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10292084/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+      },
+      {
+        "name_norm": "マイクロ泡セラム洗顔料",
+        "name_raw": "マイクロ泡セラム洗顔料",
+        "rank": 4,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10292084/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094840_m.jpg"
+      }
+    ],
+    "canmake": [
+      {
+        "name_norm": "クリーミータッチライナー",
+        "name_raw": "クリーミータッチライナー",
+        "rank": 1,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10147158/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+      },
+      {
+        "name_norm": "クリーミータッチライナー",
+        "name_raw": "クリーミータッチライナー",
+        "rank": 5,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10147158/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+      },
+      {
+        "name_norm": "クリーミータッチライナー",
+        "name_raw": "クリーミータッチライナー",
+        "rank": 5,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10147158/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+      },
+      {
+        "name_norm": "クリーミータッチライナー",
+        "name_raw": "クリーミータッチライナー",
+        "rank": 5,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10147158/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+      },
+      {
+        "name_norm": "クリーミータッチライナー",
+        "name_raw": "クリーミータッチライナー",
+        "rank": 5,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10147158/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+      },
+      {
+        "name_norm": "クリーミータッチライナー",
+        "name_raw": "クリーミータッチライナー",
+        "rank": 5,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10147158/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10147/skuimg_976925_m.jpg"
+      }
+    ],
+    "イプサ": [
+      {
+        "name_norm": "ザ タイムr アクア e",
+        "name_raw": "ザ・タイムR アクア e",
+        "rank": 6,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10292366/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+      },
+      {
+        "name_norm": "ザ タイムr アクア e",
+        "name_raw": "ザ・タイムR アクア e",
+        "rank": 6,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10292366/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+      },
+      {
+        "name_norm": "ザ タイムr アクア e",
+        "name_raw": "ザ・タイムR アクア e",
+        "rank": 6,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10292366/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+      },
+      {
+        "name_norm": "ザ タイムr アクア e",
+        "name_raw": "ザ・タイムR アクア e",
+        "rank": 6,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10292366/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+      },
+      {
+        "name_norm": "ザ タイムr アクア e",
+        "name_raw": "ザ・タイムR アクア e",
+        "rank": 6,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10292366/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10292/skuimg_1094338_m.jpg"
+      }
+    ],
+    "アテニア": [
+      {
+        "name_norm": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "name_raw": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "rank": 2,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10243030/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+      },
+      {
+        "name_norm": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "name_raw": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "rank": 7,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10243030/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+      },
+      {
+        "name_norm": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "name_raw": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "rank": 7,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10243030/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+      },
+      {
+        "name_norm": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "name_raw": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "rank": 7,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10243030/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+      },
+      {
+        "name_norm": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "name_raw": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "rank": 7,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10243030/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+      },
+      {
+        "name_norm": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "name_raw": "スキンクリア クレンズ オイル アロマタイプ リフレシングシトラスの香り",
+        "rank": 7,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10243030/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10243/skuimg-d_98261_m.jpg"
+      }
+    ],
+    "ディオール": [
+      {
+        "name_norm": "ディオール アディクト リップ グロウ オイル",
+        "name_raw": "ディオール アディクト リップ グロウ オイル",
+        "rank": 8,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10289351/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+      },
+      {
+        "name_norm": "ディオール アディクト リップ グロウ オイル",
+        "name_raw": "ディオール アディクト リップ グロウ オイル",
+        "rank": 8,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10289351/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+      },
+      {
+        "name_norm": "ディオール アディクト リップ グロウ オイル",
+        "name_raw": "ディオール アディクト リップ グロウ オイル",
+        "rank": 8,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10289351/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+      },
+      {
+        "name_norm": "ディオール アディクト リップ グロウ オイル",
+        "name_raw": "ディオール アディクト リップ グロウ オイル",
+        "rank": 8,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10289351/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+      },
+      {
+        "name_norm": "ディオール アディクト リップ グロウ オイル",
+        "name_raw": "ディオール アディクト リップ グロウ オイル",
+        "rank": 8,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10289351/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10289/skuimg_1084730_m.jpg"
+      }
+    ],
+    "cezanne": [
+      {
+        "name_norm": "超細芯アイブロウ",
+        "name_raw": "超細芯アイブロウ",
+        "rank": 9,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/10146071/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+      },
+      {
+        "name_norm": "超細芯アイブロウ",
+        "name_raw": "超細芯アイブロウ",
+        "rank": 9,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/10146071/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+      },
+      {
+        "name_norm": "超細芯アイブロウ",
+        "name_raw": "超細芯アイブロウ",
+        "rank": 9,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/10146071/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+      },
+      {
+        "name_norm": "超細芯アイブロウ",
+        "name_raw": "超細芯アイブロウ",
+        "rank": 9,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/10146071/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+      },
+      {
+        "name_norm": "超細芯アイブロウ",
+        "name_raw": "超細芯アイブロウ",
+        "rank": 9,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/10146071/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+      },
+      {
+        "name_norm": "超細芯アイブロウ",
+        "name_raw": "超細芯アイブロウ",
+        "rank": 10,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10146071/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10146/skuimg_893896_m.jpg"
+      }
+    ],
+    "sk ii": [
+      {
+        "name_norm": "ジェノプティクス インフィニットオーラ エッセンス",
+        "name_raw": "ジェノプティクス インフィニットオーラ エッセンス",
+        "rank": 7,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10264676/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10264/skuimg_1021237_m.jpg"
+      },
+      {
+        "name_norm": "フェイシャル トリートメント エッセンス",
+        "name_raw": "フェイシャル トリートメント エッセンス",
+        "rank": 10,
+        "date": "2026-05-22",
+        "url": "https://www.cosme.net/products/2893546/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+      },
+      {
+        "name_norm": "フェイシャル トリートメント エッセンス",
+        "name_raw": "フェイシャル トリートメント エッセンス",
+        "rank": 10,
+        "date": "2026-05-23",
+        "url": "https://www.cosme.net/products/2893546/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+      },
+      {
+        "name_norm": "フェイシャル トリートメント エッセンス",
+        "name_raw": "フェイシャル トリートメント エッセンス",
+        "rank": 10,
+        "date": "2026-05-24",
+        "url": "https://www.cosme.net/products/2893546/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+      },
+      {
+        "name_norm": "フェイシャル トリートメント エッセンス",
+        "name_raw": "フェイシャル トリートメント エッセンス",
+        "rank": 10,
+        "date": "2026-05-25",
+        "url": "https://www.cosme.net/products/2893546/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+      },
+      {
+        "name_norm": "フェイシャル トリートメント エッセンス",
+        "name_raw": "フェイシャル トリートメント エッセンス",
+        "rank": 10,
+        "date": "2026-05-26",
+        "url": "https://www.cosme.net/products/2893546/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/2893/skuimg_815511_m.jpg"
+      }
+    ],
+    "kate": [
+      {
+        "name_norm": "リップモンスター",
+        "name_raw": "リップモンスター",
+        "rank": 5,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10206485/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10206/skuimg_1076710_m.jpg"
+      }
+    ],
+    "アルビオン": [
+      {
+        "name_norm": "アルビオン 70th アニバーサリー キット a",
+        "name_raw": "アルビオン ７０ＴＨ アニバーサリー キット Ａ",
+        "rank": 8,
+        "date": "2026-05-29",
+        "url": "https://www.cosme.net/products/10295005/",
+        "image_url": "https://cache-cdn.cosme.net/media/product/10295/skuimg_1103289_m.jpg"
+      }
+    ]
+  }
+}

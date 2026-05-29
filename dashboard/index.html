@@ -81,6 +81,18 @@
         <label>검색</label>
         <input type="search" id="q" placeholder="제품명/마커 키워드">
       </div>
+      <div class="filter-group">
+        <label>정렬</label>
+        <select id="sort-select">
+          <option value="default">기본 (브랜드+신규)</option>
+          <option value="qoo10_rank">Qoo10 랭킹순 ▲</option>
+          <option value="lips_rank">LIPS 랭킹순 ▲</option>
+          <option value="price_low">가격 낮은순 ▲</option>
+          <option value="price_high">가격 높은순 ▼</option>
+          <option value="discount">할인율 큰순 ▼</option>
+          <option value="review_count">리뷰 많은순 ▼</option>
+        </select>
+      </div>
     </section>
 
     <section class="result-bar">
@@ -100,9 +112,11 @@
             <th>참고가</th>
             <th>판매가</th>
             <th>할인%</th>
-            <th title="Qoo10 뷰티 베스트 Top 200 — 신상품이 진입했다면 시장 검증된 SKU">랭킹</th>
-            <th title="Qoo10 카드의 리뷰 별점·개수">리뷰</th>
-            <th>신규 시그널</th>
+            <th title="Qoo10 뷰티 Top 200 — 진입 = 시장 검증된 SKU">Qoo10 #</th>
+            <th title="LIPS (10s~30s SNS) 카테고리 랭킹 — 진입 = SNS 화제도">LIPS ★</th>
+            <th title="@cosme 주간 Top 10 — 30s~50s 평점 권위">@cosme</th>
+            <th>리뷰</th>
+            <th>시그널</th>
             <th>링크</th>
           </tr>
         </thead>
