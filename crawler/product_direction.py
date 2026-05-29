@@ -181,18 +181,35 @@ def extract_shade_count(title: str) -> int | None:
     return None
 
 
+def _safe_price(r):
+    p = r.get("판매가") or r.get("타임세일가") or r.get("참고가")
+    if isinstance(p, (int, float)) and p > 0:
+        return int(p)
+    return None
+
+
+def _avg(prices):
+    prices = [p for p in prices if p]
+    return round(sum(prices) / len(prices)) if prices else None
+
+
 def analyze_skin(rows: list[dict]) -> dict:
-    """스킨케어 신상품 분석."""
+    """스킨케어 신상품 분석 — 빈도 + 평균가."""
     ing_counter: Counter = Counter()
     form_counter: Counter = Counter()
     concern_counter: Counter = Counter()
     ing_examples: dict = defaultdict(list)
     ing_brands: dict = defaultdict(set)
     form_examples: dict = defaultdict(list)
+    form_prices: dict = defaultdict(list)   # 제형별 가격 누적
 
+    all_prices: list = []
     for r in rows:
         title = r.get("제품명") or ""
         brand = r.get("브랜드") or ""
+        price = _safe_price(r)
+        if price:
+            all_prices.append(price)
 
         for ing in match_keywords(title, SKIN_INGREDIENTS):
             ing_counter[ing] += 1
@@ -202,6 +219,8 @@ def analyze_skin(rows: list[dict]) -> dict:
 
         for form in match_keywords(title, SKIN_FORMULATIONS):
             form_counter[form] += 1
+            if price:
+                form_prices[form].append(price)
             if len(form_examples[form]) < 5:
                 form_examples[form].append({"brand": brand, "title": title[:60]})
 
@@ -215,7 +234,8 @@ def analyze_skin(rows: list[dict]) -> dict:
             for k, c in ing_counter.most_common(20) if c >= 2
         ],
         "formulations": [
-            {"name": k, "count": c, "examples": form_examples[k]}
+            {"name": k, "count": c, "avg_price": _avg(form_prices[k]),
+             "examples": form_examples[k]}
             for k, c in form_counter.most_common(15) if c >= 2
         ],
         "concerns": [
@@ -223,31 +243,64 @@ def analyze_skin(rows: list[dict]) -> dict:
             for k, c in concern_counter.most_common(10) if c >= 2
         ],
         "total_products": len(rows),
+        "avg_price": _avg(all_prices),
+        "price_count": len(all_prices),
     }
 
 
 def analyze_color(rows: list[dict]) -> dict:
-    """색조 신상품 분석."""
+    """색조 신상품 분석 — 빈도 + 평균가."""
     cat_counter: Counter = Counter()
     form_counter: Counter = Counter()
     fam_counter: Counter = Counter()
     shade_counts: list = []
     cat_examples: dict = defaultdict(list)
+    cat_prices: dict = defaultdict(list)        # 카테고리(립/아이/베이스)별 가격
+    group_prices: dict = defaultdict(list)      # 대분류 그룹(립/아이/베이스/페이스)별 가격
+    fam_prices: dict = defaultdict(list)        # 색계열별
 
+    # 카테고리 → 대분류 매핑
+    LIP_CATS  = {"リップティント", "リップスティック", "リップグロス / オイル",
+                 "リップバーム / トリート", "ペンシル / ライナー"}
+    EYE_CATS  = {"アイシャドウ", "アイライナー", "マスカラ", "アイブロウ"}
+    BASE_CATS = {"クッション", "ファンデーション", "コンシーラー",
+                 "プライマー / ベース", "パウダー"}
+    FACE_CATS = {"ハイライト / コントゥア", "チーク / ブラッシャー", "フィクサー / セッティング"}
+
+    all_prices: list = []
     for r in rows:
         title = r.get("제품명") or ""
         brand = r.get("브랜드") or ""
+        price = _safe_price(r)
+        if price:
+            all_prices.append(price)
 
-        for cat in match_keywords(title, COLOR_CATEGORIES):
+        matched_cats = match_keywords(title, COLOR_CATEGORIES)
+        for cat in matched_cats:
             cat_counter[cat] += 1
+            if price:
+                cat_prices[cat].append(price)
             if len(cat_examples[cat]) < 5:
                 cat_examples[cat].append({"brand": brand, "title": title[:60], "url": r.get("링크")})
+
+        # 대분류 그룹 — 한 상품이 여러 그룹에 동시 매칭되지 않도록 우선 1개만
+        if price:
+            if any(c in LIP_CATS for c in matched_cats):
+                group_prices["립"].append(price)
+            elif any(c in EYE_CATS for c in matched_cats):
+                group_prices["아이"].append(price)
+            elif any(c in BASE_CATS for c in matched_cats):
+                group_prices["베이스"].append(price)
+            elif any(c in FACE_CATS for c in matched_cats):
+                group_prices["페이스"].append(price)
 
         for form in match_keywords(title, COLOR_FORMULATIONS):
             form_counter[form] += 1
 
         for fam in match_keywords(title, COLOR_FAMILIES):
             fam_counter[fam] += 1
+            if price:
+                fam_prices[fam].append(price)
 
         sc = extract_shade_count(title)
         if sc:
@@ -255,19 +308,26 @@ def analyze_color(rows: list[dict]) -> dict:
 
     return {
         "categories": [
-            {"name": k, "count": c, "examples": cat_examples[k]}
+            {"name": k, "count": c, "avg_price": _avg(cat_prices[k]),
+             "examples": cat_examples[k]}
             for k, c in cat_counter.most_common(15) if c >= 1
+        ],
+        "category_groups": [
+            {"name": g, "count": len(group_prices[g]), "avg_price": _avg(group_prices[g])}
+            for g in ["립", "아이", "베이스", "페이스"] if group_prices[g]
         ],
         "formulations": [
             {"name": k, "count": c}
             for k, c in form_counter.most_common(15) if c >= 1
         ],
         "color_families": [
-            {"name": k, "count": c}
+            {"name": k, "count": c, "avg_price": _avg(fam_prices[k])}
             for k, c in fam_counter.most_common(15) if c >= 1
         ],
         "shade_releases": sorted(shade_counts, key=lambda x: -x["shades"])[:10],
         "total_products": len(rows),
+        "avg_price": _avg(all_prices),
+        "price_count": len(all_prices),
     }
 
 

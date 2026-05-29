@@ -22,7 +22,7 @@ COMPETITORS_SKIN = {
     "skin1004":      {"label": "SKIN1004",      "shop_slugs": ["skin1004japan"],   "keywords": ["skin1004", "スキン1004"]},
     "cosrx":         {"label": "COSRX",         "shop_slugs": ["cosrx"],           "keywords": ["cosrx", "コスアールエックス"]},
     "kopher":        {"label": "Kopher",        "shop_slugs": ["kopher"],          "keywords": ["kopher", "コーファー"]},
-    "manyo":         {"label": "MANYO",         "shop_slugs": ["manyofactory"],    "keywords": ["manyo", "マニョ", "魔女工場"]},
+    "manyo":         {"label": "MANYO",         "shop_slugs": ["manyofactory"],    "keywords": ["manyo", "マニョ", "魔女工場", "manyo factory", "マニョファクトリー"]},
     "aestura":       {"label": "AESTURA",       "shop_slugs": ["aestura"],         "keywords": ["aestura", "エストラ"]},
     "biodance":      {"label": "Biodance",      "shop_slugs": ["biodance"],        "keywords": ["biodance", "バイオダンス"]},
     "numbuzin":      {"label": "numbuzin",      "shop_slugs": ["numbuzin"],        "keywords": ["numbuzin", "ナンバーズイン"]},
@@ -31,25 +31,21 @@ COMPETITORS_SKIN = {
     "tocobo":        {"label": "TOCOBO",        "shop_slugs": ["tocobo"],          "keywords": ["tocobo"]},
     "isntree":       {"label": "isntree",       "shop_slugs": ["isntree"],         "keywords": ["isntree", "イズントゥリー"]},
     "mixsoon":       {"label": "mixsoon",       "shop_slugs": ["mixsoon"],         "keywords": ["mixsoon", "ミクスーン"]},
-    "mediheal":      {"label": "MEDIHEAL",      "shop_slugs": ["medihealofficial"],"keywords": ["mediheal", "メディヒール"]},
+    "mediheal":      {"label": "MEDIHEAL",      "shop_slugs": ["medihealofficial"],"keywords": ["mediheal", "メディヒール", "MEDIHEAL", "メディヒールマスク"]},
     "haruharu":      {"label": "HARUHARU",      "shop_slugs": ["haruharu"],        "keywords": ["haruharu wonder", "haruharu", "ハルハル"]},
     "samu":          {"label": "SAMU",          "shop_slugs": ["samu"],            "keywords": ["samu", "サミュ"]},
     "ongredients":   {"label": "ONGREDIENTS",   "shop_slugs": ["ongredients"],     "keywords": ["ongredients", "オングレディエンツ"]},
     "beautyofjoseon":{"label": "Beauty of Joseon", "shop_slugs": ["beautyofjoseon"], "keywords": ["beauty of joseon", "ビューティーオブジョソン"]},
     "torriden":      {"label": "TORRIDEN",      "shop_slugs": ["torriden"],        "keywords": ["torriden", "トリデン"]},
     "drjart":        {"label": "Dr.Jart+",      "shop_slugs": ["drjart"],          "keywords": ["dr.jart", "ドクタージャルト"]},
-    # 미입점 PYUNKANG YUL/Round Lab/OLENS 대체 — Qoo10 JP 상위 K-뷰티 스킨
+    # Qoo10 JP 상위 K-뷰티 스킨 (iUNIK/Axis-Y는 Qoo10 미입점 확인 → 제거)
     "laneige":       {"label": "LANEIGE",       "shop_slugs": ["laneige"],         "keywords": ["laneige", "ラネージュ"]},
     "kahi":          {"label": "KAHI",          "shop_slugs": ["kahi"],            "keywords": ["kahi", "カヒ"]},
     "innisfree":     {"label": "innisfree",     "shop_slugs": ["innisfree"],       "keywords": ["innisfree", "イニスフリー"]},
-    "iunik":         {"label": "iUNIK",         "shop_slugs": ["iunik"],           "keywords": ["iunik", "アイユニーク"]},
-    "axisy":         {"label": "Axis-Y",        "shop_slugs": ["axisy"],           "keywords": ["axis-y", "axisy", "アクシスワイ"]},
-    # 일본 현지 스킨 (가격대 겹치는 매스 브랜드 위주)
+    # 일본 현지 스킨 (MINON/HABA는 Qoo10 미입점 → drugstore/Amazon 채널 / 별도 트래커)
     "hadalabo":      {"label": "Hada Labo",     "shop_slugs": ["hadalabo"],        "keywords": ["肌ラボ", "hadalabo", "hada labo"]},
     "sekkisei":      {"label": "Sekkisei",      "shop_slugs": ["kose-cosmeport"],  "keywords": ["雪肌精", "sekkisei", "セッキセイ"]},
-    "minon":         {"label": "MINON",         "shop_slugs": ["minon"],           "keywords": ["minon", "ミノン"]},
     "curel":         {"label": "Curél",         "shop_slugs": ["curel"],           "keywords": ["curel", "キュレル"]},
-    "haba":          {"label": "HABA",          "shop_slugs": ["haba"],            "keywords": ["haba", "ハーバー"]},
     "fancl":         {"label": "FANCL",         "shop_slugs": ["fancl"],           "keywords": ["fancl", "ファンケル"]},
 }
 
@@ -77,32 +73,24 @@ COMPETITORS_COLOR = {
     "age20s":       {"label": "AGE20'S",       "shop_slugs": ["age20s"],       "keywords": ["age20", "エイジ20"]},
     "3ce":          {"label": "3CE",           "shop_slugs": ["3ce"],          "keywords": ["3ce", "3CE", "スリーシーイー"]},
     "2aN":          {"label": "2aN",           "shop_slugs": ["2anjp", "2an"], "keywords": ["2an", "2aN", "ツーエーエヌ"]},
-    # OLENS 대체 — Qoo10 JP 상위 K-뷰티 색조
+    # K-뷰티 추가 색조 (ETUDE HOUSE는 'etude' 와 동일 → 별도 추가 안 함, OLENS Qoo10 미입점)
     "iope":         {"label": "IOPE",          "shop_slugs": ["iope"],         "keywords": ["iope", "アイオペ"]},
-    "etudehouse":   {"label": "ETUDE HOUSE",   "shop_slugs": ["etudehouse"],   "keywords": ["etude house", "エチュードハウス"]},
-    # 일본 현지 색조 (canmake 등) — 가격대·채널 겹치는 매스 브랜드 중심
+    # 일본 현지 색조 (INTEGRATE/OPERA Qoo10 미입점 → drugstore 채널)
     "canmake":      {"label": "canmake",       "shop_slugs": ["canmake"],      "keywords": ["canmake", "キャンメイク"]},
     "cezanne":      {"label": "CEZANNE",       "shop_slugs": ["cezanne"],      "keywords": ["cezanne", "セザンヌ"]},
     "kate":         {"label": "KATE",          "shop_slugs": ["kate-tokyo"],   "keywords": ["kate tokyo", "ケイト"]},
     "visee":        {"label": "Visée",         "shop_slugs": ["visee"],        "keywords": ["visee", "ヴィセ"]},
     "excel":        {"label": "excel",         "shop_slugs": ["excel"],        "keywords": ["excel makeup", "エクセル"]},
     "kissme":       {"label": "KissMe",        "shop_slugs": ["kissme"],       "keywords": ["kissme", "キスミー", "ヒロインメイク"]},
-    "integrate":    {"label": "INTEGRATE",     "shop_slugs": ["integrate"],    "keywords": ["integrate", "インテグレート"]},
     "cipicipi":     {"label": "CipiCipi",      "shop_slugs": ["cipicipi"],     "keywords": ["cipicipi", "シピシピ"]},
-    "opera":        {"label": "OPERA",         "shop_slugs": ["opera"],        "keywords": ["opera lip", "オペラ リップ"]},
 }
 
-# ─── ETC: 뷰티 디바이스 / 미용기기 ─────────────────────────
+# ─── ETC: 뷰티 디바이스 / 미용기기 (Qoo10 입점 확인된 것만) ──
+# 일본 디바이스(파나소닉/덴바/트라이폴라/마그니톤 등)는 Rakuten/Amazon 주력 → v2에서 별도 채널
 COMPETITORS_DEVICE = {
-    "medicube_ager":  {"label": "MEDICUBE AGE-R", "shop_slugs": ["medicube"],     "keywords": ["age-r", "ager", "エイジアール"]},
-    "ya-man":         {"label": "YA-MAN",         "shop_slugs": ["ya-man"],       "keywords": ["ya-man", "ヤーマン"]},
-    "mtg":            {"label": "MTG",            "shop_slugs": ["mtg-online"],   "keywords": ["MTG", "リファ", "ReFa"]},
-    "panasonic_beauty":{"label": "Panasonic Beauty","shop_slugs": ["panasonic-beauty"],"keywords": ["panasonic beauty", "パナソニック ビューティー"]},
-    "newaskin":       {"label": "Newa",           "shop_slugs": ["newaskin"],     "keywords": ["newa", "ニューア"]},
-    "denba":          {"label": "DENBA",          "shop_slugs": ["denba"],        "keywords": ["denba", "デンバ"]},
-    "tripollar":      {"label": "TriPollar",      "shop_slugs": ["tripollar"],    "keywords": ["tripollar", "トリポラ"]},
-    "magnitone":      {"label": "Magnitone",      "shop_slugs": ["magnitone"],    "keywords": ["magnitone"]},
-    "beautylift":     {"label": "BeautyLift",     "shop_slugs": ["beautylift"],   "keywords": ["beautylift"]},
+    "medicube_ager":  {"label": "MEDICUBE AGE-R", "shop_slugs": ["medicube"],     "keywords": ["age-r", "age r", "ager", "エイジアール", "AGE-R"]},
+    "ya-man":         {"label": "YA-MAN",         "shop_slugs": ["ya-man"],       "keywords": ["ya-man", "ヤーマン", "yaman"]},
+    "mtg":            {"label": "MTG ReFa",       "shop_slugs": ["mtg-online"],   "keywords": ["ReFa", "リファ", "MTG"]},
 }
 
 ALL_COMPETITORS = {

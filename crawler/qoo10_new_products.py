@@ -496,6 +496,17 @@ def main() -> int:
             print(f"  [{cat[:5]:<5}] {b['kr_label']:<14} ✗ MISSING (brandno={b['brandno']}, slug={b['shop_slug']})")
             continue
 
+        # 디바이스 카테고리 — MEDICUBE AGE-R 특수 처리 (medicube 일반 스킨과 분리)
+        # AGE-R/エイジアール keyword가 title에 있는 상품만 device로 인정
+        if cat == "device" and key == "medicube_ager":
+            keywords_lc = [k.lower() for k in b["keywords"]]
+            filtered = []
+            for p in products:
+                t = (p.get("title") or "").lower()
+                if any(kw in t for kw in keywords_lc):
+                    filtered.append(p)
+            products = filtered
+
         new_only = [p for p in products if p["is_new_candidate"]]
         for p in new_only:
             row = to_sheet_row(p, b["label"], b["kr_label"], cat)

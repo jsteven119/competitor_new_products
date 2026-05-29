@@ -28,7 +28,57 @@ a:hover { text-decoration: underline; }
 
 .container { max-width: 1280px; margin: 0 auto; padding: 24px; }
 
-/* ─── Summary cards ────────────────────────────────────── */
+/* ─── Dual Summary (스킨/색조 분리) ─────────────────────── */
+.dual-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+@media (max-width: 768px) { .dual-summary { grid-template-columns: 1fr; } }
+.cat-summary {
+  background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
+  padding: 16px 18px;
+}
+.cat-summary.cat-skin  { border-top: 3px solid #0ea5e9; }
+.cat-summary.cat-color { border-top: 3px solid #ec4899; }
+.cat-summary-header {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #f3f4f6;
+}
+.cat-summary-header .cat-icon { font-size: 22px; }
+.cat-summary-header .cat-title { font-size: 17px; font-weight: 700; color: #111827; }
+.cat-summary-header .cat-self { font-size: 11px; color: #9ca3af; margin-left: auto; background: #f3f4f6; padding: 2px 8px; border-radius: 999px; }
+.cat-summary-body.skeleton { height: 160px; background: linear-gradient(90deg, #f3f4f6 0%, #e5e7eb 50%, #f3f4f6 100%); border-radius: 8px; animation: shimmer 1.4s linear infinite; background-size: 200% 100%; }
+.metric-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px; margin-bottom: 12px;
+}
+.metric {
+  background: #f9fafb; border-radius: 8px; padding: 10px 12px;
+}
+.metric .m-label { font-size: 11px; color: #6b7280; margin-bottom: 2px; }
+.metric .m-value { font-size: 20px; font-weight: 700; color: #111827; font-variant-numeric: tabular-nums; }
+.metric .m-sub { font-size: 11px; color: #9ca3af; }
+.subcat-block { margin-top: 10px; }
+.subcat-title { font-size: 12px; color: #4b5563; font-weight: 600; margin-bottom: 6px; }
+.subcat-row {
+  display: grid; grid-template-columns: 1fr auto auto;
+  gap: 8px; align-items: center; padding: 5px 8px;
+  border-radius: 6px;
+}
+.subcat-row:nth-child(even) { background: #f9fafb; }
+.subcat-row .sc-name { font-size: 12.5px; color: #1f2937; }
+.subcat-row .sc-count { font-size: 11px; color: #6b7280; font-variant-numeric: tabular-nums; }
+.subcat-row .sc-price { font-size: 12.5px; color: #111827; font-weight: 700; font-variant-numeric: tabular-nums; min-width: 60px; text-align: right; }
+.cat-interp {
+  font-size: 11.5px; color: #4b5563; line-height: 1.5;
+  padding: 8px 10px; background: #fef3c7; border-radius: 6px;
+  margin-top: 10px; border-left: 3px solid #f59e0b;
+}
+.cat-interp .accent { color: #dc2626; font-weight: 700; }
+
+/* ─── Summary cards (legacy, 사용 안 함) ─────────────────── */
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

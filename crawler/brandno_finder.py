@@ -89,10 +89,8 @@ SEARCH_KW_OVERRIDE = {
     "millefee":   ["MilleFée", "millefee"],
     "2aN":        ["2aN"],
     "abib":       ["ABIB", "アビブ"],
-    "tocobo":     ["TOCOBO", "トコボ"],
-    "pyunkangyul":["PYUNKANG YUL", "ピョンガンユル"],
-    "haruharu":   ["HARUHARU", "ハルハル"],
-    "roundlab":   ["Round Lab", "ラウンドラボ"],
+    "tocobo":     ["TOCOBO", "tocobo lab", "トコボ"],
+    "haruharu":   ["HARUHARU WONDER", "黒米", "haruharu wonder"],
     "ongredients":["ONGREDIENTS"],
     "beautyofjoseon":["Beauty of Joseon", "ビューティーオブジョソン"],
     "drjart":     ["Dr.Jart+", "ドクタージャルト"],
@@ -101,7 +99,6 @@ SEARCH_KW_OVERRIDE = {
     "clio":       ["CLIO", "クリオ"],
     "lilybyred":  ["lilybyred", "リリーバイレッド"],
     "bbia":       ["BBIA", "ピア"],
-    "olens":      ["OLENS"],
     "etude":      ["ETUDE HOUSE", "エチュード"],
     "3ce":        ["3CE"],
     # 정상 shop slug 있는 브랜드도 brandno 함께 보유하면 좋음 (fallback용)
@@ -110,7 +107,7 @@ SEARCH_KW_OVERRIDE = {
     "romand":     ["rom&nd", "ロムアンド"],
     "cosrx":      ["COSRX"],
     "tirtir":     ["TIRTIR", "ティルティル"],
-    "mediheal":   ["mediheal", "メディヒール"],
+    "mediheal":   ["メディヒール", "MEDIHEAL", "メディヒールマスク", "mediheal"],
     "celimax":    ["celimax", "セリマックス"],
     "amuse":      ["AMUSE", "アミューズ"],
     "banilaco":   ["banila co", "バニラコ"],
@@ -119,36 +116,29 @@ SEARCH_KW_OVERRIDE = {
     "torriden":   ["torriden", "トリデン"],
     "kopher":     ["Kopher", "コーファー"],
     "dalba":      ["d'Alba", "ダルバ"],
-    "manyo":      ["manyo", "マニョ", "魔女工場"],
+    "manyo":      ["魔女工場", "マニョファクトリー", "manyo factory", "マニョ"],
     "biodance":   ["biodance", "バイオダンス"],
     "numbuzin":   ["numbuzin", "ナンバーズイン"],
     "dinto":      ["DINTO", "ディント"],
     "ohora":      ["ohora", "オホーラ"],
     "age20s":     ["AGE20"],
-    # 신규 K-뷰티 추가 (PYUNKANG YUL/Round Lab/OLENS 대체)
+    # 신규 K-뷰티 (Qoo10 입점 확인된 것만)
     "laneige":    ["LANEIGE", "ラネージュ"],
     "kahi":       ["KAHI", "カヒ", "KAHI multi balm"],
     "innisfree":  ["innisfree", "イニスフリー"],
-    "iunik":      ["iUNIK", "アイユニーク"],
-    "axisy":      ["Axis-Y", "axisy", "アクシスワイ"],
     "iope":       ["IOPE", "アイオペ"],
-    "etudehouse": ["ETUDE HOUSE", "エチュードハウス"],
-    # 일본 현지 — 색조
+    # 일본 현지 — 색조 (Qoo10 입점)
     "canmake":    ["キャンメイク", "canmake"],
     "cezanne":    ["セザンヌ", "CEZANNE"],
     "kate":       ["KATE TOKYO", "ケイト"],
     "visee":      ["ヴィセ", "Visee"],
     "excel":      ["エクセル", "excel makeup"],
     "kissme":     ["ヒロインメイク", "キスミー"],
-    "integrate":  ["インテグレート", "INTEGRATE"],
     "cipicipi":   ["シピシピ", "CipiCipi"],
-    "opera":      ["オペラ リップティント", "OPERA LIP"],
-    # 일본 현지 — 스킨
+    # 일본 현지 — 스킨 (Qoo10 입점)
     "hadalabo":   ["肌ラボ", "hadalabo"],
     "sekkisei":   ["雪肌精", "sekkisei"],
-    "minon":      ["ミノン", "MINON"],
     "curel":      ["キュレル", "curel"],
-    "haba":       ["ハーバー", "HABA"],
     "fancl":      ["ファンケル", "FANCL"],
 }
 
@@ -225,12 +215,27 @@ def main():
             "used_keyword": used_kw if best_brandno else None,
         }
 
+    # MERGE 모드 — 기존에 valid brandno가 있는 항목은 보존 (이번 run에서 못 찾은 경우)
     out = DATA / "_brandno_map.json"
+    existing = {}
+    if out.exists():
+        try:
+            existing = json.loads(out.read_text(encoding="utf-8")).get("results", {})
+        except Exception:
+            existing = {}
+    merged = dict(existing)
+    for k, r in results.items():
+        # 이번 run에서 brandno 발견했으면 새로 덮어쓰기
+        # 못 찾았으나 기존에 valid한 게 있으면 그대로 유지
+        if r.get("brandno"):
+            merged[k] = r
+        elif k not in merged or not merged.get(k, {}).get("brandno"):
+            merged[k] = r
     out.write_text(json.dumps({
         "last_updated": datetime.now(JST).isoformat(timespec="seconds"),
-        "results": results,
+        "results": merged,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\n[BRANDNO-FINDER] wrote {out}")
+    print(f"\n[BRANDNO-FINDER] wrote {out}  (merged: {len(merged)} entries, this run: {len(results)})")
 
     print(f"\n[BRANDNO-FINDER] summary:")
     print(f"{'brand':<18} {'brandno':<10} {'products':<10} {'valid'}")

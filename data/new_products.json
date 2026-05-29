@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T14:40:53+09:00",
+  "last_updated": "2026-05-29T15:19:52+09:00",
   "window_days": 30,
   "cutoff_date": "2026-04-29",
   "schema": {
@@ -62,7 +62,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66607"
         }
       },
@@ -99,7 +99,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66607"
         }
       },
@@ -135,7 +135,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66607"
         }
       },
@@ -171,7 +171,7 @@
             "先行販売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=58242"
         }
       },
@@ -207,7 +207,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=58242"
         }
       },
@@ -244,7 +244,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=57851"
         }
       },
@@ -254,13 +254,13 @@
         "브랜드_원문": "VT",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/174/960/8261960174.g_300-w-st_g.jpg",
-        "제품명": "【5/26以降発送】【新作】 エアクラウドサンスティック＆サンクッション",
-        "참고가": 2420,
-        "판매가": 2420,
-        "타임세일가": 1788,
+        "이미지": "https://gd.image-qoo10.jp/li/561/745/8300745561.g_300-w-st_g.jpg",
+        "제품명": "【新作/30%OFF】 エアクラウドサンスティック＆サンクッション (日焼け止め/UVケア/UVカット/トーンアップクッション)",
+        "참고가": 2750,
+        "판매가": 2750,
+        "타임세일가": 2118,
         "최종할인가": null,
-        "할인율%": 26,
+        "할인율%": 22,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -280,7 +280,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=57851"
         }
       },
@@ -317,7 +317,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=57851"
         }
       },
@@ -354,7 +354,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=57851"
         }
       },
@@ -390,7 +390,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=57851"
         }
       },
@@ -426,7 +426,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44426"
         }
       },
@@ -462,7 +462,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44426"
         }
       },
@@ -489,7 +489,7 @@
         "랭킹": 148,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
-        "리뷰_수": 748,
+        "리뷰_수": 749,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -501,7 +501,7 @@
             "月新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -537,7 +537,7 @@
             "リニュアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -573,7 +573,7 @@
             "リニュアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -611,7 +611,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -647,7 +647,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -683,7 +683,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -720,7 +720,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -757,7 +757,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=55360"
         }
       },
@@ -793,7 +793,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109238"
         }
       },
@@ -829,7 +829,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109238"
         }
       },
@@ -865,7 +865,43 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "source": "brandno=46905"
+        }
+      },
+      {
+        "카테고리": "스킨케어",
+        "브랜드": "MANYO",
+        "브랜드_원문": "MANYO",
+        "런칭일": null,
+        "구분": "신제품",
+        "이미지": "https://gd.image-qoo10.jp/li/771/767/8300767771.g_300-w-st_g.jpg",
+        "제품명": "【manyo公式】NEW ピュアソイビーンクレンジングバーム 80g 洗顔 クレンジングバーム つっぱらない 毛穴汚れ",
+        "참고가": 2500,
+        "판매가": 2500,
+        "타임세일가": 2200,
+        "최종할인가": null,
+        "할인율%": 12,
+        "소구포인트": null,
+        "출시_홋수": null,
+        "효과": null,
+        "메인_성분": null,
+        "기능": null,
+        "비고": null,
+        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1061945661",
+        "랭킹": null,
+        "랭킹_카테고리": null,
+        "리뷰_점수": 4.7,
+        "리뷰_수": 8477,
+        "주요_후기": null,
+        "프로모션": null,
+        "_meta": {
+          "goodscode": "1061945661",
+          "new_markers": [
+            "NEW"
+          ],
+          "source_section": "brand_page",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=46905"
         }
       },
@@ -901,7 +937,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=46905"
         }
       },
@@ -928,7 +964,7 @@
         "랭킹": 146,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
-        "리뷰_수": 1749,
+        "리뷰_수": 1750,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -937,7 +973,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=105367"
         }
       },
@@ -973,7 +1009,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=105367"
         }
       },
@@ -1010,7 +1046,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1047,7 +1083,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1083,7 +1119,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1120,7 +1156,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1156,7 +1192,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1192,7 +1228,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1228,7 +1264,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=120696"
         }
       },
@@ -1240,11 +1276,11 @@
         "구분": "신제품",
         "이미지": "https://gd.image-qoo10.jp/li/041/675/8276675041.g_300-w-st_g.jpg",
         "제품명": "【5/29 Qoo10先行発売】3番 キメブースター時短バブルパック 90ml",
-        "참고가": null,
-        "판매가": null,
-        "타임세일가": null,
+        "참고가": 3000,
+        "판매가": 3000,
+        "타임세일가": 2300,
         "최종할인가": null,
-        "할인율%": null,
+        "할인율%": 23,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -1265,7 +1301,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=105364"
         }
       },
@@ -1276,7 +1312,7 @@
         "런칭일": null,
         "구분": "신제품",
         "이미지": "https://gd.image-qoo10.jp/li/314/171/8300171314.g_300-w-st_g.jpg",
-        "제품명": "【メガ割限定特典付き/韓国先行発売/PHAバブルパック】3番キメブースター時短バブルパック(90mL)+マスク1枚 /ナンバーズイン/3番バブルパック/PHAバブルパック/泡パック/韓国スキンケア",
+        "제품명": "【メガ割限定特典付き/韓国先行発売 3番バブルパック】3番キメブースター時短バブルパック(90mL)+マスク1枚 /ナンバーズイン/3番バブルパック/PHAバブルパック/泡パック/韓国スキンケア",
         "참고가": 4590,
         "판매가": 4590,
         "타임세일가": 3190,
@@ -1301,7 +1337,7 @@
             "先行発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=105364"
         }
       },
@@ -1315,9 +1351,9 @@
         "제품명": "【メガ割限定】【本品おまけ】【新色発売】マスクフィットトーンアップシリーズ 30ml 50ml エッセンス クリーム ノーファンデ 化粧下地 日焼け止め ベージュ ラベンダー ミント コーラル",
         "참고가": 3520,
         "판매가": 3520,
-        "타임세일가": 2396,
+        "타임세일가": 2310,
         "최종할인가": null,
-        "할인율%": 31,
+        "할인율%": 34,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -1337,7 +1373,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1374,7 +1410,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1410,7 +1446,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1446,7 +1482,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1460,9 +1496,9 @@
         "제품명": "【NEW】グライド&ハイドブラーリングコンシーラー 2 in 1 3色",
         "참고가": 2035,
         "판매가": 2035,
-        "타임세일가": 1815,
+        "타임세일가": 1743,
         "최종할인가": null,
-        "할인율%": 10,
+        "할인율%": 14,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -1483,7 +1519,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1519,7 +1555,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1533,9 +1569,9 @@
         "제품명": "【新発売】 シルエットコントゥアスティック 3色 シェーディング ハイライター コントゥアリング 小顔 ノーズシャドウ",
         "참고가": 2000,
         "판매가": 2000,
-        "타임세일가": 1760,
+        "타임세일가": 1630,
         "최종할인가": null,
-        "할인율%": 12,
+        "할인율%": 18,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -1556,7 +1592,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1593,7 +1629,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1607,9 +1643,9 @@
         "제품명": "【新作発売】エアリーブルームメッシュブラッシュ3色 5g SPF 17 PA+ チーク",
         "참고가": 2200,
         "판매가": 2200,
-        "타임세일가": 1980,
+        "타임세일가": 1806,
         "최종할인가": null,
-        "할인율%": 10,
+        "할인율%": 17,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -1629,7 +1665,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1665,7 +1701,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101233"
         }
       },
@@ -1701,7 +1737,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=115771"
         }
       },
@@ -1738,7 +1774,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=53500"
         }
       },
@@ -1774,7 +1810,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1811,7 +1847,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1847,43 +1883,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
-          "source": "brandno=36924"
-        }
-      },
-      {
-        "카테고리": "스킨케어",
-        "브랜드": "MEDIHEAL",
-        "브랜드_원문": "MEDIHEAL",
-        "런칭일": null,
-        "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/965/980/8297980965.g_300-w-st_g.jpg",
-        "제품명": "【公式】NEW 3ミニッツマスク4点(28枚)or5点(35枚)セット/マデカッソシド/ティーツリー/レチノール/ティーツリーポア/NMF/ミルクブライトリング",
-        "참고가": 3080,
-        "판매가": 3080,
-        "타임세일가": 2616,
-        "최종할인가": null,
-        "할인율%": 15,
-        "소구포인트": null,
-        "출시_홋수": null,
-        "효과": null,
-        "메인_성분": null,
-        "기능": null,
-        "비고": null,
-        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1133018312",
-        "랭킹": null,
-        "랭킹_카테고리": null,
-        "리뷰_점수": 4.8,
-        "리뷰_수": 5314,
-        "주요_후기": null,
-        "프로모션": null,
-        "_meta": {
-          "goodscode": "1133018312",
-          "new_markers": [
-            "NEW"
-          ],
-          "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1919,7 +1919,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1955,7 +1955,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -1969,9 +1969,9 @@
         "제품명": "【公式】【NEW】マデカッソシドモイスチャーサンセラム（SPF50+ PA++++）",
         "참고가": 2750,
         "판매가": 2750,
-        "타임세일가": 2613,
+        "타임세일가": 2063,
         "최종할인가": null,
-        "할인율%": 4,
+        "할인율%": 24,
         "소구포인트": null,
         "출시_홋수": null,
         "효과": null,
@@ -1992,7 +1992,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -2029,7 +2029,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
         }
       },
@@ -2066,8 +2066,118 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36924"
+        }
+      },
+      {
+        "카테고리": "스킨케어",
+        "브랜드": "HARUHARU",
+        "브랜드_원문": "HARUHARU",
+        "런칭일": null,
+        "구분": "신제품",
+        "이미지": "https://gd.image-qoo10.jp/li/295/704/7170704295.g_300-w-st_g.jpg",
+        "제품명": "NEW【マッコリクリーム】【肌バリア機能ケア】 ブラックライス5セラミドバリアモイスチャライジングクリーム 50ml 敏感肌保湿/ハリ/インナードライ",
+        "참고가": 3100,
+        "판매가": 3100,
+        "타임세일가": 2480,
+        "최종할인가": null,
+        "할인율%": 20,
+        "소구포인트": null,
+        "출시_홋수": null,
+        "효과": null,
+        "메인_성분": null,
+        "기능": null,
+        "비고": null,
+        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1152965161",
+        "랭킹": null,
+        "랭킹_카테고리": null,
+        "리뷰_점수": 4.8,
+        "리뷰_수": 337,
+        "주요_후기": null,
+        "프로모션": null,
+        "_meta": {
+          "goodscode": "1152965161",
+          "new_markers": [
+            "NEW"
+          ],
+          "source_section": "brand_page",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "source": "brandno=102517"
+        }
+      },
+      {
+        "카테고리": "스킨케어",
+        "브랜드": "HARUHARU",
+        "브랜드_원문": "HARUHARU",
+        "런칭일": null,
+        "구분": "신제품",
+        "이미지": "https://gd.image-qoo10.jp/li/450/809/7323809450.g_300-w-st_g.jpg",
+        "제품명": "【NEW】 *肌の輝き・潤いクリーム* センテラ5％ナイアシンアミドラディアンスゲルクリーム 90ml or 40ml 敏感肌/保湿/インナードライ/ハリ/弾力 (フォトレビュー50P+サンプル付き)",
+        "참고가": 3600,
+        "판매가": 3600,
+        "타임세일가": 3000,
+        "최종할인가": null,
+        "할인율%": 16,
+        "소구포인트": null,
+        "출시_홋수": null,
+        "효과": null,
+        "메인_성분": null,
+        "기능": null,
+        "비고": null,
+        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1125195231",
+        "랭킹": null,
+        "랭킹_카테고리": null,
+        "리뷰_점수": 4.8,
+        "리뷰_수": 626,
+        "주요_후기": null,
+        "프로모션": null,
+        "_meta": {
+          "goodscode": "1125195231",
+          "new_markers": [
+            "【NEW】",
+            "NEW"
+          ],
+          "source_section": "brand_page",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "source": "brandno=102517"
+        }
+      },
+      {
+        "카테고리": "스킨케어",
+        "브랜드": "HARUHARU",
+        "브랜드_원문": "HARUHARU",
+        "런칭일": null,
+        "구분": "신제품",
+        "이미지": "https://gd.image-qoo10.jp/li/546/551/7846551546.g_300-w-st_g.jpg",
+        "제품명": "【NEW】 ローズ PDRNスージングセラム30ml 敏感肌/化粧水/美容液/保湿/ハリ/インナードライ/アゼライン酸",
+        "참고가": 3200,
+        "판매가": 3200,
+        "타임세일가": 2800,
+        "최종할인가": null,
+        "할인율%": 12,
+        "소구포인트": null,
+        "출시_홋수": null,
+        "효과": null,
+        "메인_성분": null,
+        "기능": null,
+        "비고": null,
+        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1185008649",
+        "랭킹": null,
+        "랭킹_카테고리": null,
+        "리뷰_점수": 4.7,
+        "리뷰_수": 291,
+        "주요_후기": null,
+        "프로모션": null,
+        "_meta": {
+          "goodscode": "1185008649",
+          "new_markers": [
+            "【NEW】",
+            "NEW"
+          ],
+          "source_section": "brand_page",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "source": "brandno=102517"
         }
       },
       {
@@ -2102,7 +2212,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66667"
         }
       },
@@ -2138,7 +2248,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66667"
         }
       },
@@ -2174,7 +2284,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66667"
         }
       },
@@ -2211,7 +2321,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=110434"
         }
       },
@@ -2247,7 +2357,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=22935"
         }
       },
@@ -2283,7 +2393,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2319,7 +2429,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2355,7 +2465,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2392,7 +2502,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=25658"
         }
       },
@@ -2428,7 +2538,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=20802"
         }
       },
@@ -2464,7 +2574,7 @@
             "【新商品】"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=20802"
         }
       },
@@ -2500,7 +2610,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=26516"
         }
       },
@@ -2527,7 +2637,7 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
-        "리뷰_수": 11955,
+        "리뷰_수": 11956,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2536,7 +2646,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=39572"
         }
       },
@@ -2572,7 +2682,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=39572"
         }
       },
@@ -2608,7 +2718,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=39572"
         }
       }
@@ -2647,7 +2757,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2683,7 +2793,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2719,7 +2829,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2756,7 +2866,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2792,7 +2902,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2828,7 +2938,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2864,7 +2974,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2900,7 +3010,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=109319"
         }
       },
@@ -2936,7 +3046,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65704"
         }
       },
@@ -2963,7 +3073,7 @@
         "랭킹": 15,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
-        "리뷰_수": 126180,
+        "리뷰_수": 126181,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -2974,7 +3084,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3001,7 +3111,7 @@
         "랭킹": 45,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.7,
-        "리뷰_수": 1326,
+        "리뷰_수": 1327,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3012,7 +3122,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3050,7 +3160,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3086,7 +3196,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3123,7 +3233,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3161,7 +3271,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3199,7 +3309,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3235,7 +3345,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3271,7 +3381,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63783"
         }
       },
@@ -3298,7 +3408,7 @@
         "랭킹": null,
         "랭킹_카테고리": null,
         "리뷰_점수": 4.8,
-        "리뷰_수": 5780,
+        "리뷰_수": 5781,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -3307,7 +3417,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3344,7 +3454,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3381,7 +3491,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3417,7 +3527,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3453,7 +3563,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3489,7 +3599,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=112529"
         }
       },
@@ -3526,7 +3636,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3563,7 +3673,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3599,7 +3709,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3636,7 +3746,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=101095"
         }
       },
@@ -3672,7 +3782,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3708,7 +3818,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3744,7 +3854,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3780,7 +3890,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3816,7 +3926,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3852,7 +3962,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3888,7 +3998,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3924,7 +4034,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3960,7 +4070,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -3997,7 +4107,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4033,7 +4143,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4069,7 +4179,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4105,7 +4215,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4141,7 +4251,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4177,7 +4287,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4213,7 +4323,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4249,7 +4359,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4285,7 +4395,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4321,7 +4431,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27833"
         }
       },
@@ -4357,7 +4467,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4393,7 +4503,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4429,7 +4539,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4465,7 +4575,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4502,7 +4612,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4538,7 +4648,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4574,7 +4684,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=443"
         }
       },
@@ -4584,7 +4694,7 @@
         "브랜드_원문": "AMUSE",
         "런칭일": null,
         "구분": "신규 색상",
-        "이미지": "https://gd.image-qoo10.jp/li/630/599/8262599630.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/194/725/8300725194.g_300-w-st_g.jpg",
         "제품명": "【新カラー追加】ジェルフィットティント (全15色)",
         "참고가": 2420,
         "판매가": 2420,
@@ -4610,7 +4720,7 @@
             "新カラー"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4647,7 +4757,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4683,7 +4793,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4719,7 +4829,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4756,7 +4866,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4766,7 +4876,7 @@
         "브랜드_원문": "AMUSE",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/790/609/8262609790.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/446/770/8300770446.g_300-w-st_g.jpg",
         "제품명": "【NEW】エバーラスティングアイペンシル（全6色）／アイシャドウ／涙袋ペンシル／陰影メイク／ハイライト／マルチユース／高密着／澄んだ発色／ヴィーガン／韓国コスメ",
         "참고가": 1940,
         "판매가": 1940,
@@ -4793,7 +4903,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=29171"
         }
       },
@@ -4829,7 +4939,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=100539"
         }
       },
@@ -4865,7 +4975,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=100539"
         }
       },
@@ -4901,7 +5011,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=100539"
         }
       },
@@ -4937,7 +5047,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=107378"
         }
       },
@@ -4973,7 +5083,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=33875"
         }
       },
@@ -5009,7 +5119,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=33875"
         }
       },
@@ -5046,7 +5156,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5082,7 +5192,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5118,7 +5228,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5155,7 +5265,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5191,7 +5301,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27754"
         }
       },
@@ -5228,7 +5338,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5255,7 +5365,7 @@
         "랭킹": 30,
         "랭킹_카테고리": "beauty",
         "리뷰_점수": 4.8,
-        "리뷰_수": 31299,
+        "리뷰_수": 31300,
         "주요_후기": null,
         "프로모션": null,
         "_meta": {
@@ -5264,7 +5374,7 @@
             "Qoo10先行"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5300,7 +5410,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5337,7 +5447,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5373,7 +5483,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5409,7 +5519,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5446,7 +5556,43 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
+          "source": "brandno=65191"
+        }
+      },
+      {
+        "카테고리": "색조",
+        "브랜드": "hince",
+        "브랜드_원문": "hince",
+        "런칭일": null,
+        "구분": "신제품",
+        "이미지": "https://gd.image-qoo10.jp/li/848/908/8111908848.g_300-w-st_g.jpg",
+        "제품명": "【新作発売】ハーフムーンチーク 7色 / クリームチーク / ブラーリークリームチーク / 毛穴カバー / ブラーリングチーク",
+        "참고가": 3500,
+        "판매가": 3500,
+        "타임세일가": 2650,
+        "최종할인가": null,
+        "할인율%": 24,
+        "소구포인트": null,
+        "출시_홋수": null,
+        "효과": null,
+        "메인_성분": null,
+        "기능": null,
+        "비고": null,
+        "링크": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1082930748",
+        "랭킹": null,
+        "랭킹_카테고리": null,
+        "리뷰_점수": null,
+        "리뷰_수": null,
+        "주요_후기": null,
+        "프로모션": null,
+        "_meta": {
+          "goodscode": "1082930748",
+          "new_markers": [
+            "新作"
+          ],
+          "source_section": "brand_page",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=65191"
         }
       },
@@ -5482,7 +5628,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5518,7 +5664,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5554,7 +5700,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5590,7 +5736,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5626,7 +5772,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5662,7 +5808,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5698,7 +5844,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5735,7 +5881,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63782"
         }
       },
@@ -5771,7 +5917,7 @@
             "新発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5807,7 +5953,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5843,7 +5989,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5879,7 +6025,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5915,7 +6061,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5951,7 +6097,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -5987,7 +6133,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6023,7 +6169,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6059,7 +6205,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=36185"
         }
       },
@@ -6069,7 +6215,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/092/363/8286363092.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/581/729/8300729581.g_300-w-st_g.jpg",
         "제품명": "【NEW】アイドル2in1リップティント グロス ツヤ マット 保湿 ティント リップ 2wayリップ キープ 落ちにくい リップメイク 多幸感 透明感 ピンク ベージュ",
         "참고가": 1730,
         "판매가": 1730,
@@ -6096,7 +6242,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6106,8 +6252,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/169/812/8297812169.g_300-w-st_g.jpg",
-        "제품명": "【NEW】【公式】モンチッチコラボコスメ （単品）ソフトムードシャドウパレット・うるうるフィットグロス・シェイクドロップチーク リップ チーク アイシャドウ アイシャドウパレット リキッドチーク",
+        "이미지": "https://gd.image-qoo10.jp/li/234/729/8300729234.g_300-w-st_g.jpg",
+        "제품명": "【NEW】【公式】【2個購入300円OFF】モンチッチコラボコスメ （単品）ソフトムードシャドウパレット・うるうるフィットグロス・シェイクドロップチーク リップ チーク アイシャドウ アイシャドウパレ",
         "참고가": 1950,
         "판매가": 1950,
         "타임세일가": null,
@@ -6133,7 +6279,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6143,8 +6289,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/477/641/8240641477.g_300-w-st_g.jpg",
-        "제품명": "【新作登場】絵画フレグランス 10mL オードパルファム オードパルファン 香水 レイヤード フレグランス お試し 持ち運び レディース 人気 ギフト プレゼント 洋梨 レモン ベリー カシス",
+        "이미지": "https://gd.image-qoo10.jp/li/611/729/8300729611.g_300-w-st_g.jpg",
+        "제품명": "【2個購入300円OFF】【限定タイムセール】【新作登場】絵画フレグランス 10mL オードパルファム オードパルファン 香水 レイヤード フレグランス お試し 持ち運び レディース 人気 ギフト プ",
         "참고가": 1730,
         "판매가": 1730,
         "타임세일가": null,
@@ -6169,7 +6315,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6179,8 +6325,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/434/871/8264871434.g_300-w-st_g.jpg",
-        "제품명": "【NEW/指パフ付き】【公式】モンチッチコラボセット メイクアップギフトセット (イエベセット/ブルべセット) チーク リップ グロス リキッドチーク アイシャドウ アイシャドウパレット　ベージュ",
+        "이미지": "https://gd.image-qoo10.jp/li/250/729/8300729250.g_300-w-st_g.jpg",
+        "제품명": "【NEW/指パフ付き】【公式】【2個購入300円OFF】モンチッチコラボセット メイクアップギフトセット (イエベセット/ブルべセット) チーク リップ グロス リキッドチーク アイシャドウ アイシャ",
         "참고가": 5780,
         "판매가": 5780,
         "타임세일가": null,
@@ -6205,7 +6351,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6215,8 +6361,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/761/363/8286363761.g_300-w-st_g.jpg",
-        "제품명": "【NEW】アイドルハイライターパレット ハイライト パウダーハイライト ラメ ツヤ感 ピンク ブルー ホワイト ゴールド 透明感 多幸感 チーク ハイライトパレット 4色ハイライト",
+        "이미지": "https://gd.image-qoo10.jp/li/230/729/8300729230.g_300-w-st_g.jpg",
+        "제품명": "【NEW】【ちびパフ付き】アイドルハイライターパレット ハイライト パウダーハイライト ラメ ツヤ感 ピンク ブルー ホワイト ゴールド 透明感 多幸感 チーク ハイライトパレット 4色ハイライト",
         "참고가": 2500,
         "판매가": 2500,
         "타임세일가": 2000,
@@ -6242,7 +6388,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6252,8 +6398,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/749/371/8286371749.g_300-w-st_g.jpg",
-        "제품명": "【NEW】【公式】モンチッチメイクパフ コンプリートボックス（パフケース付き） メイクパフ メイク道具 メイクツール パフ パフセット パウダーパフ キャラクターパフ モンチッチ　ベビチッチ",
+        "이미지": "https://gd.image-qoo10.jp/li/615/729/8300729615.g_300-w-st_g.jpg",
+        "제품명": "【NEW】【公式】【2個購入300円OFF】モンチッチメイクパフ コンプリートボックス（パフケース付き） メイクパフ メイク道具 メイクツール パフ パフセット パウダーパフ キャラクターパフ モンチ",
         "참고가": 3360,
         "판매가": 3360,
         "타임세일가": 3024,
@@ -6279,7 +6425,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6289,8 +6435,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/786/740/8233740786.g_300-w-st_g.jpg",
-        "제품명": "【NEW】【ちいかわ メイクパフコンプリートボックス】 メイクパフ ちいかわ ハチワレ モモンガ うさぎ くりまんじゅう ミニパフ パウダー ファンデーション 指パフ",
+        "이미지": "https://gd.image-qoo10.jp/li/584/729/8300729584.g_300-w-st_g.jpg",
+        "제품명": "【NEW】【2個購入300円OFF】【ちいかわ メイクパフコンプリートボックス】 メイクパフ ちいかわ ハチワレ モモンガ うさぎ くりまんじゅう ミニパフ パウダー ファンデーション 指パフ",
         "참고가": 4350,
         "판매가": 4350,
         "타임세일가": null,
@@ -6316,7 +6462,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6326,8 +6472,8 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/161/372/8286372161.g_300-w-st_g.jpg",
-        "제품명": "【NEW】【公式】モンチッチメイクパフ　単品 [パウダーパフ マシュマロパフ 指パフ ちびパフ] メイクパフ パフ メイクツール パウダーパフ メイクブラシ モンチッチ　ベビチッチ",
+        "이미지": "https://gd.image-qoo10.jp/li/248/729/8300729248.g_300-w-st_g.jpg",
+        "제품명": "【NEW】【公式】【2個購入300円OFF】モンチッチメイクパフ　単品 [パウダーパフ マシュマロパフ 指パフ ちびパフ] メイクパフ パフ メイクツール パウダーパフ メイクブラシ モンチッチ　ベビ",
         "참고가": 850,
         "판매가": 850,
         "타임세일가": 765,
@@ -6353,7 +6499,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6363,7 +6509,7 @@
         "브랜드_원문": "MilleFée",
         "런칭일": null,
         "구분": "신제품",
-        "이미지": "https://gd.image-qoo10.jp/li/724/657/8240657724.g_300-w-st_g.jpg",
+        "이미지": "https://gd.image-qoo10.jp/li/632/729/8300729632.g_300-w-st_g.jpg",
         "제품명": "【NEW】【ミラー/パフ付き】アイドルフィルターパウダー プレストパウダー 酸化亜鉛フリー パウダー カバー メイク崩れ防止 トーンアップ 毛穴 くすみ ベースメイク フェイスパウダー ピンク",
         "참고가": 2480,
         "판매가": 2480,
@@ -6390,7 +6536,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=118831"
         }
       },
@@ -6426,7 +6572,7 @@
             "先行発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6463,7 +6609,7 @@
             "先行発売"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6500,7 +6646,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6537,7 +6683,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6573,7 +6719,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6610,7 +6756,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6647,7 +6793,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6684,7 +6830,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6720,7 +6866,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=44460"
         }
       },
@@ -6756,7 +6902,7 @@
             "新色"
           ],
           "source_section": "top",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "shop_slug=ohora"
         }
       },
@@ -6792,7 +6938,7 @@
             "新色"
           ],
           "source_section": "top",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "shop_slug=ohora"
         }
       },
@@ -6828,7 +6974,7 @@
             "新色"
           ],
           "source_section": "top",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "shop_slug=ohora"
         }
       },
@@ -6864,7 +7010,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=40282"
         }
       },
@@ -6900,7 +7046,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -6936,7 +7082,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -6972,7 +7118,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7008,7 +7154,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7044,7 +7190,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7080,7 +7226,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7116,7 +7262,7 @@
             "新作"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7152,7 +7298,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7188,7 +7334,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7225,7 +7371,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=66574"
         }
       },
@@ -7261,7 +7407,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7297,7 +7443,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7333,7 +7479,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7369,7 +7515,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7405,7 +7551,7 @@
             "NEW"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=27448"
         }
       },
@@ -7441,7 +7587,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=49767"
         }
       },
@@ -7477,7 +7623,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63854"
         }
       },
@@ -7513,7 +7659,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63854"
         }
       },
@@ -7549,7 +7695,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=63854"
         }
       },
@@ -7585,7 +7731,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7621,7 +7767,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7657,7 +7803,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7693,7 +7839,7 @@
             "新登場"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7729,7 +7875,7 @@
             "新登場"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7765,7 +7911,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=56786"
         }
       },
@@ -7801,7 +7947,7 @@
             "新色"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=54368"
         }
       },
@@ -7837,7 +7983,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=108368"
         }
       },
@@ -7873,7 +8019,7 @@
             "リニューアル"
           ],
           "source_section": "brand_page",
-          "crawled_at": "2026-05-29T14:40:53+09:00",
+          "crawled_at": "2026-05-29T15:19:52+09:00",
           "source": "brandno=108368"
         }
       }
@@ -7882,82 +8028,26 @@
   },
   "stats": {
     "skin": {
-      "new_products": 71,
-      "brands_represented": 21
+      "new_products": 74,
+      "brands_represented": 22
     },
     "color": {
-      "new_products": 145,
+      "new_products": 146,
       "brands_represented": 26
     },
     "device": {
       "new_products": 0,
       "brands_represented": 0
     },
-    "total_new_products": 216
+    "total_new_products": 220
   },
   "missing_brands": [
-    {
-      "brand_key": "haruharu",
-      "kr_label": "HARUHARU",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "haruharu"
-    },
-    {
-      "brand_key": "iunik",
-      "kr_label": "iUNIK",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "iunik"
-    },
-    {
-      "brand_key": "axisy",
-      "kr_label": "Axis-Y",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "axisy"
-    },
-    {
-      "brand_key": "minon",
-      "kr_label": "MINON",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "minon"
-    },
-    {
-      "brand_key": "haba",
-      "kr_label": "HABA",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "haba"
-    },
     {
       "brand_key": "olens",
       "kr_label": "OLENS",
       "category": "color",
       "tried_brandno": null,
       "tried_shop_slug": "olens"
-    },
-    {
-      "brand_key": "etudehouse",
-      "kr_label": "ETUDE HOUSE",
-      "category": "color",
-      "tried_brandno": null,
-      "tried_shop_slug": "etudehouse"
-    },
-    {
-      "brand_key": "integrate",
-      "kr_label": "INTEGRATE",
-      "category": "color",
-      "tried_brandno": null,
-      "tried_shop_slug": "integrate"
-    },
-    {
-      "brand_key": "opera",
-      "kr_label": "OPERA",
-      "category": "color",
-      "tried_brandno": null,
-      "tried_shop_slug": "opera"
     },
     {
       "brand_key": "medicube_ager",
@@ -7968,117 +8058,19 @@
     },
     {
       "brand_key": "mtg",
-      "kr_label": "MTG",
+      "kr_label": "MTG ReFa",
       "category": "device",
       "tried_brandno": null,
       "tried_shop_slug": "mtg-online"
-    },
-    {
-      "brand_key": "panasonic_beauty",
-      "kr_label": "Panasonic Beauty",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "panasonic-beauty"
-    },
-    {
-      "brand_key": "newaskin",
-      "kr_label": "Newa",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "newaskin"
-    },
-    {
-      "brand_key": "denba",
-      "kr_label": "DENBA",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "denba"
-    },
-    {
-      "brand_key": "tripollar",
-      "kr_label": "TriPollar",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "tripollar"
-    },
-    {
-      "brand_key": "magnitone",
-      "kr_label": "Magnitone",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "magnitone"
-    },
-    {
-      "brand_key": "beautylift",
-      "kr_label": "BeautyLift",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "beautylift"
     }
   ],
   "suspect_slugs": [
     {
-      "brand_key": "haruharu",
-      "kr_label": "HARUHARU",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "haruharu"
-    },
-    {
-      "brand_key": "iunik",
-      "kr_label": "iUNIK",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "iunik"
-    },
-    {
-      "brand_key": "axisy",
-      "kr_label": "Axis-Y",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "axisy"
-    },
-    {
-      "brand_key": "minon",
-      "kr_label": "MINON",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "minon"
-    },
-    {
-      "brand_key": "haba",
-      "kr_label": "HABA",
-      "category": "skin",
-      "tried_brandno": null,
-      "tried_shop_slug": "haba"
-    },
-    {
       "brand_key": "olens",
       "kr_label": "OLENS",
       "category": "color",
       "tried_brandno": null,
       "tried_shop_slug": "olens"
-    },
-    {
-      "brand_key": "etudehouse",
-      "kr_label": "ETUDE HOUSE",
-      "category": "color",
-      "tried_brandno": null,
-      "tried_shop_slug": "etudehouse"
-    },
-    {
-      "brand_key": "integrate",
-      "kr_label": "INTEGRATE",
-      "category": "color",
-      "tried_brandno": null,
-      "tried_shop_slug": "integrate"
-    },
-    {
-      "brand_key": "opera",
-      "kr_label": "OPERA",
-      "category": "color",
-      "tried_brandno": null,
-      "tried_shop_slug": "opera"
     },
     {
       "brand_key": "medicube_ager",
@@ -8089,52 +8081,10 @@
     },
     {
       "brand_key": "mtg",
-      "kr_label": "MTG",
+      "kr_label": "MTG ReFa",
       "category": "device",
       "tried_brandno": null,
       "tried_shop_slug": "mtg-online"
-    },
-    {
-      "brand_key": "panasonic_beauty",
-      "kr_label": "Panasonic Beauty",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "panasonic-beauty"
-    },
-    {
-      "brand_key": "newaskin",
-      "kr_label": "Newa",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "newaskin"
-    },
-    {
-      "brand_key": "denba",
-      "kr_label": "DENBA",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "denba"
-    },
-    {
-      "brand_key": "tripollar",
-      "kr_label": "TriPollar",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "tripollar"
-    },
-    {
-      "brand_key": "magnitone",
-      "kr_label": "Magnitone",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "magnitone"
-    },
-    {
-      "brand_key": "beautylift",
-      "kr_label": "BeautyLift",
-      "category": "device",
-      "tried_brandno": null,
-      "tried_shop_slug": "beautylift"
     }
   ]
 }

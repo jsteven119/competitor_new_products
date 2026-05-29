@@ -58,7 +58,6 @@
     renderDirection();
     renderInsights();
     renderBrandSelect();
-    renderSuspectList();
     bindFilters();
     applyFilters();
   }
@@ -74,66 +73,117 @@
     $('#footer-ts').textContent = ts;
   }
 
-  // ─── Summary cards (수치 + 해석) ────────────────────────
+  // ─── 스킨/색조 분리 요약 (수치 + 세부 카테고리 평균가) ───
   function renderSummary() {
-    const stats = state.raw.stats || {};
-    const total = stats.total_new_products || 0;
-    const skin = stats.skin?.new_products || 0;
-    const color = stats.color?.new_products || 0;
-    const device = stats.device?.new_products || 0;
+    renderCategorySummary('skin');
+    renderCategorySummary('color');
+  }
 
-    // 평균 할인율 (신상품 중 할인 적용된 것)
-    const discounts = state.rows.map(r => r['할인율%']).filter(d => d != null && d > 0);
-    const avgDisc = discounts.length ? Math.round(discounts.reduce((a, b) => a + b, 0) / discounts.length) : 0;
-    const maxDisc = discounts.length ? Math.max(...discounts) : 0;
+  function renderCategorySummary(cat) {
+    const rows = state.rows.filter(r => r._cat === cat);
+    const d = state.direction?.[cat];
 
-    // 가장 활발한 브랜드 (신상품 수 Top)
+    if (rows.length === 0) {
+      $(`#summary-${cat} .cat-summary-body`).innerHTML =
+        `<p style="color:#9ca3af;font-size:12px">${cat === 'skin' ? '스킨케어' : '색조'} 신상품 없음</p>`;
+      return;
+    }
+
+    const brands = new Set(rows.map(r => r['브랜드']));
+    const prices = rows.map(r => r['판매가']).filter(p => p != null && p > 0);
+    const avgPrice = prices.length ? Math.round(prices.reduce((a,b)=>a+b,0) / prices.length) : 0;
+    const discounts = rows.map(r => r['할인율%']).filter(d => d != null && d > 0);
+    const avgDisc = discounts.length ? Math.round(discounts.reduce((a,b)=>a+b,0) / discounts.length) : 0;
+    // 최다 브랜드
     const brandCount = {};
-    state.rows.forEach(r => { brandCount[r['브랜드']] = (brandCount[r['브랜드']] || 0) + 1; });
-    const topBrand = Object.entries(brandCount).sort((a, b) => b[1] - a[1])[0];
+    rows.forEach(r => brandCount[r['브랜드']] = (brandCount[r['브랜드']] || 0) + 1);
+    const topBrand = Object.entries(brandCount).sort((a,b)=>b[1]-a[1])[0];
+    // 랭킹 진입 SKU
+    const ranked = rows.filter(r => r['랭킹'] != null).length;
 
-    // 평균 판매가
-    const prices = state.rows.map(r => r['판매가']).filter(p => p != null);
-    const avgPrice = prices.length ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : 0;
+    // 세부 카테고리 평균가 — direction에서 가져옴
+    let subcatHTML = '';
+    if (cat === 'skin' && d?.formulations) {
+      // 스킨: 제형(크림/세럼/토너 등) 별 평균가
+      const top = d.formulations.slice(0, 6);
+      subcatHTML = `
+        <div class="subcat-block">
+          <div class="subcat-title">📐 제형별 평균가 (Top ${top.length})</div>
+          ${top.map(f => `
+            <div class="subcat-row">
+              <span class="sc-name">${esc(f.name)}</span>
+              <span class="sc-count">${f.count}건</span>
+              <span class="sc-price">${f.avg_price ? fmt(f.avg_price) : '-'}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    } else if (cat === 'color' && d?.category_groups) {
+      // 색조: 대분류(립/아이/베이스/페이스) 별 평균가 + 세부 카테고리 Top 5
+      const groups = d.category_groups;
+      const top = (d.categories || []).slice(0, 5);
+      subcatHTML = `
+        <div class="subcat-block">
+          <div class="subcat-title">🎯 대분류별 평균가</div>
+          ${groups.map(g => `
+            <div class="subcat-row">
+              <span class="sc-name"><strong>${esc(g.name)}</strong></span>
+              <span class="sc-count">${g.count}건</span>
+              <span class="sc-price">${g.avg_price ? fmt(g.avg_price) : '-'}</span>
+            </div>
+          `).join('')}
+        </div>
+        <div class="subcat-block">
+          <div class="subcat-title">📐 세부 카테고리 Top ${top.length}</div>
+          ${top.map(c => `
+            <div class="subcat-row">
+              <span class="sc-name">${esc(c.name)}</span>
+              <span class="sc-count">${c.count}건</span>
+              <span class="sc-price">${c.avg_price ? fmt(c.avg_price) : '-'}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
 
-    const cards = [
-      {
-        label: '신상품 합계 (30일)',
-        value: total,
-        interp: `스킨 ${skin}건 · 색조 ${color}건 · ETC ${device}건 — ` +
-                (device === 0 ? '<span class="accent">디바이스 셀러 slug 누락으로 0건.</span> 운영팀에서 정식 slug 확보 필요'
-                              : `디바이스 ${device}건 포함`)
-      },
-      {
-        label: '최다 신상품 브랜드',
-        value: topBrand ? topBrand[0] : '-',
-        interp: topBrand
-          ? `${topBrand[1]}건 출시 — 카테고리 공세 강도 1위. <span class="accent">자사 동일 카테고리 라인 비교 검토</span>`
-          : '데이터 없음'
-      },
-      {
-        label: '평균 판매가',
-        value: fmt(avgPrice),
-        interp: prices.length
-          ? `${prices.length}개 신상품 기준. 일본 K-뷰티 진입가 ¥1,500~3,000대가 주류이므로 <span class="accent">자사 신제품 가격대 정합성 점검</span>`
-          : '-'
-      },
-      {
-        label: '평균 할인율',
-        value: avgDisc + '%',
-        interp: discounts.length
-          ? `신상품 ${discounts.length}건이 출시 동시 할인. 최대 ${maxDisc}%. <span class="accent">${avgDisc >= 30 ? '시즌 캠페인(메가와리) 임박 신호' : '평시 신상 마케팅 강도'}</span>`
-          : '할인 미적용 신상품만'
-      },
-    ];
+    // 해석 텍스트
+    let interp = '';
+    if (cat === 'skin') {
+      const topIng = d?.ingredients?.[0];
+      interp = `<strong>최다:</strong> ${esc(topBrand ? topBrand[0] : '-')} ${topBrand ? topBrand[1] : 0}건` +
+               (topIng ? ` · <strong>핫 성분:</strong> <span class="accent">${esc(topIng.name)}</span> ${topIng.count}건 (${topIng.brands_count}개 브랜드)` : '') +
+               (ranked ? ` · <strong>랭킹 진입:</strong> ${ranked}건` : '');
+    } else {
+      const topCat = d?.categories?.[0];
+      const topFam = d?.color_families?.[0];
+      interp = `<strong>최다:</strong> ${esc(topBrand ? topBrand[0] : '-')} ${topBrand ? topBrand[1] : 0}건` +
+               (topCat ? ` · <strong>핫 카테고리:</strong> <span class="accent">${esc(topCat.name)}</span> ${topCat.count}건` : '') +
+               (topFam ? ` · <strong>핫 색계열:</strong> ${esc(topFam.name)} ${topFam.count}건` : '');
+    }
 
-    $('#summary-grid').innerHTML = cards.map(c => `
-      <div class="card">
-        <div class="label">${esc(c.label)}</div>
-        <div class="value">${esc(c.value)}</div>
-        <div class="interp">${c.interp}</div>
+    $(`#summary-${cat} .cat-summary-body`).outerHTML = `
+      <div class="cat-summary-body">
+        <div class="metric-grid">
+          <div class="metric">
+            <div class="m-label">신상품</div>
+            <div class="m-value">${rows.length}</div>
+            <div class="m-sub">${brands.size}개 브랜드</div>
+          </div>
+          <div class="metric">
+            <div class="m-label">평균 판매가</div>
+            <div class="m-value">${fmt(avgPrice)}</div>
+            <div class="m-sub">${prices.length}개 기준</div>
+          </div>
+          <div class="metric">
+            <div class="m-label">평균 할인율</div>
+            <div class="m-value">${avgDisc}%</div>
+            <div class="m-sub">${discounts.length}건 할인</div>
+          </div>
+        </div>
+        ${subcatHTML}
+        <div class="cat-interp">${interp}</div>
       </div>
-    `).join('');
+    `;
   }
 
   // ─── Direction (다음 상품 방향성) ───────────────────────
@@ -336,20 +386,6 @@
       });
     }
 
-    // ⑧ 셀러 누락
-    const suspectCount = (state.raw.suspect_slugs || []).length;
-    if (suspectCount > 0) {
-      const skinSus = state.raw.suspect_slugs.filter(s => s.category === 'skin').length;
-      const colorSus = state.raw.suspect_slugs.filter(s => s.category === 'color').length;
-      const devSus = state.raw.suspect_slugs.filter(s => s.category === 'device').length;
-      insights.push({
-        level: suspectCount >= 10 ? 'high' : 'mid',
-        title: `⚠ ${suspectCount}개 셀러 slug 오류 — 핵심 경쟁사 누락 가능성`,
-        body: `Qoo10 셀러 slug 불일치로 ${suspectCount}개 브랜드 미수집 (스킨 ${skinSus} / 색조 ${colorSus} / 디바이스 ${devSus}). 페리페라·클리오·힌스·페리페라·믹순·에스트라 등 주요 브랜드 포함 가능.`,
-        action: '→ 운영팀이 Qoo10 셀러센터에서 정식 slug 확보 → crawler/_brands.py 업데이트'
-      });
-    }
-
     // 정렬: high → mid → low
     const order = { high: 0, mid: 1, low: 2 };
     insights.sort((a, b) => order[a.level] - order[b.level]);
@@ -372,14 +408,6 @@
       opt.value = b; opt.textContent = b;
       sel.appendChild(opt);
     });
-  }
-
-  // ─── Suspect slugs section ──────────────────────────────
-  function renderSuspectList() {
-    const sl = state.raw.suspect_slugs || [];
-    $('#suspect-list').innerHTML = sl.length === 0
-      ? '<li>(없음 — 모든 셀러 정상 수집)</li>'
-      : sl.map(s => `<li><strong>${esc(s.kr_label)}</strong> (현재 slug: <code>${esc(s.slug)}</code>) — ${esc(s.category)} · ${esc(s.reason)}</li>`).join('');
   }
 
   // ─── Filters ────────────────────────────────────────────
