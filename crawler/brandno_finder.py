@@ -125,6 +125,31 @@ SEARCH_KW_OVERRIDE = {
     "dinto":      ["DINTO", "ディント"],
     "ohora":      ["ohora", "オホーラ"],
     "age20s":     ["AGE20"],
+    # 신규 K-뷰티 추가 (PYUNKANG YUL/Round Lab/OLENS 대체)
+    "laneige":    ["LANEIGE", "ラネージュ"],
+    "kahi":       ["KAHI", "カヒ", "KAHI multi balm"],
+    "innisfree":  ["innisfree", "イニスフリー"],
+    "iunik":      ["iUNIK", "アイユニーク"],
+    "axisy":      ["Axis-Y", "axisy", "アクシスワイ"],
+    "iope":       ["IOPE", "アイオペ"],
+    "etudehouse": ["ETUDE HOUSE", "エチュードハウス"],
+    # 일본 현지 — 색조
+    "canmake":    ["キャンメイク", "canmake"],
+    "cezanne":    ["セザンヌ", "CEZANNE"],
+    "kate":       ["KATE TOKYO", "ケイト"],
+    "visee":      ["ヴィセ", "Visee"],
+    "excel":      ["エクセル", "excel makeup"],
+    "kissme":     ["ヒロインメイク", "キスミー"],
+    "integrate":  ["インテグレート", "INTEGRATE"],
+    "cipicipi":   ["シピシピ", "CipiCipi"],
+    "opera":      ["オペラ リップティント", "OPERA LIP"],
+    # 일본 현지 — 스킨
+    "hadalabo":   ["肌ラボ", "hadalabo"],
+    "sekkisei":   ["雪肌精", "sekkisei"],
+    "minon":      ["ミノン", "MINON"],
+    "curel":      ["キュレル", "curel"],
+    "haba":       ["ハーバー", "HABA"],
+    "fancl":      ["ファンケル", "FANCL"],
 }
 
 

@@ -75,8 +75,10 @@ IMG_RE         = re.compile(r'gd_src="(https://gd\.image-qoo10\.jp/[^"]+)"')
 TITLE_RE       = re.compile(r'class="list_v2_title[^"]*"[^>]*>\s*([^<]+)')
 BRAND_RE       = re.compile(r'class="common_ui_seller_brand[^"]*"[^>]*>\s*([^<]+)')
 SALE_PRICE_RE  = re.compile(r'class="price_final_value"[^>]*>\s*([\d,]+)')
-ORIG_PRICE_RE  = re.compile(r'class="price_origin_value[^"]*"[^>]*>\s*([\d,]+)')
-DISCOUNT_RE    = re.compile(r'class="price_final_deco"[^>]*>\s*(\d{1,2})%OFF')
+ORIG_PRICE_RE  = re.compile(r'class="price_origin(?:al)?_value[^"]*"[^>]*>\s*([\d,]+)')
+DISCOUNT_RE    = re.compile(r'class="price_(?:final_deco|discount_rate)"[^>]*>\s*(\d{1,2})%OFF')
+RATE_SCORE_RE  = re.compile(r'class="rate_score[^"]*"[^>]*>\s*([\d.]+)')
+RATE_COUNT_RE  = re.compile(r'class="rate_count[^"]*"[^>]*>\s*\(([\d,]+)\)')
 
 # 신상품 마커 — 상품명에 포함되면 candidate
 # 강한 마커 → 단독 만으로 신상품 인정
@@ -181,6 +183,8 @@ def parse_products(html: str, source_section: str) -> list[dict]:
         prc_m  = SALE_PRICE_RE.search(body)
         org_m  = ORIG_PRICE_RE.search(body)
         dsc_m  = DISCOUNT_RE.search(body)
+        rs_m   = RATE_SCORE_RE.search(body)
+        rc_m   = RATE_COUNT_RE.search(body)
 
         title = unescape(ttl_m.group(1)).strip() if ttl_m else None
         is_new, markers, classification = is_new_product(title or "")
@@ -194,6 +198,8 @@ def parse_products(html: str, source_section: str) -> list[dict]:
             "sale_price": int(prc_m.group(1).replace(",", "")) if prc_m else None,
             "list_price": int(org_m.group(1).replace(",", "")) if org_m else None,
             "discount_pct": int(dsc_m.group(1)) if dsc_m else None,
+            "review_score": float(rs_m.group(1)) if rs_m else None,
+            "review_count": int(rc_m.group(1).replace(",", "")) if rc_m else None,
             "is_new_candidate": is_new,
             "new_markers": markers,
             "classification": classification,
@@ -328,44 +334,67 @@ def load_brandno_map() -> dict:
         return {}
 
 
+_RANK_MAP_CACHE: dict | None = None
+
+
+def load_rank_map() -> dict:
+    global _RANK_MAP_CACHE
+    if _RANK_MAP_CACHE is not None:
+        return _RANK_MAP_CACHE
+    p = DATA / "_rank_map.json"
+    if not p.exists():
+        _RANK_MAP_CACHE = {}
+        return _RANK_MAP_CACHE
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        _RANK_MAP_CACHE = data.get("items", {})
+    except Exception:
+        _RANK_MAP_CACHE = {}
+    return _RANK_MAP_CACHE
+
+
 def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) -> dict:
-    """크롤 결과 → 구글 시트 "타사 신제품" 컬럼 양식으로 변환."""
+    """크롤 결과 → 구글 시트 "타사 신제품" 컬럼 양식으로 변환 + 랭킹/리뷰 결합."""
     sp = product.get("sale_price")
     lp = product.get("list_price")
-    # 참고가 / 판매가 / 타임세일가 추정
-    # - list_price 있으면 → 참고가
-    # - sale_price → 판매가 (혹은 타임세일가)
-    # - 할인율 추정
     참고가 = lp if lp else sp
     판매가 = sp
     타임세일가 = None
     if lp and sp and sp < lp:
         타임세일가 = sp
-        판매가 = lp  # 정상 판매가는 list_price
+        판매가 = lp
     할인율 = product.get("discount_pct")
+
+    # 랭킹 lookup
+    rank_map = load_rank_map()
+    gc = str(product.get("goodscode", ""))
+    rank_info = rank_map.get(gc)
 
     base = {
         "카테고리": CATEGORY_LABEL.get(category, category),
         "브랜드": kr_label or brand_label,
         "브랜드_원문": brand_label,
-        "런칭일": None,            # enrich_details.py에서 채움
+        "런칭일": None,
         "구분": product.get("classification") or "신제품",
         "이미지": product.get("image"),
         "제품명": product.get("title"),
         "참고가": 참고가,
         "판매가": 판매가,
         "타임세일가": 타임세일가,
-        "최종할인가": None,        # 쿠폰가 — enrich_details에서
+        "최종할인가": None,
         "할인율%": 할인율,
-        "소구포인트": None,        # enrich_details에서 detail 페이지 description에서
-        "출시_홋수": None,         # 색조 전용 — enrich_details에서 option 수
-        "효과": None,              # 스킨 전용 — enrich_details에서
-        "메인_성분": None,         # 스킨 전용
-        "기능": None,              # 디바이스 전용
+        "소구포인트": None,
+        "출시_홋수": None,
+        "효과": None,
+        "메인_성분": None,
+        "기능": None,
         "비고": None,
         "링크": product.get("url"),
-        "랭킹": None,
-        "주요_후기": None,         # enrich_details에서 top review
+        "랭킹": rank_info["rank"] if rank_info else None,
+        "랭킹_카테고리": rank_info["category"] if rank_info else None,
+        "리뷰_점수": product.get("review_score"),
+        "리뷰_수": product.get("review_count"),
+        "주요_후기": None,
         "프로모션": None,
         "_meta": {
             "goodscode": product.get("goodscode"),

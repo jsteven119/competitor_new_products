@@ -1,17 +1,26 @@
-// 타사 신상품 대시보드 ─ 데이터 로드 + 인사이트 자동 생성 + 필터링
+// 타사 신상품 대시보드 ─ 데이터 + 랭킹 + 방향성 분석 + 필터
 (() => {
   const DATA_URL = './data/new_products.json';
+  const DIRECTION_URL = './data/_direction.json';
   const CAT_LABEL = { skin: '스킨케어', color: '색조', device: 'ETC' };
   const KIND_CLASS = { '신제품': 'new', '신규 색상': 'newcolor', '리뉴얼': 'renewal' };
 
+  // 자사 4브랜드 — 카테고리별 매핑 (대시보드 자사 액션 카드용)
+  const SELF_BRANDS = {
+    skin:  ['BOH (바이오힐보)', '브링그린'],
+    color: ['웨이크메이크', '컬러그램'],
+  };
+
   const state = {
     raw: null,
-    rows: [],         // 모든 카테고리 통합
+    direction: null,
+    rows: [],
     filtered: [],
     catFilter: 'all',
     kindFilter: 'all',
     brandFilter: 'all',
     q: '',
+    dcat: 'skin',
   };
 
   // ─── Helpers ────────────────────────────────────────────
@@ -31,7 +40,11 @@
       $('#meta-line').textContent = `데이터 로드 실패: ${e.message}. crawler 실행 필요.`;
       throw e;
     }
-    // 카테고리별 → 통합 평탄화
+    try {
+      const dres = await fetch(DIRECTION_URL, { cache: 'no-cache' });
+      if (dres.ok) state.direction = await dres.json();
+    } catch (e) { /* direction은 있으면 좋고 없어도 됨 */ }
+
     state.rows = [];
     for (const cat of ['skin', 'color', 'device']) {
       for (const r of (state.raw.categories?.[cat] ?? [])) {
@@ -42,6 +55,7 @@
 
     renderMeta();
     renderSummary();
+    renderDirection();
     renderInsights();
     renderBrandSelect();
     renderSuspectList();
@@ -120,6 +134,110 @@
         <div class="interp">${c.interp}</div>
       </div>
     `).join('');
+  }
+
+  // ─── Direction (다음 상품 방향성) ───────────────────────
+  function renderDirection() {
+    const sec = $('#direction-section');
+    if (!state.direction) {
+      sec.style.display = 'none';
+      return;
+    }
+    $$('#direction-section .dtab').forEach(b =>
+      b.addEventListener('click', () => {
+        $$('#direction-section .dtab').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        state.dcat = b.dataset.dcat;
+        renderDirectionContent();
+      }));
+    renderDirectionContent();
+  }
+
+  function renderDirectionContent() {
+    const root = $('#direction-content');
+    const d = state.direction;
+    if (state.dcat === 'skin') {
+      const s = d.skin;
+      const selfBrand = SELF_BRANDS.skin.join(' · ');
+      root.innerHTML = `
+        ${trendCard('🧪 핫 성분', `자사(${selfBrand}) 차기 신제품 성분 1순위 후보`, s.ingredients, true)}
+        ${trendCard('💧 핫 제형', `토너 vs 세럼 vs 크림 — 어떤 제형으로 갈 것인가`, s.formulations)}
+        ${trendCard('🎯 핫 효능 카테고리', `진정/수분/미백/안티에이징 중 어디로 갈 것인가`, s.concerns)}
+      `;
+    } else if (state.dcat === 'color') {
+      const c = d.color;
+      const selfBrand = SELF_BRANDS.color.join(' · ');
+      root.innerHTML = `
+        ${trendCard('💄 핫 카테고리', `자사(${selfBrand}) 차기 메이크업 SKU — 립/아이/베이스 어디로`, c.categories, true)}
+        ${trendCard('✨ 핫 제형', `매트 vs 글로시 vs 시머 — 질감 트렌드`, c.formulations)}
+        ${trendCard('🎨 핫 색 계열', `누드·핑크·베리·코랄·브라운 중 컬렉션 메인 색 결정`, c.color_families)}
+        ${shadeReleaseCard(c.shade_releases)}
+      `;
+    } else if (state.dcat === 'actions') {
+      const acts = d.self_action || [];
+      root.innerHTML = `<div style="grid-column: 1 / -1;">${
+        acts.map(a => `
+          <div class="action-card">
+            <div class="action-brand">${esc(a.for_brand)}</div>
+            <div class="action-trend"><span class="action-cat">${esc(a.category)}</span>${esc(a.trend)}</div>
+            <div class="action-evidence">📊 ${esc(a.evidence)}</div>
+            <div class="action-do">→ ${esc(a.action)}</div>
+          </div>
+        `).join('')
+      }</div>`;
+    }
+  }
+
+  function trendCard(title, subtitle, items, showExamples) {
+    if (!items || items.length === 0) {
+      return `<div class="trend-card"><div class="trend-header"><span class="trend-title">${title}</span></div><p style="color:#9ca3af;font-size:12px">데이터 부족</p></div>`;
+    }
+    return `
+      <div class="trend-card">
+        <div class="trend-header">
+          <span class="trend-title">${title}</span>
+          <span class="trend-meta">${items.length}종</span>
+        </div>
+        <div class="trend-meta" style="margin-bottom:6px">${subtitle}</div>
+        <ul>${items.slice(0, 8).map(it => `
+          <li>
+            <span>
+              <span class="trend-name">${esc(it.name)}</span>
+              ${it.brands_count ? `<span class="trend-sub">${it.brands_count}개 브랜드</span>` : ''}
+            </span>
+            <span class="trend-count">${it.count}건</span>
+          </li>
+          ${showExamples && it.examples && it.examples.length ? `
+            <details>
+              <summary>예시 ${it.examples.length}건</summary>
+              <ul>${it.examples.slice(0, 3).map(e =>
+                `<li>${esc(e.brand)} — ${esc(e.title)}</li>`
+              ).join('')}</ul>
+            </details>
+          ` : ''}
+        `).join('')}</ul>
+      </div>
+    `;
+  }
+
+  function shadeReleaseCard(shades) {
+    if (!shades || shades.length === 0) return '';
+    const avg = Math.round(shades.reduce((a, b) => a + b.shades, 0) / shades.length);
+    return `
+      <div class="trend-card">
+        <div class="trend-header">
+          <span class="trend-title">🌈 색조 호수 출시 패턴</span>
+          <span class="trend-meta">평균 ${avg}색</span>
+        </div>
+        <div class="trend-meta" style="margin-bottom:6px">컬렉션 단위(10+색) vs 단품(1-3색) 전략 결정용</div>
+        <ul>${shades.slice(0, 6).map(s => `
+          <li>
+            <span class="trend-name">${esc(s.brand)} — ${esc(s.title.slice(0, 30))}…</span>
+            <span class="trend-count">${s.shades}색</span>
+          </li>
+        `).join('')}</ul>
+      </div>
+    `;
   }
 
   // ─── Insights (자동 생성) ───────────────────────────────
@@ -206,7 +324,19 @@
       });
     }
 
-    // ⑦ 셀러 누락
+    // ⑦ 신상 → 랭킹 진입 SKU (검증된 신상)
+    const ranked = rows.filter(r => r['랭킹'] != null).sort((a, b) => a['랭킹'] - b['랭킹']);
+    if (ranked.length >= 1) {
+      const top3 = ranked.slice(0, 3);
+      insights.push({
+        level: 'high',
+        title: `🔥 신상 ${ranked.length}건이 Qoo10 뷰티 Top 200 진입 — 시장 검증된 SKU`,
+        body: `최상위: ${top3.map(r => `#${r['랭킹']} ${esc(r['브랜드'])} ${esc((r['제품명']||'').slice(0,28))}`).join(' / ')}. 출시 직후 랭킹 진입 = 광고+자연유입 모두 우호적.`,
+        action: '→ 이 SKU들의 가격대·제형·소구 키워드 자사 차기 신제품에 벤치마크'
+      });
+    }
+
+    // ⑧ 셀러 누락
     const suspectCount = (state.raw.suspect_slugs || []).length;
     if (suspectCount > 0) {
       const skinSus = state.raw.suspect_slugs.filter(s => s.category === 'skin').length;
@@ -302,16 +432,28 @@
       const priceCell = r['타임세일가'] != null
         ? `<div class="price-orig">${fmt(r['참고가'])}</div><div>${fmt(r['타임세일가'])}</div>`
         : fmt(r['판매가']);
+      const rank = r['랭킹'];
+      let rankCell = '<span class="rank-badge unranked">Top200 외</span>';
+      if (rank != null) {
+        const cls = rank <= 10 ? 'top10' : rank <= 50 ? 'top50' : 'top200';
+        rankCell = `<span class="rank-badge ${cls}">#${rank}</span>`;
+      }
+      const rs = r['리뷰_점수']; const rc = r['리뷰_수'];
+      const reviewCell = (rs != null || rc != null)
+        ? `<span class="review-score">★${rs ?? '-'}</span> <span class="review-count">(${rc ?? 0})</span>`
+        : '-';
       return `
         <tr>
           <td><span class="cat-badge">${esc(CAT_LABEL[r._cat])}</span></td>
-          <td class="brand-cell">${esc(r['브랜드'])}<br><span class="brand-en">${esc(r['브랜드_원문'] || '')}</span></td>
+          <td class="brand-cell">${esc(r['브랜드'])}</td>
           <td>${r['이미지'] ? `<img class="thumb" src="${esc(r['이미지'])}" loading="lazy" alt="">` : '-'}</td>
           <td class="title-cell"><a href="${esc(r['링크'])}" target="_blank" rel="noopener">${esc(r['제품명'] || '-')}</a></td>
           <td><span class="kind-badge ${kindCls}">${esc(r['구분'])}</span></td>
           <td class="price-cell">${fmt(r['참고가'])}</td>
           <td class="price-cell">${priceCell}</td>
           <td class="price-cell">${r['할인율%'] != null ? `<span class="discount-pct">${r['할인율%']}%</span>` : '-'}</td>
+          <td>${rankCell}</td>
+          <td class="review-cell">${reviewCell}</td>
           <td class="markers-cell">${markers || '-'}</td>
           <td><a href="${esc(r['링크'])}" target="_blank" rel="noopener">열기 ↗</a></td>
         </tr>
@@ -324,7 +466,8 @@
     const headers = ['카테고리', '브랜드', '런칭일', '구분', '이미지', '제품명',
                      '참고가', '판매가', '타임세일가', '최종할인가', '할인율%',
                      '소구포인트', '출시_홋수', '효과', '메인_성분', '기능',
-                     '비고', '링크', '랭킹', '주요_후기', '프로모션'];
+                     '비고', '링크', '랭킹', '랭킹_카테고리', '리뷰_점수', '리뷰_수',
+                     '주요_후기', '프로모션'];
     const lines = [headers.join('\t')];
     for (const r of state.filtered) {
       lines.push(headers.map(h => {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T13:34:58+09:00",
+  "last_updated": "2026-05-29T14:34:59+09:00",
   "results": {
     "aestura": {
       "brandno": 105367,
@@ -8,7 +8,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 328507
+        "page_size": 335414
       },
       "used_keyword": "AESTURA"
     },
@@ -19,7 +19,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 329512
+        "page_size": 337849
       },
       "used_keyword": "isntree"
     },
@@ -30,7 +30,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 332326
+        "page_size": 342071
       },
       "used_keyword": "mixsoon"
     },
@@ -41,7 +41,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 342982
+        "page_size": 344881
       },
       "used_keyword": "SAMU"
     },
@@ -52,7 +52,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 321876
+        "page_size": 322660
       },
       "used_keyword": "fwee"
     },
@@ -63,7 +63,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 318669
+        "page_size": 318827
       },
       "used_keyword": "About Tone"
     },
@@ -73,8 +73,8 @@
       "verify": {
         "valid": true,
         "products": 40,
-        "keyword_hits": 1,
-        "page_size": 312337
+        "keyword_hits": 2,
+        "page_size": 316430
       },
       "used_keyword": "DASIQUE"
     },
@@ -85,7 +85,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 337125
+        "page_size": 335317
       },
       "used_keyword": "peripera"
     },
@@ -96,7 +96,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 332732
+        "page_size": 330444
       },
       "used_keyword": "hince"
     },
@@ -106,8 +106,8 @@
       "verify": {
         "valid": true,
         "products": 40,
-        "keyword_hits": 1,
-        "page_size": 322524
+        "keyword_hits": 2,
+        "page_size": 323757
       },
       "used_keyword": "MilleFée"
     },
@@ -117,7 +117,7 @@
       "verify": {
         "valid": true,
         "products": 40,
-        "keyword_hits": 1,
+        "keyword_hits": 2,
         "page_size": 322307
       },
       "used_keyword": "2aN"
@@ -129,7 +129,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 336159
+        "page_size": 330557
       },
       "used_keyword": "ABIB"
     },
@@ -140,10 +140,9 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 321867
+        "page_size": 321659
       },
-      "used_keyword": "TOCOBO",
-      "recovered_at": true
+      "used_keyword": "TOCOBO"
     },
     "pyunkangyul": {
       "brandno": null,
@@ -152,16 +151,10 @@
       "used_keyword": null
     },
     "haruharu": {
-      "brandno": 102517,
-      "discovered_brandno": 102517,
-      "verify": {
-        "valid": true,
-        "products": 40,
-        "keyword_hits": 3,
-        "page_size": 381610
-      },
-      "used_keyword": "HARUHARU WONDER",
-      "recovered_at": true
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
     },
     "roundlab": {
       "brandno": null,
@@ -187,7 +180,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 316531
+        "page_size": 317007
       },
       "used_keyword": "Beauty of Joseon"
     },
@@ -198,7 +191,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 339165
+        "page_size": 335733
       },
       "used_keyword": "Dr.Jart+"
     },
@@ -209,7 +202,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 334339
+        "page_size": 334382
       },
       "used_keyword": "LAKA"
     },
@@ -220,7 +213,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 322207
+        "page_size": 322309
       },
       "used_keyword": "23 years old"
     },
@@ -231,7 +224,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 341475
+        "page_size": 330810
       },
       "used_keyword": "CLIO"
     },
@@ -242,7 +235,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 350081
+        "page_size": 352745
       },
       "used_keyword": "lilybyred"
     },
@@ -253,7 +246,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 325353
+        "page_size": 321215
       },
       "used_keyword": "BBIA"
     },
@@ -270,7 +263,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 327785
+        "page_size": 330367
       },
       "used_keyword": "ETUDE HOUSE"
     },
@@ -281,7 +274,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 307076
+        "page_size": 309227
       },
       "used_keyword": "3CE"
     },
@@ -292,7 +285,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 359789
+        "page_size": 346593
       },
       "used_keyword": "Anua"
     },
@@ -303,7 +296,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 403411
+        "page_size": 416629
       },
       "used_keyword": "medicube"
     },
@@ -314,7 +307,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 3,
-        "page_size": 337175
+        "page_size": 332481
       },
       "used_keyword": "ロムアンド"
     },
@@ -325,7 +318,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 353824
+        "page_size": 349747
       },
       "used_keyword": "COSRX"
     },
@@ -336,7 +329,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 332745
+        "page_size": 332658
       },
       "used_keyword": "TIRTIR"
     },
@@ -347,7 +340,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 352129
+        "page_size": 357334
       },
       "used_keyword": "mediheal"
     },
@@ -358,7 +351,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 338491
+        "page_size": 342939
       },
       "used_keyword": "celimax"
     },
@@ -369,7 +362,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 332492
+        "page_size": 332223
       },
       "used_keyword": "AMUSE"
     },
@@ -380,7 +373,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 345602
+        "page_size": 340906
       },
       "used_keyword": "banila co"
     },
@@ -391,7 +384,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 373110
+        "page_size": 375142
       },
       "used_keyword": "skin1004"
     },
@@ -401,8 +394,8 @@
       "verify": {
         "valid": true,
         "products": 40,
-        "keyword_hits": 1,
-        "page_size": 322520
+        "keyword_hits": 2,
+        "page_size": 320943
       },
       "used_keyword": "VT cosmetics"
     },
@@ -413,7 +406,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 351452
+        "page_size": 358244
       },
       "used_keyword": "torriden"
     },
@@ -424,7 +417,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 340638
+        "page_size": 340567
       },
       "used_keyword": "Kopher"
     },
@@ -435,7 +428,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 394041
+        "page_size": 395038
       },
       "used_keyword": "d'Alba"
     },
@@ -446,7 +439,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 3,
-        "page_size": 344666
+        "page_size": 336318
       },
       "used_keyword": "manyo"
     },
@@ -457,7 +450,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 328320
+        "page_size": 328270
       },
       "used_keyword": "biodance"
     },
@@ -468,7 +461,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 317889
+        "page_size": 318119
       },
       "used_keyword": "numbuzin"
     },
@@ -479,7 +472,7 @@
         "valid": true,
         "products": 40,
         "keyword_hits": 1,
-        "page_size": 324208
+        "page_size": 328303
       },
       "used_keyword": "DINTO"
     },
@@ -495,29 +488,217 @@
       "verify": null,
       "used_keyword": null
     },
-    "medicube_ager": {
-      "brandno": 57780,
-      "discovered_brandno": 57780,
-      "verify": {
-        "valid": true,
-        "products": 40,
-        "keyword_hits": 1,
-        "page_size": 410628
-      },
-      "used_keyword": "MEDICUBE AGE-R",
-      "recovered_at": true
-    },
-    "mtg": {
-      "brandno": 42282,
-      "discovered_brandno": 42282,
+    "laneige": {
+      "brandno": 25658,
+      "discovered_brandno": 25658,
       "verify": {
         "valid": true,
         "products": 40,
         "keyword_hits": 2,
-        "page_size": 301877
+        "page_size": 333210
       },
-      "used_keyword": "ReFa",
-      "recovered_at": true
+      "used_keyword": "LANEIGE"
+    },
+    "kahi": {
+      "brandno": 103034,
+      "discovered_brandno": 103034,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 326569
+      },
+      "used_keyword": "KAHI"
+    },
+    "innisfree": {
+      "brandno": 20802,
+      "discovered_brandno": 20802,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 331917
+      },
+      "used_keyword": "innisfree"
+    },
+    "iunik": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "axisy": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "iope": {
+      "brandno": 27448,
+      "discovered_brandno": 27448,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 339256
+      },
+      "used_keyword": "IOPE"
+    },
+    "etudehouse": {
+      "brandno": null,
+      "discovered_brandno": 44460,
+      "verify": {
+        "valid": false,
+        "products": 40,
+        "keyword_hits": 0,
+        "page_size": 327951
+      },
+      "used_keyword": "ETUDE HOUSE"
+    },
+    "canmake": {
+      "brandno": 33299,
+      "discovered_brandno": 33299,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 299099
+      },
+      "used_keyword": "キャンメイク"
+    },
+    "cezanne": {
+      "brandno": 64097,
+      "discovered_brandno": 64097,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 293026
+      },
+      "used_keyword": "セザンヌ"
+    },
+    "kate": {
+      "brandno": 49767,
+      "discovered_brandno": 49767,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 298081
+      },
+      "used_keyword": "KATE TOKYO"
+    },
+    "visee": {
+      "brandno": 63854,
+      "discovered_brandno": 63854,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 305724
+      },
+      "used_keyword": "ヴィセ"
+    },
+    "excel": {
+      "brandno": 56786,
+      "discovered_brandno": 56786,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 305668
+      },
+      "used_keyword": "エクセル"
+    },
+    "kissme": {
+      "brandno": 54368,
+      "discovered_brandno": 54368,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 3,
+        "page_size": 302944
+      },
+      "used_keyword": "ヒロインメイク"
+    },
+    "integrate": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "cipicipi": {
+      "brandno": 108368,
+      "discovered_brandno": 108368,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 290893
+      },
+      "used_keyword": "シピシピ"
+    },
+    "opera": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "hadalabo": {
+      "brandno": 70561,
+      "discovered_brandno": 70561,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 299403
+      },
+      "used_keyword": "肌ラボ"
+    },
+    "sekkisei": {
+      "brandno": 26516,
+      "discovered_brandno": 26516,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 271191
+      },
+      "used_keyword": "雪肌精"
+    },
+    "minon": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "curel": {
+      "brandno": 51244,
+      "discovered_brandno": 51244,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 1,
+        "page_size": 307000
+      },
+      "used_keyword": "キュレル"
+    },
+    "haba": {
+      "brandno": null,
+      "discovered_brandno": null,
+      "verify": null,
+      "used_keyword": null
+    },
+    "fancl": {
+      "brandno": 39572,
+      "discovered_brandno": 39572,
+      "verify": {
+        "valid": true,
+        "products": 40,
+        "keyword_hits": 2,
+        "page_size": 306522
+      },
+      "used_keyword": "ファンケル"
     }
   }
 }

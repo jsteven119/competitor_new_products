@@ -29,17 +29,28 @@ COMPETITORS_SKIN = {
     "tirtir":        {"label": "TIRTIR",        "shop_slugs": ["tirtir"],          "keywords": ["tirtir", "ティルティル"]},
     "abib":          {"label": "ABIB",          "shop_slugs": ["abib"],            "keywords": ["abib", "アビブ"]},
     "tocobo":        {"label": "TOCOBO",        "shop_slugs": ["tocobo"],          "keywords": ["tocobo"]},
-    "pyunkangyul":   {"label": "PYUNKANG YUL",  "shop_slugs": ["pyunkangyul"],     "keywords": ["pyunkang yul", "ピョンガンユル"]},
     "isntree":       {"label": "isntree",       "shop_slugs": ["isntree"],         "keywords": ["isntree", "イズントゥリー"]},
     "mixsoon":       {"label": "mixsoon",       "shop_slugs": ["mixsoon"],         "keywords": ["mixsoon", "ミクスーン"]},
     "mediheal":      {"label": "MEDIHEAL",      "shop_slugs": ["medihealofficial"],"keywords": ["mediheal", "メディヒール"]},
-    "haruharu":      {"label": "HARUHARU",      "shop_slugs": ["haruharu"],        "keywords": ["haruharu", "ハルハル"]},
-    "roundlab":      {"label": "Round Lab",     "shop_slugs": ["roundlab"],        "keywords": ["round lab", "ラウンドラボ"]},
+    "haruharu":      {"label": "HARUHARU",      "shop_slugs": ["haruharu"],        "keywords": ["haruharu wonder", "haruharu", "ハルハル"]},
     "samu":          {"label": "SAMU",          "shop_slugs": ["samu"],            "keywords": ["samu", "サミュ"]},
     "ongredients":   {"label": "ONGREDIENTS",   "shop_slugs": ["ongredients"],     "keywords": ["ongredients", "オングレディエンツ"]},
     "beautyofjoseon":{"label": "Beauty of Joseon", "shop_slugs": ["beautyofjoseon"], "keywords": ["beauty of joseon", "ビューティーオブジョソン"]},
     "torriden":      {"label": "TORRIDEN",      "shop_slugs": ["torriden"],        "keywords": ["torriden", "トリデン"]},
     "drjart":        {"label": "Dr.Jart+",      "shop_slugs": ["drjart"],          "keywords": ["dr.jart", "ドクタージャルト"]},
+    # 미입점 PYUNKANG YUL/Round Lab/OLENS 대체 — Qoo10 JP 상위 K-뷰티 스킨
+    "laneige":       {"label": "LANEIGE",       "shop_slugs": ["laneige"],         "keywords": ["laneige", "ラネージュ"]},
+    "kahi":          {"label": "KAHI",          "shop_slugs": ["kahi"],            "keywords": ["kahi", "カヒ"]},
+    "innisfree":     {"label": "innisfree",     "shop_slugs": ["innisfree"],       "keywords": ["innisfree", "イニスフリー"]},
+    "iunik":         {"label": "iUNIK",         "shop_slugs": ["iunik"],           "keywords": ["iunik", "アイユニーク"]},
+    "axisy":         {"label": "Axis-Y",        "shop_slugs": ["axisy"],           "keywords": ["axis-y", "axisy", "アクシスワイ"]},
+    # 일본 현지 스킨 (가격대 겹치는 매스 브랜드 위주)
+    "hadalabo":      {"label": "Hada Labo",     "shop_slugs": ["hadalabo"],        "keywords": ["肌ラボ", "hadalabo", "hada labo"]},
+    "sekkisei":      {"label": "Sekkisei",      "shop_slugs": ["kose-cosmeport"],  "keywords": ["雪肌精", "sekkisei", "セッキセイ"]},
+    "minon":         {"label": "MINON",         "shop_slugs": ["minon"],           "keywords": ["minon", "ミノン"]},
+    "curel":         {"label": "Curél",         "shop_slugs": ["curel"],           "keywords": ["curel", "キュレル"]},
+    "haba":          {"label": "HABA",          "shop_slugs": ["haba"],            "keywords": ["haba", "ハーバー"]},
+    "fancl":         {"label": "FANCL",         "shop_slugs": ["fancl"],           "keywords": ["fancl", "ファンケル"]},
 }
 
 # ─── 색조 (color) ────────────────────────────────────────
@@ -66,6 +77,19 @@ COMPETITORS_COLOR = {
     "age20s":       {"label": "AGE20'S",       "shop_slugs": ["age20s"],       "keywords": ["age20", "エイジ20"]},
     "3ce":          {"label": "3CE",           "shop_slugs": ["3ce"],          "keywords": ["3ce", "3CE", "スリーシーイー"]},
     "2aN":          {"label": "2aN",           "shop_slugs": ["2anjp", "2an"], "keywords": ["2an", "2aN", "ツーエーエヌ"]},
+    # OLENS 대체 — Qoo10 JP 상위 K-뷰티 색조
+    "iope":         {"label": "IOPE",          "shop_slugs": ["iope"],         "keywords": ["iope", "アイオペ"]},
+    "etudehouse":   {"label": "ETUDE HOUSE",   "shop_slugs": ["etudehouse"],   "keywords": ["etude house", "エチュードハウス"]},
+    # 일본 현지 색조 (canmake 등) — 가격대·채널 겹치는 매스 브랜드 중심
+    "canmake":      {"label": "canmake",       "shop_slugs": ["canmake"],      "keywords": ["canmake", "キャンメイク"]},
+    "cezanne":      {"label": "CEZANNE",       "shop_slugs": ["cezanne"],      "keywords": ["cezanne", "セザンヌ"]},
+    "kate":         {"label": "KATE",          "shop_slugs": ["kate-tokyo"],   "keywords": ["kate tokyo", "ケイト"]},
+    "visee":        {"label": "Visée",         "shop_slugs": ["visee"],        "keywords": ["visee", "ヴィセ"]},
+    "excel":        {"label": "excel",         "shop_slugs": ["excel"],        "keywords": ["excel makeup", "エクセル"]},
+    "kissme":       {"label": "KissMe",        "shop_slugs": ["kissme"],       "keywords": ["kissme", "キスミー", "ヒロインメイク"]},
+    "integrate":    {"label": "INTEGRATE",     "shop_slugs": ["integrate"],    "keywords": ["integrate", "インテグレート"]},
+    "cipicipi":     {"label": "CipiCipi",      "shop_slugs": ["cipicipi"],     "keywords": ["cipicipi", "シピシピ"]},
+    "opera":        {"label": "OPERA",         "shop_slugs": ["opera"],        "keywords": ["opera lip", "オペラ リップ"]},
 }
 
 # ─── ETC: 뷰티 디바이스 / 미용기기 ─────────────────────────

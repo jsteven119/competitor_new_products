@@ -21,14 +21,24 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run crawler
+      - name: Run rank crawler (Qoo10 뷰티 Best 200)
+        run: |
+          python crawler/qoo10_rank.py || echo "rank crawl failed — proceed without"
+
+      - name: Run main crawler (new products + 랭킹/리뷰 결합)
         run: |
           python crawler/qoo10_new_products.py
 
-      - name: Copy data into dashboard/ (Cloudflare Pages reads from here)
+      - name: Run direction analyzer (성분/제형/카테고리/색조 트렌드)
+        run: |
+          python crawler/product_direction.py
+
+      - name: Copy data into dashboard/ (Cloudflare reads from here)
         run: |
           mkdir -p dashboard/data
           cp data/new_products.json dashboard/data/new_products.json
+          cp data/_direction.json dashboard/data/_direction.json
+          [ -f data/rank_beauty.json ] && cp data/rank_beauty.json dashboard/data/rank_beauty.json || true
 
       - name: Commit + push
         run: |
