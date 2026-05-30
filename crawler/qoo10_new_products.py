@@ -59,6 +59,9 @@ NOW_JST = datetime.now(JST)
 TODAY = NOW_JST.date().isoformat()
 CUTOFF_DATE = (NOW_JST.date() - timedelta(days=30)).isoformat()
 
+# 졸업 cutoff — 첫 관측일로부터 N일 지나면 신상품 풀에서 빠지고 졸업풀로 이동
+GRADUATE_DAYS = 21
+
 UA_MOBILE = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
              "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
 HEADERS = {
@@ -337,6 +340,74 @@ def load_brandno_map() -> dict:
 _RANK_MAP_CACHE: dict | None = None
 _LIPS_MAP_CACHE: dict | None = None
 _COSME_MAP_CACHE: dict | None = None
+_HISTORY_CACHE: dict | None = None
+
+
+def load_history() -> dict:
+    """data/_product_history.json 로드. { goodscode: {first_seen, last_seen, brand?} }"""
+    global _HISTORY_CACHE
+    if _HISTORY_CACHE is not None:
+        return _HISTORY_CACHE
+    p = DATA / "_product_history.json"
+    if not p.exists():
+        _HISTORY_CACHE = {}
+        return _HISTORY_CACHE
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        _HISTORY_CACHE = data.get("products", {})
+    except Exception:
+        _HISTORY_CACHE = {}
+    return _HISTORY_CACHE
+
+
+def save_history(history: dict) -> None:
+    p = DATA / "_product_history.json"
+    p.write_text(json.dumps({
+        "schema_version": 1,
+        "purpose": "각 상품(goodscode)의 첫 관측일/최종 관측일 — 신상품 졸업 판정용",
+        "graduate_days": GRADUATE_DAYS,
+        "last_updated": NOW_JST.isoformat(timespec="seconds"),
+        "products": history,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def update_history(observed: list[dict]) -> dict:
+    """오늘 관측된 모든 상품을 history에 반영. 신규는 first_seen=오늘, 기존은 last_seen 갱신."""
+    h = load_history()
+    for p in observed:
+        gc = str(p.get("goodscode") or "")
+        if not gc:
+            continue
+        if gc not in h:
+            h[gc] = {
+                "first_seen": TODAY,
+                "last_seen": TODAY,
+                "brand": p.get("brand_label_raw") or p.get("brand_label"),
+                "title": (p.get("title") or "")[:80],
+            }
+        else:
+            h[gc]["last_seen"] = TODAY
+    return h
+
+
+def freshness_for(goodscode: str) -> dict:
+    """{first_seen, days_since, is_graduated}"""
+    h = load_history()
+    gc = str(goodscode or "")
+    rec = h.get(gc)
+    if not rec:
+        return {"first_seen": TODAY, "days_since": 0, "is_graduated": False}
+    fs = rec["first_seen"]
+    try:
+        d = datetime.strptime(fs, "%Y-%m-%d").date()
+        days = (NOW_JST.date() - d).days
+    except Exception:
+        days = 0
+    return {
+        "first_seen": fs,
+        "days_since": days,
+        "is_graduated": days >= GRADUATE_DAYS,
+    }
 
 
 def load_rank_map() -> dict:
@@ -455,6 +526,9 @@ def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) 
     lips_hit = _lookup_external(kr_label or brand_label, title, load_lips_map())
     cosme_hit = _lookup_external(kr_label or brand_label, title, load_cosme_map())
 
+    # 신선도 (first_seen 기반, 21일 cutoff)
+    fresh = freshness_for(product.get("goodscode"))
+
     base = {
         "카테고리": CATEGORY_LABEL.get(category, category),
         "브랜드": kr_label or brand_label,
@@ -489,6 +563,10 @@ def to_sheet_row(product: dict, brand_label: str, kr_label: str, category: str) 
         "cosme_rank": cosme_hit["rank"] if cosme_hit else None,
         "cosme_date": cosme_hit.get("date") if cosme_hit else None,
         "cosme_brand_only": cosme_hit.get("_brand_only") if cosme_hit else None,
+        # 신선도 — 첫 관측 후 경과일 (21일 ↑면 graduated)
+        "first_seen": fresh["first_seen"],
+        "days_since_first_seen": fresh["days_since"],
+        "is_graduated": fresh["is_graduated"],
         "주요_후기": None,
         "프로모션": None,
         "_meta": {
@@ -603,28 +681,39 @@ def main() -> int:
             products = filtered
 
         new_only = [p for p in products if p["is_new_candidate"]]
+        # history update — 신상품 후보 전부 첫 관측 등록
+        update_history(new_only)
         for p in new_only:
             row = to_sheet_row(p, b["label"], b["kr_label"], cat)
             row["_meta"]["source"] = source
             output["categories"][cat].append(row)
         print(f"  [{cat[:5]:<5}] {b['kr_label']:<14} {source:<22} total={len(products):>3}  new={len(new_only):>2}")
 
+    # history 저장
+    save_history(load_history())
+
     output["missing_brands"] = missing_brands
     output["suspect_slugs"] = missing_brands  # dashboard backward compat
+    output["graduate_days"] = GRADUATE_DAYS
     print(f"\n[NEW-PRODUCTS] missing brands (수집 실패): {len(missing_brands)}")
     for m in missing_brands:
         print(f"  ✗ {m['kr_label']:<14} [{m['category']}]  brandno={m['tried_brandno']}  slug={m['tried_shop_slug']}")
 
-    # 통계
+    # 통계 — 현역(active) vs 졸업(graduated) 분리
     for cat in ("skin", "color", "device"):
         rows = output["categories"][cat]
+        active = [r for r in rows if not r.get("is_graduated")]
+        graduated = [r for r in rows if r.get("is_graduated")]
         output["stats"][cat] = {
             "new_products": len(rows),
+            "active": len(active),
+            "graduated": len(graduated),
             "brands_represented": len({r["브랜드"] for r in rows}),
         }
-    output["stats"]["total_new_products"] = sum(
-        v["new_products"] for v in output["stats"].values()
-    )
+    cat_stats = [v for k, v in output["stats"].items() if k in ("skin", "color", "device")]
+    output["stats"]["total_new_products"] = sum(v["new_products"] for v in cat_stats)
+    output["stats"]["total_active"] = sum(v["active"] for v in cat_stats)
+    output["stats"]["total_graduated"] = sum(v["graduated"] for v in cat_stats)
 
     # 출력 저장
     out_path = DATA / "new_products.json"

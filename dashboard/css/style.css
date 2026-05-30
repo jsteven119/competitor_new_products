@@ -259,6 +259,20 @@ tbody tr:hover { background: #f9fafb; }
 .cosme-badge.top3 { background: #ea580c; color: #fff; border-color: #ea580c; }
 .cosme-badge.brand-only { background: #f9fafb; color: #6b7280; border-color: #e5e7eb; font-weight: 500; }
 .badge-none { color: #d1d5db; font-size: 11px; }
+
+/* ─── Freshness (신선도) ──────────────────────────────── */
+.freshness-tag {
+  display: inline-block; padding: 1px 6px; border-radius: 3px;
+  font-size: 10px; font-weight: 600; line-height: 1.4;
+  white-space: nowrap; vertical-align: middle;
+}
+.freshness-tag.fresh-new   { background: #d1fae5; color: #065f46; }
+.freshness-tag.fresh-mid   { background: #fef3c7; color: #92400e; }
+.freshness-tag.fresh-old   { background: #fecaca; color: #991b1b; }
+.freshness-tag.fresh-grad  { background: #e5e7eb; color: #4b5563; }
+
+tr.is-graduated { opacity: 0.55; background: #fafafa; }
+tr.is-graduated td.brand-cell { color: #6b7280; }
 .cat-badge {
   display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 11px;
   background: #f3f4f6; color: #6b7280;

@@ -19,6 +19,7 @@
     catFilter: 'all',
     kindFilter: 'all',
     brandFilter: 'all',
+    freshFilter: 'active',  // 기본은 신상 (≤3주)만, 졸업은 숨김
     q: '',
     sort: 'default',
     dcat: 'skin',
@@ -67,10 +68,14 @@
   function renderMeta() {
     const ts = state.raw.last_updated || '-';
     const stats = state.raw.stats || {};
+    const gradDays = state.raw.graduate_days || 21;
+    const active = stats.total_active ?? stats.total_new_products ?? 0;
+    const grad = stats.total_graduated ?? 0;
     $('#meta-line').textContent =
       `${ts.slice(0, 10)} ${ts.slice(11, 19)} JST · ` +
-      `총 ${stats.total_new_products || 0}건 ` +
-      `(스킨 ${stats.skin?.new_products || 0} / 색조 ${stats.color?.new_products || 0} / ETC ${stats.device?.new_products || 0})`;
+      `현역 ${active}건 (스킨 ${stats.skin?.active ?? stats.skin?.new_products ?? 0} / 색조 ${stats.color?.active ?? stats.color?.new_products ?? 0})` +
+      (grad > 0 ? ` · 졸업 ${grad}건` : '') +
+      ` · ${gradDays}일 cutoff`;
     $('#footer-ts').textContent = ts;
   }
 
@@ -81,7 +86,10 @@
   }
 
   function renderCategorySummary(cat) {
-    const rows = state.rows.filter(r => r._cat === cat);
+    // active(현역)만 카운트 — 졸업은 summary에서 제외
+    const allRows = state.rows.filter(r => r._cat === cat);
+    const rows = allRows.filter(r => !r.is_graduated);
+    const graduated = allRows.length - rows.length;
     const d = state.direction?.[cat];
 
     if (rows.length === 0) {
@@ -166,9 +174,9 @@
       <div class="cat-summary-body">
         <div class="metric-grid">
           <div class="metric">
-            <div class="m-label">신상품</div>
+            <div class="m-label">신상품 (현역)</div>
             <div class="m-value">${rows.length}</div>
-            <div class="m-sub">${brands.size}개 브랜드</div>
+            <div class="m-sub">${brands.size}개 브랜드${graduated ? ` · 졸업 ${graduated}` : ''}</div>
           </div>
           <div class="metric">
             <div class="m-label">평균 판매가</div>
@@ -440,6 +448,13 @@
         state.kindFilter = b.dataset.kind;
         applyFilters();
       }));
+    $$('#freshness-chips .chip').forEach(b =>
+      b.addEventListener('click', () => {
+        $$('#freshness-chips .chip').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        state.freshFilter = b.dataset.fresh;
+        applyFilters();
+      }));
     $('#brand-select').addEventListener('change', e => { state.brandFilter = e.target.value; applyFilters(); });
     $('#q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); applyFilters(); });
     $('#sort-select').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
@@ -451,6 +466,9 @@
       if (state.catFilter !== 'all' && r._cat !== state.catFilter) return false;
       if (state.kindFilter !== 'all' && r['구분'] !== state.kindFilter) return false;
       if (state.brandFilter !== 'all' && r['브랜드'] !== state.brandFilter) return false;
+      // 신선도 필터 — active 기본, 졸업 숨김
+      if (state.freshFilter === 'active' && r.is_graduated) return false;
+      if (state.freshFilter === 'graduated' && !r.is_graduated) return false;
       if (state.q) {
         const hay = (r['제품명'] + ' ' + (r['_meta']?.new_markers || []).join(' ')).toLowerCase();
         if (!hay.includes(state.q)) return false;
@@ -525,10 +543,24 @@
           : `<span class="cosme-badge ${cosmeClass}" title="@cosme 주간 #${r.cosme_rank} (${r.cosme_date||''})">#${r.cosme_rank}</span>`;
       }
 
+      // 신선도 라벨
+      const days = r.days_since_first_seen ?? 0;
+      let freshTag = '';
+      if (r.is_graduated) {
+        freshTag = `<span class="freshness-tag fresh-grad" title="첫 관측: ${r.first_seen||''}">졸업 ${days}d</span>`;
+      } else if (days >= 14) {
+        freshTag = `<span class="freshness-tag fresh-old" title="첫 관측: ${r.first_seen||''} (3주 임박)">${days}d째</span>`;
+      } else if (days >= 7) {
+        freshTag = `<span class="freshness-tag fresh-mid" title="첫 관측: ${r.first_seen||''}">${days}d째</span>`;
+      } else {
+        freshTag = `<span class="freshness-tag fresh-new" title="첫 관측: ${r.first_seen||''}">${days === 0 ? '오늘' : days + 'd째'}</span>`;
+      }
+      const trClass = r.is_graduated ? 'is-graduated' : '';
+
       return `
-        <tr>
+        <tr class="${trClass}">
           <td><span class="cat-badge">${esc(CAT_LABEL[r._cat])}</span></td>
-          <td class="brand-cell">${esc(r['브랜드'])}</td>
+          <td class="brand-cell">${esc(r['브랜드'])}<br>${freshTag}</td>
           <td>${r['이미지'] ? `<img class="thumb" src="${esc(r['이미지'])}" loading="lazy" alt="">` : '-'}</td>
           <td class="title-cell"><a href="${esc(r['링크'])}" target="_blank" rel="noopener">${esc(r['제품명'] || '-')}</a></td>
           <td><span class="kind-badge ${kindCls}">${esc(r['구분'])}</span></td>
