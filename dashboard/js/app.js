@@ -61,7 +61,24 @@
     renderInsights();
     renderBrandSelect();
     bindFilters();
+    bindGuidePanel();
     applyFilters();
+  }
+
+  // ─── Guide Panel — localStorage 로 접힌 상태 기억 ────
+  function bindGuidePanel() {
+    const panel = $('#guide-panel');
+    if (!panel) return;
+    const STORAGE_KEY = 'cnp_guide_collapsed';
+    // 한 번 접은 적 있으면 다음부터 접힌 상태로 시작
+    if (localStorage.getItem(STORAGE_KEY) === '1') {
+      panel.removeAttribute('open');
+    } else {
+      panel.setAttribute('open', '');
+    }
+    panel.addEventListener('toggle', () => {
+      localStorage.setItem(STORAGE_KEY, panel.open ? '0' : '1');
+    });
   }
 
   // ─── Meta line ──────────────────────────────────────────

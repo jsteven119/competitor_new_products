@@ -28,6 +28,68 @@ a:hover { text-decoration: underline; }
 
 .container { max-width: 1280px; margin: 0 auto; padding: 24px; }
 
+/* ─── Guide Panel (사용 설명서) ──────────────────────── */
+.guide-panel {
+  background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
+  margin-bottom: 24px; overflow: hidden;
+  transition: all 0.2s;
+}
+.guide-panel[open] { border-color: #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.guide-summary {
+  list-style: none; cursor: pointer; user-select: none;
+  padding: 14px 20px; display: flex; align-items: center; gap: 10px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+  border-bottom: 1px solid transparent;
+  font-size: 14px; font-weight: 600; color: #1e3a8a;
+}
+.guide-summary::-webkit-details-marker { display: none; }
+.guide-summary::marker { display: none; }
+.guide-panel[open] .guide-summary { border-bottom-color: #e5e7eb; }
+.guide-icon { font-size: 18px; }
+.guide-title { flex: 1; }
+.guide-toggle {
+  font-size: 11px; color: #6b7280; font-weight: 500;
+  background: #fff; padding: 3px 10px; border-radius: 999px; border: 1px solid #e5e7eb;
+}
+.guide-summary:hover .guide-toggle { background: #2563eb; color: #fff; border-color: #2563eb; }
+.guide-body { padding: 18px 20px; }
+.guide-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+.guide-card {
+  background: #fafafa; border: 1px solid #f3f4f6; border-radius: 8px;
+  padding: 14px 16px;
+}
+.guide-card.highlight {
+  background: linear-gradient(135deg, #ecfdf5 0%, #f0fdfa 100%);
+  border-color: #86efac;
+}
+.guide-card h4 {
+  font-size: 13.5px; font-weight: 700; color: #111827; margin: 0 0 6px;
+}
+.guide-card.highlight h4 { color: #065f46; }
+.guide-card p { font-size: 12.5px; color: #374151; margin: 4px 0; line-height: 1.55; }
+.guide-card ul, .guide-card ol { margin: 6px 0; padding-left: 18px; font-size: 12px; color: #374151; }
+.guide-card ul ul { margin-top: 2px; }
+.guide-card li { padding: 2px 0; line-height: 1.5; }
+.guide-card code {
+  background: #f3f4f6; padding: 1px 5px; border-radius: 3px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px;
+  color: #be185d;
+}
+.guide-card strong { color: #111827; font-weight: 700; }
+.guide-card em { font-style: normal; color: #6b7280; font-size: 11.5px; }
+.guide-note {
+  margin-top: 8px !important; padding: 6px 10px;
+  background: #fef3c7; border-left: 3px solid #f59e0b; border-radius: 4px;
+  font-size: 11.5px !important; color: #78350f;
+}
+.guide-card.highlight .guide-note {
+  background: #d1fae5; border-left-color: #10b981; color: #065f46;
+}
+.guide-cols .kind-badge, .guide-cols .freshness-tag { margin-right: 4px; font-size: 10px; }
+
 /* ─── Dual Summary (스킨/색조 분리) ─────────────────────── */
 .dual-summary {
   display: grid;

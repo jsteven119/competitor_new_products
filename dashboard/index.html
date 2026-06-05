@@ -16,6 +16,113 @@
   </header>
 
   <main class="container">
+    <!-- 사용 설명서 (처음 방문자용, 한 번 접으면 다음부터 접힌 상태) -->
+    <details class="guide-panel" id="guide-panel">
+      <summary class="guide-summary">
+        <span class="guide-icon">📖</span>
+        <span class="guide-title">사용 설명서 — 처음 보세요?</span>
+        <span class="guide-toggle">펼치기 / 접기</span>
+      </summary>
+      <div class="guide-body">
+        <div class="guide-grid">
+
+          <div class="guide-card">
+            <h4>🎯 이 대시보드는</h4>
+            <p>Qoo10 JP에서 한국·일본 경쟁 뷰티 브랜드가 <strong>지난 3주간 출시한 신상품</strong>을 자동 수집해 보여줍니다.</p>
+            <ul>
+              <li><strong>대상</strong>: 자사 4브랜드(BOH·브링그린·웨이크메이크·컬러그램) 경쟁사 56개</li>
+              <li><strong>갱신</strong>: 매일 09:00 JST 자동 (GitHub Actions)</li>
+              <li><strong>목적</strong>: 상품기획팀이 "다음에 뭘 만들어야 하나" 판단</li>
+            </ul>
+          </div>
+
+          <div class="guide-card">
+            <h4>📝 "신상품"으로 잡는 기준</h4>
+            <p>두 조건 <strong>모두</strong> 만족하는 것:</p>
+            <ol>
+              <li>Qoo10 상품명에 신상품 마커 (<code>【NEW】</code> <code>新発売</code> <code>新作</code> <code>新色</code> <code>리뉴얼</code> <code>先行発売</code> 등)</li>
+              <li>첫 관측일로부터 <strong>21일 이내</strong> (그 이후는 "졸업")</li>
+            </ol>
+            <p class="guide-note">셀러가 NEW 마커 떼면 다음 크롤에서 자동 제외. 21일 지나면 신선도 cutoff로 자동 졸업.</p>
+          </div>
+
+          <div class="guide-card">
+            <h4>📊 상단 요약 (스킨 / 색조)</h4>
+            <p>카테고리별 한눈에 보는 숫자:</p>
+            <ul>
+              <li><strong>신상품 수 / 브랜드 수</strong> — 출시 활성도</li>
+              <li><strong>평균 판매가</strong> — 가격대 정합성 점검용</li>
+              <li><strong>평균 할인율</strong> — 30%+ = 메가와리 임박 신호</li>
+              <li><strong>세부 카테고리 평균가</strong>:
+                <ul>
+                  <li>스킨: 크림 / 세럼 / 토너 / 마스크 / 패드 별</li>
+                  <li>색조: 립 / 아이 / 베이스 / 페이스 별 + 세부 Top 5</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="guide-card highlight">
+            <h4>🎯 다음 상품 방향성 (가장 중요)</h4>
+            <p>제품명 텍스트를 자동 분석해 <strong>"우리는 다음에 뭘 만들지"</strong>를 제안:</p>
+            <ul>
+              <li><strong>스킨케어</strong> 탭 — 핫 성분 (PDRN·콜라겐 등) / 핫 제형 / 핫 효능</li>
+              <li><strong>색조</strong> 탭 — 핫 카테고리(립틴트 등) / 핫 제형 / 핫 색계열 / 호수 패턴</li>
+              <li><strong>자사 액션 ⚡</strong> 탭 — BOH/브링그린/웨이크/컬그용 구체 액션 7개</li>
+            </ul>
+            <p class="guide-note">셀러가 NEW로 푸시 중 = 이미 마케팅 강도가 높은 상품. 트렌드 신호 신뢰도 높음.</p>
+          </div>
+
+          <div class="guide-card">
+            <h4>📋 테이블 컬럼 의미</h4>
+            <ul class="guide-cols">
+              <li><strong>구분</strong> — <span class="kind-badge new">신제품</span> <span class="kind-badge newcolor">신규 색상</span> <span class="kind-badge renewal">리뉴얼</span></li>
+              <li><strong>Qoo10 #</strong> — 뷰티 베스트 Top 200 순위 = <em>구매 검증</em></li>
+              <li><strong>LIPS ★</strong> — LIPS 카테고리 랭킹 = <em>SNS 화제도 (10s~30s)</em></li>
+              <li><strong>@cosme</strong> — 주간 Top 10 = <em>평점 권위 (30s~50s)</em></li>
+              <li><strong>리뷰</strong> — Qoo10 카드의 별점·개수</li>
+              <li><strong>시그널</strong> — 어떤 신상품 마커 매칭됐는지</li>
+              <li><strong>브랜드 셀의 작은 라벨</strong> — <span class="freshness-tag fresh-new">Nd째</span> 첫 관측 후 경과일</li>
+            </ul>
+            <p class="guide-note"><strong>세 차원 동시 진입 SKU</strong> = 자사 차기 기획 1순위 벤치마크.</p>
+          </div>
+
+          <div class="guide-card">
+            <h4>🔍 필터 · 정렬 사용</h4>
+            <ul>
+              <li><strong>카테고리</strong> — 스킨/색조/ETC</li>
+              <li><strong>구분</strong> — 신제품/신규 색상/리뉴얼</li>
+              <li><strong>신선도</strong> — 기본은 "신상(≤3주)", 졸업 따로 보려면 토글</li>
+              <li><strong>브랜드</strong> — 특정 경쟁사 단독 보기</li>
+              <li><strong>정렬</strong> — Qoo10 랭킹순 / LIPS 랭킹순 / 가격↑↓ / 할인 / 리뷰</li>
+              <li><strong>검색</strong> — 제품명 또는 신상품 마커 키워드</li>
+            </ul>
+          </div>
+
+          <div class="guide-card">
+            <h4>📥 시트로 옮기기</h4>
+            <p>결과 표 오른쪽 위 <strong>📋 시트로 복사 (TSV)</strong> 버튼:</p>
+            <ol>
+              <li>현재 필터 결과를 TSV(탭 구분) 형식으로 클립보드 복사</li>
+              <li>구글 시트 "타사 신제품" 워크북 열고 셀에 붙여넣기</li>
+              <li>컬럼이 시트 양식 그대로 정렬되어 들어감</li>
+            </ol>
+          </div>
+
+          <div class="guide-card">
+            <h4>⚠ 알아둘 한계</h4>
+            <ul>
+              <li><strong>등록일은 추정</strong> — 정확한 Qoo10 등록일 fetch는 차단됨. 셀러가 NEW 떼는 시점 + 첫 관측일로 보완</li>
+              <li><strong>Qoo10 미입점 brand는 빠짐</strong> — Round Lab, PYUNKANG YUL, 일본 디바이스 등은 Rakuten/Amazon 주력</li>
+              <li><strong>@cosme 매칭이 적음</strong> — Top 10만 가져오므로 매칭 풀 작음. 운영 누적되면 증가</li>
+              <li><strong>약한 마커 오탐</strong> — 제품명에 "NEW"만 들어간 케이스는 신상이 아닐 수도 있음</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </details>
+
     <!-- 상단 요약: 스킨 / 색조 분리 -->
     <section class="dual-summary">
       <div class="cat-summary cat-skin" id="summary-skin">
