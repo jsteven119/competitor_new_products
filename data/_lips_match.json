@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T11:57:01+09:00",
+  "last_updated": "2026-06-06T11:44:01+09:00",
   "by_brand": {
     "kate": [
       {
@@ -65,7 +65,7 @@
       {
         "name_norm": "ケイト リップモンスターカラートナー",
         "name_raw": "ケイト リップモンスターカラートナー",
-        "rank": 77,
+        "rank": 76,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -633,7 +633,7 @@
       {
         "name_norm": "rmk リクイド リップカラー",
         "name_raw": "RMK リクイド リップカラー",
-        "rank": 73,
+        "rank": 72,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -1155,7 +1155,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.49,
+        "rating": 4.48,
         "review_count": null,
         "lips_product_id": "458048",
         "url": "https://lipscosme.com/products/458048"
@@ -1417,7 +1417,7 @@
       {
         "name_norm": "カネボウ ルージュスクラブメルティング",
         "name_raw": "カネボウ ルージュスクラブメルティング",
-        "rank": 98,
+        "rank": 97,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -1803,7 +1803,7 @@
       {
         "name_norm": "ジルスチュアート ブルームクチュール アイズ",
         "name_raw": "ジルスチュアート ブルームクチュール アイズ",
-        "rank": 85,
+        "rank": 84,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -2045,7 +2045,7 @@
       {
         "name_norm": "ルージュ ココ",
         "name_raw": "ルージュ ココ",
-        "rank": 91,
+        "rank": 90,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -2057,7 +2057,7 @@
       {
         "name_norm": "ルージュ アリュール ヴェルヴェット",
         "name_raw": "ルージュ アリュール ヴェルヴェット",
-        "rank": 95,
+        "rank": 94,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -2419,7 +2419,7 @@
       {
         "name_norm": "ディオールショウ サンク クルール スプリング コレクション 2026 限定品",
         "name_raw": "ディオールショウ サンク クルール（スプリング コレクション 2026 限定品）",
-        "rank": 99,
+        "rank": 98,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -2793,7 +2793,7 @@
       {
         "name_norm": "ルージュ ピュールクチュール",
         "name_raw": "ルージュ ピュールクチュール",
-        "rank": 99,
+        "rank": 98,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -3387,7 +3387,7 @@
       {
         "name_norm": "マキシマル シルキー マット リップスティック",
         "name_raw": "マキシマル シルキー マット リップスティック",
-        "rank": 78,
+        "rank": 77,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -3399,7 +3399,7 @@
       {
         "name_norm": "パウダー キス リキッド リップカラー",
         "name_raw": "パウダー キス リキッド リップカラー",
-        "rank": 87,
+        "rank": 86,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -3629,7 +3629,7 @@
       {
         "name_norm": "ヴィセ アヴァン リップスティック",
         "name_raw": "ヴィセ アヴァン リップスティック",
-        "rank": 100,
+        "rank": 99,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -3641,7 +3641,7 @@
       {
         "name_norm": "ニュアンス デューイ クリエイター クリアタイプ",
         "name_raw": "ニュアンス デューイ クリエイター クリアタイプ",
-        "rank": 92,
+        "rank": 91,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -3859,7 +3859,7 @@
       {
         "name_norm": "バルキーマットリップスティック",
         "name_raw": "バルキーマットリップスティック",
-        "rank": 96,
+        "rank": 95,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -3979,21 +3979,9 @@
         "url": "https://lipscosme.com/products/532755"
       },
       {
-        "name_norm": "ラスティングステイリップカラー",
-        "name_raw": "ラスティングステイリップカラー",
-        "rank": 72,
-        "category_id": 129,
-        "category_name": "口紅",
-        "group": "color_lip",
-        "rating": 4.1,
-        "review_count": null,
-        "lips_product_id": "654034",
-        "url": "https://lipscosme.com/products/654034"
-      },
-      {
         "name_norm": "ラスティンググロスリップ",
         "name_raw": "ラスティンググロスリップ",
-        "rank": 88,
+        "rank": 87,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -4005,7 +3993,7 @@
       {
         "name_norm": "ラスティング リップカラーn",
         "name_raw": "ラスティング リップカラーN",
-        "rank": 90,
+        "rank": 89,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -4085,18 +4073,6 @@
         "review_count": null,
         "lips_product_id": "600385",
         "url": "https://lipscosme.com/products/600385"
-      },
-      {
-        "name_norm": "ライティングアップアイシャドウ",
-        "name_raw": "ライティングアップアイシャドウ",
-        "rank": 81,
-        "category_id": 63,
-        "category_name": "アイシャドウ",
-        "group": "color_eye",
-        "rating": 4.01,
-        "review_count": null,
-        "lips_product_id": "629690",
-        "url": "https://lipscosme.com/products/629690"
       },
       {
         "name_norm": "描くふたえアイライナー",
@@ -4607,7 +4583,7 @@
       {
         "name_norm": "プランプメロウリップス",
         "name_raw": "プランプメロウリップス",
-        "rank": 76,
+        "rank": 75,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -4643,7 +4619,7 @@
       {
         "name_norm": "ジェミネイトアイズ n",
         "name_raw": "ジェミネイトアイズ N",
-        "rank": 88,
+        "rank": 87,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -5505,7 +5481,7 @@
       {
         "name_norm": "アフターグロー センシュアルシャイン リップスティック",
         "name_raw": "アフターグロー　センシュアルシャイン　リップスティック",
-        "rank": 84,
+        "rank": 83,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -5605,7 +5581,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.4,
+        "rating": 4.39,
         "review_count": null,
         "lips_product_id": "272622",
         "url": "https://lipscosme.com/products/272622"
@@ -5727,7 +5703,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.19,
+        "rating": 4.18,
         "review_count": null,
         "lips_product_id": "537619",
         "url": "https://lipscosme.com/products/537619"
@@ -5793,6 +5769,18 @@
         "review_count": null,
         "lips_product_id": "410504",
         "url": "https://lipscosme.com/products/410504"
+      },
+      {
+        "name_norm": "シングルアイシャドウ",
+        "name_raw": "シングルアイシャドウ",
+        "rank": 100,
+        "category_id": 63,
+        "category_name": "アイシャドウ",
+        "group": "color_eye",
+        "rating": 4.15,
+        "review_count": null,
+        "lips_product_id": "646543",
+        "url": "https://lipscosme.com/products/646543"
       },
       {
         "name_norm": "セカンドスキンメッシュマットクッション",
@@ -5955,7 +5943,7 @@
       {
         "name_norm": "ムードシャドウパレット",
         "name_raw": "ムードシャドウパレット",
-        "rank": 83,
+        "rank": 82,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -6357,7 +6345,7 @@
       {
         "name_norm": "キヌケアグローアップ",
         "name_raw": "キヌケアグローアップ",
-        "rank": 85,
+        "rank": 84,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -6479,7 +6467,7 @@
       {
         "name_norm": "リュクス リップスティック",
         "name_raw": "リュクス リップスティック",
-        "rank": 80,
+        "rank": 79,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -6491,7 +6479,7 @@
       {
         "name_norm": "クラッシュド リップ カラー",
         "name_raw": "クラッシュド リップ カラー",
-        "rank": 83,
+        "rank": 82,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -6733,7 +6721,7 @@
       {
         "name_norm": "プランぷくコーデアイズneo",
         "name_raw": "プランぷくコーデアイズNeo",
-        "rank": 84,
+        "rank": 83,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -6745,7 +6733,7 @@
       {
         "name_norm": "プティパレットアイズ マットタイプ",
         "name_raw": "プティパレットアイズ（マットタイプ）",
-        "rank": 89,
+        "rank": 88,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -6757,7 +6745,7 @@
       {
         "name_norm": "ラスティングマルチアイベース wp",
         "name_raw": "ラスティングマルチアイベース WP",
-        "rank": 93,
+        "rank": 92,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -7037,7 +7025,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 3.8,
+        "rating": 3.81,
         "review_count": null,
         "lips_product_id": "500594",
         "url": "https://lipscosme.com/products/500594"
@@ -7323,7 +7311,7 @@
       {
         "name_norm": "ベターザンアイズ",
         "name_raw": "ベターザンアイズ",
-        "rank": 100,
+        "rank": 99,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -7605,7 +7593,7 @@
       {
         "name_norm": "アディクション ザ アイシャドウ パレット",
         "name_raw": "アディクション ザ アイシャドウ パレット +",
-        "rank": 91,
+        "rank": 90,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -7617,7 +7605,7 @@
       {
         "name_norm": "アディクション ザ アイシャドウ パレット",
         "name_raw": "アディクション　ザ アイシャドウ パレット",
-        "rank": 98,
+        "rank": 97,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -7985,7 +7973,7 @@
       {
         "name_norm": "リップ カラー",
         "name_raw": "リップ カラー",
-        "rank": 74,
+        "rank": 73,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -7997,7 +7985,7 @@
       {
         "name_norm": "ウルトラ シャイン リップ カラー",
         "name_raw": "ウルトラ シャイン リップ カラー",
-        "rank": 93,
+        "rank": 92,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8047,7 +8035,7 @@
       {
         "name_norm": "レブロン シアー バーム クレヨン",
         "name_raw": "レブロン シアー バーム クレヨン",
-        "rank": 75,
+        "rank": 74,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8097,7 +8085,7 @@
       {
         "name_norm": "ミネラルマルチパウダー",
         "name_raw": "ミネラルマルチパウダー",
-        "rank": 79,
+        "rank": 78,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8121,7 +8109,7 @@
       {
         "name_norm": "ミネラルアイバームii",
         "name_raw": "ミネラルアイバームⅡ",
-        "rank": 95,
+        "rank": 94,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -8183,7 +8171,7 @@
       {
         "name_norm": "セルヴォーク アラウズ リップス",
         "name_raw": "セルヴォーク アラウズ リップス",
-        "rank": 81,
+        "rank": 80,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8195,7 +8183,7 @@
       {
         "name_norm": "セルヴォーク ルージュ オー ミューテッドグロウ",
         "name_raw": "セルヴォーク ルージュ オー ミューテッドグロウ",
-        "rank": 94,
+        "rank": 93,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8243,7 +8231,7 @@
       {
         "name_norm": "セルヴォーク ヴァティック アイパレット",
         "name_raw": "セルヴォーク ヴァティック アイパレット",
-        "rank": 94,
+        "rank": 93,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -8293,7 +8281,7 @@
       {
         "name_norm": "リリミュウ バタールージュ",
         "name_raw": "リリミュウ バタールージュ",
-        "rank": 82,
+        "rank": 81,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8415,7 +8403,7 @@
       {
         "name_norm": "ルージュ ジェ",
         "name_raw": "ルージュ ジェ",
-        "rank": 86,
+        "rank": 85,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8427,7 +8415,7 @@
       {
         "name_norm": "キスキス ビー グロウ",
         "name_raw": "キスキス ビー グロウ",
-        "rank": 97,
+        "rank": 96,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8513,7 +8501,7 @@
       {
         "name_norm": "b a リキッドルージュセラム",
         "name_raw": "B.A リキッドルージュセラム",
-        "rank": 89,
+        "rank": 88,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8599,7 +8587,7 @@
       {
         "name_norm": "snidel ルージュ クチュール",
         "name_raw": "SNIDEL ルージュ クチュール",
-        "rank": 92,
+        "rank": 91,
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
@@ -8647,7 +8635,7 @@
       {
         "name_norm": "フェイス スタイリスト",
         "name_raw": "フェイス スタイリスト",
-        "rank": 82,
+        "rank": 81,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -8659,7 +8647,7 @@
       {
         "name_norm": "テイラード カラー アイズ",
         "name_raw": "テイラード カラー アイズ",
-        "rank": 96,
+        "rank": 95,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -8703,6 +8691,20 @@
         "review_count": null,
         "lips_product_id": "538781",
         "url": "https://lipscosme.com/products/538781"
+      }
+    ],
+    "gucci beauty": [
+      {
+        "name_norm": "グッチ ルージュ ア レーヴル ヴォワル",
+        "name_raw": "グッチ ルージュ ア レーヴル ヴォワル",
+        "rank": 100,
+        "category_id": 129,
+        "category_name": "口紅",
+        "group": "color_lip",
+        "rating": 4.34,
+        "review_count": null,
+        "lips_product_id": "384445",
+        "url": "https://lipscosme.com/products/384445"
       }
     ],
     "milk touch": [
@@ -9163,7 +9165,7 @@
       {
         "name_norm": "オール テイク ムード パレット 24ad",
         "name_raw": "オール テイク ムード パレット(24AD)",
-        "rank": 86,
+        "rank": 85,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -11149,7 +11151,7 @@
       {
         "name_norm": "アイプランナー",
         "name_raw": "アイプランナー",
-        "rank": 97,
+        "rank": 96,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -11273,7 +11275,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.1,
+        "rating": 4.09,
         "review_count": null,
         "lips_product_id": "654071",
         "url": "https://lipscosme.com/products/654071"
@@ -12193,7 +12195,7 @@
       {
         "name_norm": "ウォンジョンヨ メタルシャワーペンシル",
         "name_raw": "ウォンジョンヨ　メタルシャワーペンシル",
-        "rank": 87,
+        "rank": 86,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -12205,7 +12207,7 @@
       {
         "name_norm": "ウォンジョンヨ ダイヤモンドライナー",
         "name_raw": "ウォンジョンヨ　ダイヤモンドライナー",
-        "rank": 90,
+        "rank": 89,
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
@@ -13435,7 +13437,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.16,
+        "rating": 4.15,
         "review_count": null,
         "lips_product_id": "444119",
         "url": "https://lipscosme.com/products/444119"
@@ -14175,7 +14177,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.38,
+        "rating": 4.37,
         "review_count": null,
         "lips_product_id": "595753",
         "url": "https://lipscosme.com/products/595753"
@@ -15937,7 +15939,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 3.91,
+        "rating": 3.92,
         "review_count": null,
         "lips_product_id": "658078",
         "url": "https://lipscosme.com/products/658078"
@@ -16469,7 +16471,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.4,
+        "rating": 4.36,
         "review_count": null,
         "lips_product_id": "625534",
         "url": "https://lipscosme.com/products/625534"
@@ -17591,7 +17593,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.36,
+        "rating": 4.35,
         "review_count": null,
         "lips_product_id": "653426",
         "url": "https://lipscosme.com/products/653426"
@@ -17629,7 +17631,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.17,
+        "rating": 4.16,
         "review_count": null,
         "lips_product_id": "561219",
         "url": "https://lipscosme.com/products/561219"
@@ -17669,7 +17671,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 3.69,
+        "rating": 3.7,
         "review_count": null,
         "lips_product_id": "631835",
         "url": "https://lipscosme.com/products/631835"
@@ -18081,7 +18083,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.41,
+        "rating": 4.4,
         "review_count": null,
         "lips_product_id": "685004",
         "url": "https://lipscosme.com/products/685004"
@@ -18133,7 +18135,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.14,
+        "rating": 4.15,
         "review_count": null,
         "lips_product_id": "483566",
         "url": "https://lipscosme.com/products/483566"
@@ -19095,7 +19097,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.12,
+        "rating": 4.13,
         "review_count": null,
         "lips_product_id": "653259",
         "url": "https://lipscosme.com/products/653259"
@@ -20039,7 +20041,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.23,
+        "rating": 4.22,
         "review_count": null,
         "lips_product_id": "635683",
         "url": "https://lipscosme.com/products/635683"
@@ -20365,7 +20367,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.4,
+        "rating": 4.39,
         "review_count": null,
         "lips_product_id": "679462",
         "url": "https://lipscosme.com/products/679462"
@@ -21003,7 +21005,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.22,
+        "rating": 4.21,
         "review_count": null,
         "lips_product_id": "686050",
         "url": "https://lipscosme.com/products/686050"
@@ -21115,7 +21117,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.25,
+        "rating": 4.24,
         "review_count": null,
         "lips_product_id": "410562",
         "url": "https://lipscosme.com/products/410562"
@@ -21193,7 +21195,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.29,
+        "rating": 4.3,
         "review_count": null,
         "lips_product_id": "697081",
         "url": "https://lipscosme.com/products/697081"
