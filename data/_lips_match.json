@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T12:26:32+09:00",
+  "last_updated": "2026-06-08T12:32:29+09:00",
   "by_brand": {
     "kate": [
       {
@@ -105,7 +105,7 @@
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
-        "rating": 4.14,
+        "rating": 4.15,
         "review_count": null,
         "lips_product_id": "622942",
         "url": "https://lipscosme.com/products/622942"
@@ -165,7 +165,7 @@
         "category_id": 70,
         "category_name": "アイライナー",
         "group": "color_eye",
-        "rating": 4.3,
+        "rating": 4.31,
         "review_count": null,
         "lips_product_id": "588121",
         "url": "https://lipscosme.com/products/588121"
@@ -213,7 +213,7 @@
         "category_id": 74,
         "category_name": "マスカラ",
         "group": "color_eye",
-        "rating": 4.19,
+        "rating": 4.2,
         "review_count": null,
         "lips_product_id": "608623",
         "url": "https://lipscosme.com/products/608623"
@@ -515,7 +515,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.19,
+        "rating": 4.2,
         "review_count": null,
         "lips_product_id": "684689",
         "url": "https://lipscosme.com/products/684689"
@@ -649,7 +649,7 @@
         "category_id": 133,
         "category_name": "リップグロス",
         "group": "color_lip",
-        "rating": 4.27,
+        "rating": 4.25,
         "review_count": null,
         "lips_product_id": "611890",
         "url": "https://lipscosme.com/products/611890"
@@ -903,7 +903,7 @@
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
-        "rating": 4.54,
+        "rating": 4.53,
         "review_count": null,
         "lips_product_id": "649553",
         "url": "https://lipscosme.com/products/649553"
@@ -963,7 +963,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.0,
+        "rating": 4.01,
         "review_count": null,
         "lips_product_id": "680128",
         "url": "https://lipscosme.com/products/680128"
@@ -1023,7 +1023,7 @@
         "category_id": 81,
         "category_name": "化粧下地",
         "group": "color_base",
-        "rating": 4.11,
+        "rating": 4.13,
         "review_count": null,
         "lips_product_id": "684470",
         "url": "https://lipscosme.com/products/684470"
@@ -1167,7 +1167,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.48,
+        "rating": 4.49,
         "review_count": null,
         "lips_product_id": "458048",
         "url": "https://lipscosme.com/products/458048"
@@ -1299,7 +1299,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 3.97,
+        "rating": 3.99,
         "review_count": null,
         "lips_product_id": "600151",
         "url": "https://lipscosme.com/products/600151"
@@ -1335,7 +1335,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.48,
+        "rating": 4.49,
         "review_count": null,
         "lips_product_id": "458048",
         "url": "https://lipscosme.com/products/458048"
@@ -1723,7 +1723,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.32,
+        "rating": 4.3,
         "review_count": null,
         "lips_product_id": "586481",
         "url": "https://lipscosme.com/products/586481"
@@ -2461,7 +2461,7 @@
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
-        "rating": 4.4,
+        "rating": 4.41,
         "review_count": null,
         "lips_product_id": "698405",
         "url": "https://lipscosme.com/products/698405"
@@ -2797,7 +2797,7 @@
         "category_id": 81,
         "category_name": "化粧下地",
         "group": "color_base",
-        "rating": 4.2,
+        "rating": 4.19,
         "review_count": null,
         "lips_product_id": "634107",
         "url": "https://lipscosme.com/products/634107"
@@ -2845,7 +2845,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.59,
+        "rating": 4.6,
         "review_count": null,
         "lips_product_id": "657316",
         "url": "https://lipscosme.com/products/657316"
@@ -2905,7 +2905,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.21,
+        "rating": 4.25,
         "review_count": null,
         "lips_product_id": "698407",
         "url": "https://lipscosme.com/products/698407"
@@ -3015,7 +3015,7 @@
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
-        "rating": 4.52,
+        "rating": 4.53,
         "review_count": null,
         "lips_product_id": "678890",
         "url": "https://lipscosme.com/products/678890"
@@ -3087,7 +3087,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.52,
+        "rating": 4.53,
         "review_count": null,
         "lips_product_id": "678890",
         "url": "https://lipscosme.com/products/678890"
@@ -3171,7 +3171,7 @@
         "category_id": 149,
         "category_name": "乳液",
         "group": "skin",
-        "rating": 4.05,
+        "rating": 4.04,
         "review_count": null,
         "lips_product_id": "601067",
         "url": "https://lipscosme.com/products/601067"
@@ -3329,7 +3329,7 @@
         "category_id": 81,
         "category_name": "化粧下地",
         "group": "color_base",
-        "rating": 4.25,
+        "rating": 4.24,
         "review_count": null,
         "lips_product_id": "672348",
         "url": "https://lipscosme.com/products/672348"
@@ -3367,7 +3367,7 @@
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
-        "rating": 4.5,
+        "rating": 4.51,
         "review_count": null,
         "lips_product_id": "680286",
         "url": "https://lipscosme.com/products/680286"
@@ -3633,7 +3633,7 @@
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
-        "rating": 4.11,
+        "rating": 4.1,
         "review_count": null,
         "lips_product_id": "679467",
         "url": "https://lipscosme.com/products/679467"
@@ -3863,7 +3863,7 @@
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
-        "rating": 3.48,
+        "rating": 3.45,
         "review_count": null,
         "lips_product_id": "695789",
         "url": "https://lipscosme.com/products/695789"
@@ -3923,7 +3923,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.35,
+        "rating": 4.34,
         "review_count": null,
         "lips_product_id": "596166",
         "url": "https://lipscosme.com/products/596166"
@@ -4165,7 +4165,7 @@
         "category_id": 70,
         "category_name": "アイライナー",
         "group": "color_eye",
-        "rating": 4.31,
+        "rating": 4.32,
         "review_count": null,
         "lips_product_id": "683507",
         "url": "https://lipscosme.com/products/683507"
@@ -4417,7 +4417,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 3.81,
+        "rating": 3.82,
         "review_count": null,
         "lips_product_id": "541372",
         "url": "https://lipscosme.com/products/541372"
@@ -4709,7 +4709,7 @@
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
-        "rating": 4.34,
+        "rating": 4.33,
         "review_count": null,
         "lips_product_id": "631197",
         "url": "https://lipscosme.com/products/631197"
@@ -4757,7 +4757,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.34,
+        "rating": 4.33,
         "review_count": null,
         "lips_product_id": "631197",
         "url": "https://lipscosme.com/products/631197"
@@ -4987,7 +4987,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.46,
+        "rating": 4.47,
         "review_count": null,
         "lips_product_id": "561888",
         "url": "https://lipscosme.com/products/561888"
@@ -5121,7 +5121,7 @@
         "category_id": 76,
         "category_name": "アイブロウ",
         "group": "color_eye",
-        "rating": 4.36,
+        "rating": 4.37,
         "review_count": null,
         "lips_product_id": "646432",
         "url": "https://lipscosme.com/products/646432"
@@ -5171,7 +5171,7 @@
         "category_id": 129,
         "category_name": "口紅",
         "group": "color_lip",
-        "rating": 4.46,
+        "rating": 4.45,
         "review_count": null,
         "lips_product_id": "454973",
         "url": "https://lipscosme.com/products/454973"
@@ -5447,7 +5447,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 4.26,
+        "rating": 4.27,
         "review_count": null,
         "lips_product_id": "455211",
         "url": "https://lipscosme.com/products/455211"
@@ -5641,7 +5641,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.22,
+        "rating": 4.23,
         "review_count": null,
         "lips_product_id": "689180",
         "url": "https://lipscosme.com/products/689180"
@@ -5983,7 +5983,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.03,
+        "rating": 4.02,
         "review_count": null,
         "lips_product_id": "542340",
         "url": "https://lipscosme.com/products/542340"
@@ -6045,7 +6045,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 3.9,
+        "rating": 3.89,
         "review_count": null,
         "lips_product_id": "667120",
         "url": "https://lipscosme.com/products/667120"
@@ -6457,7 +6457,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.41,
+        "rating": 4.4,
         "review_count": null,
         "lips_product_id": "673625",
         "url": "https://lipscosme.com/products/673625"
@@ -6617,7 +6617,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.17,
+        "rating": 4.16,
         "review_count": null,
         "lips_product_id": "553368",
         "url": "https://lipscosme.com/products/553368"
@@ -6941,7 +6941,7 @@
         "category_id": 76,
         "category_name": "アイブロウ",
         "group": "color_eye",
-        "rating": 3.85,
+        "rating": 3.86,
         "review_count": null,
         "lips_product_id": "639389",
         "url": "https://lipscosme.com/products/639389"
@@ -6977,7 +6977,7 @@
         "category_id": 76,
         "category_name": "アイブロウ",
         "group": "color_eye",
-        "rating": 4.43,
+        "rating": 4.42,
         "review_count": null,
         "lips_product_id": "29461",
         "url": "https://lipscosme.com/products/29461"
@@ -7097,7 +7097,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.28,
+        "rating": 4.29,
         "review_count": null,
         "lips_product_id": "595272",
         "url": "https://lipscosme.com/products/595272"
@@ -7109,7 +7109,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.25,
+        "rating": 4.24,
         "review_count": null,
         "lips_product_id": "29435",
         "url": "https://lipscosme.com/products/29435"
@@ -7269,7 +7269,7 @@
         "category_id": 133,
         "category_name": "リップグロス",
         "group": "color_lip",
-        "rating": 4.33,
+        "rating": 4.32,
         "review_count": null,
         "lips_product_id": "580883",
         "url": "https://lipscosme.com/products/580883"
@@ -8443,7 +8443,7 @@
         "category_id": 133,
         "category_name": "リップグロス",
         "group": "color_lip",
-        "rating": 4.27,
+        "rating": 4.26,
         "review_count": null,
         "lips_product_id": "581884",
         "url": "https://lipscosme.com/products/581884"
@@ -9131,7 +9131,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.3,
+        "rating": 4.28,
         "review_count": null,
         "lips_product_id": "685880",
         "url": "https://lipscosme.com/products/685880"
@@ -9739,7 +9739,7 @@
         "category_id": 133,
         "category_name": "リップグロス",
         "group": "color_lip",
-        "rating": 4.17,
+        "rating": 4.18,
         "review_count": null,
         "lips_product_id": "654988",
         "url": "https://lipscosme.com/products/654988"
@@ -9787,7 +9787,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.2,
+        "rating": 4.21,
         "review_count": null,
         "lips_product_id": "651120",
         "url": "https://lipscosme.com/products/651120"
@@ -9903,7 +9903,7 @@
         "category_id": 133,
         "category_name": "リップグロス",
         "group": "color_lip",
-        "rating": 4.32,
+        "rating": 4.33,
         "review_count": null,
         "lips_product_id": "623853",
         "url": "https://lipscosme.com/products/623853"
@@ -10409,7 +10409,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.25,
+        "rating": 4.24,
         "review_count": null,
         "lips_product_id": "697254",
         "url": "https://lipscosme.com/products/697254"
@@ -10509,7 +10509,7 @@
         "category_id": 70,
         "category_name": "アイライナー",
         "group": "color_eye",
-        "rating": 4.19,
+        "rating": 4.2,
         "review_count": null,
         "lips_product_id": "639324",
         "url": "https://lipscosme.com/products/639324"
@@ -10535,7 +10535,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.21,
+        "rating": 4.22,
         "review_count": null,
         "lips_product_id": "635438",
         "url": "https://lipscosme.com/products/635438"
@@ -10571,7 +10571,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 3.93,
+        "rating": 3.9,
         "review_count": null,
         "lips_product_id": "645576",
         "url": "https://lipscosme.com/products/645576"
@@ -10595,7 +10595,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.24,
+        "rating": 4.25,
         "review_count": null,
         "lips_product_id": "687615",
         "url": "https://lipscosme.com/products/687615"
@@ -10709,7 +10709,7 @@
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
-        "rating": 4.32,
+        "rating": 4.31,
         "review_count": null,
         "lips_product_id": "692659",
         "url": "https://lipscosme.com/products/692659"
@@ -11439,7 +11439,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.12,
+        "rating": 4.13,
         "review_count": null,
         "lips_product_id": "654294",
         "url": "https://lipscosme.com/products/654294"
@@ -12059,7 +12059,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.14,
+        "rating": 4.15,
         "review_count": null,
         "lips_product_id": "584246",
         "url": "https://lipscosme.com/products/584246"
@@ -12807,7 +12807,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.07,
+        "rating": 4.08,
         "review_count": null,
         "lips_product_id": "530755",
         "url": "https://lipscosme.com/products/530755"
@@ -12859,7 +12859,7 @@
         "category_id": 506,
         "category_name": "リップティント",
         "group": "color_lip",
-        "rating": 4.0,
+        "rating": 4.02,
         "review_count": null,
         "lips_product_id": "644171",
         "url": "https://lipscosme.com/products/644171"
@@ -13753,7 +13753,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.32,
+        "rating": 4.33,
         "review_count": null,
         "lips_product_id": "625755",
         "url": "https://lipscosme.com/products/625755"
@@ -13803,7 +13803,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 4.08,
+        "rating": 4.07,
         "review_count": null,
         "lips_product_id": "569459",
         "url": "https://lipscosme.com/products/569459"
@@ -14129,7 +14129,7 @@
         "category_id": 132,
         "category_name": "リップケア",
         "group": "color_lip",
-        "rating": 4.1,
+        "rating": 4.09,
         "review_count": null,
         "lips_product_id": "627168",
         "url": "https://lipscosme.com/products/627168"
@@ -14177,7 +14177,7 @@
         "category_id": 148,
         "category_name": "フェイスクリーム",
         "group": "skin",
-        "rating": 4.05,
+        "rating": 4.06,
         "review_count": null,
         "lips_product_id": "680279",
         "url": "https://lipscosme.com/products/680279"
@@ -14237,7 +14237,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.05,
+        "rating": 4.06,
         "review_count": null,
         "lips_product_id": "680279",
         "url": "https://lipscosme.com/products/680279"
@@ -14289,7 +14289,7 @@
         "category_id": 132,
         "category_name": "リップケア",
         "group": "color_lip",
-        "rating": 4.43,
+        "rating": 4.42,
         "review_count": null,
         "lips_product_id": "506708",
         "url": "https://lipscosme.com/products/506708"
@@ -14509,7 +14509,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 4.16,
+        "rating": 4.2,
         "review_count": null,
         "lips_product_id": "693903",
         "url": "https://lipscosme.com/products/693903"
@@ -14715,7 +14715,7 @@
         "category_id": 63,
         "category_name": "アイシャドウ",
         "group": "color_eye",
-        "rating": 4.35,
+        "rating": 4.34,
         "review_count": null,
         "lips_product_id": "497842",
         "url": "https://lipscosme.com/products/497842"
@@ -14953,7 +14953,7 @@
         "category_id": 70,
         "category_name": "アイライナー",
         "group": "color_eye",
-        "rating": 4.34,
+        "rating": 4.33,
         "review_count": null,
         "lips_product_id": "442282",
         "url": "https://lipscosme.com/products/442282"
@@ -15209,7 +15209,7 @@
         "category_id": 74,
         "category_name": "マスカラ",
         "group": "color_eye",
-        "rating": 3.99,
+        "rating": 3.98,
         "review_count": null,
         "lips_product_id": "681541",
         "url": "https://lipscosme.com/products/681541"
@@ -15375,7 +15375,7 @@
         "category_id": 70,
         "category_name": "アイライナー",
         "group": "color_eye",
-        "rating": 3.87,
+        "rating": 3.86,
         "review_count": null,
         "lips_product_id": "438933",
         "url": "https://lipscosme.com/products/438933"
@@ -15485,7 +15485,7 @@
         "category_id": 74,
         "category_name": "マスカラ",
         "group": "color_eye",
-        "rating": 4.22,
+        "rating": 4.21,
         "review_count": null,
         "lips_product_id": "611549",
         "url": "https://lipscosme.com/products/611549"
@@ -15793,7 +15793,7 @@
         "category_id": 148,
         "category_name": "フェイスクリーム",
         "group": "skin",
-        "rating": 4.33,
+        "rating": 4.32,
         "review_count": null,
         "lips_product_id": "444996",
         "url": "https://lipscosme.com/products/444996"
@@ -15911,7 +15911,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 3.92,
+        "rating": 3.91,
         "review_count": null,
         "lips_product_id": "658078",
         "url": "https://lipscosme.com/products/658078"
@@ -16135,7 +16135,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 4.36,
+        "rating": 4.37,
         "review_count": null,
         "lips_product_id": "687115",
         "url": "https://lipscosme.com/products/687115"
@@ -16319,7 +16319,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.3,
+        "rating": 4.31,
         "review_count": null,
         "lips_product_id": "630495",
         "url": "https://lipscosme.com/products/630495"
@@ -16635,7 +16635,7 @@
         "category_id": 122,
         "category_name": "ファンデーション",
         "group": "color_base",
-        "rating": 4.05,
+        "rating": 4.06,
         "review_count": null,
         "lips_product_id": "677920",
         "url": "https://lipscosme.com/products/677920"
@@ -17539,7 +17539,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.35,
+        "rating": 4.37,
         "review_count": null,
         "lips_product_id": "653426",
         "url": "https://lipscosme.com/products/653426"
@@ -17563,7 +17563,7 @@
         "category_id": 72,
         "category_name": "チーク",
         "group": "color_face",
-        "rating": 4.35,
+        "rating": 4.37,
         "review_count": null,
         "lips_product_id": "653426",
         "url": "https://lipscosme.com/products/653426"
@@ -17577,7 +17577,7 @@
         "category_id": 117,
         "category_name": "コンシーラー",
         "group": "color_base",
-        "rating": 4.16,
+        "rating": 4.17,
         "review_count": null,
         "lips_product_id": "561219",
         "url": "https://lipscosme.com/products/561219"
@@ -18319,7 +18319,7 @@
         "category_id": 149,
         "category_name": "乳液",
         "group": "skin",
-        "rating": 3.8,
+        "rating": 3.79,
         "review_count": null,
         "lips_product_id": "96480",
         "url": "https://lipscosme.com/products/96480"
@@ -18827,7 +18827,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 4.17,
+        "rating": 4.18,
         "review_count": null,
         "lips_product_id": "675144",
         "url": "https://lipscosme.com/products/675144"
@@ -19079,7 +19079,7 @@
         "category_id": 149,
         "category_name": "乳液",
         "group": "skin",
-        "rating": 3.94,
+        "rating": 3.93,
         "review_count": null,
         "lips_product_id": "611992",
         "url": "https://lipscosme.com/products/611992"
@@ -19091,7 +19091,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 4.01,
+        "rating": 4.02,
         "review_count": null,
         "lips_product_id": "610636",
         "url": "https://lipscosme.com/products/610636"
@@ -19163,7 +19163,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.17,
+        "rating": 4.18,
         "review_count": null,
         "lips_product_id": "675144",
         "url": "https://lipscosme.com/products/675144"
@@ -19309,7 +19309,7 @@
         "category_id": 149,
         "category_name": "乳液",
         "group": "skin",
-        "rating": 3.99,
+        "rating": 4.01,
         "review_count": null,
         "lips_product_id": "425978",
         "url": "https://lipscosme.com/products/425978"
@@ -19605,7 +19605,7 @@
         "category_id": 148,
         "category_name": "フェイスクリーム",
         "group": "skin",
-        "rating": 4.39,
+        "rating": 4.4,
         "review_count": null,
         "lips_product_id": "471031",
         "url": "https://lipscosme.com/products/471031"
@@ -19865,7 +19865,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 4.4,
+        "rating": 4.41,
         "review_count": null,
         "lips_product_id": "615729",
         "url": "https://lipscosme.com/products/615729"
@@ -19961,7 +19961,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.46,
+        "rating": 4.45,
         "review_count": null,
         "lips_product_id": "679757",
         "url": "https://lipscosme.com/products/679757"
@@ -19973,7 +19973,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.4,
+        "rating": 4.41,
         "review_count": null,
         "lips_product_id": "615729",
         "url": "https://lipscosme.com/products/615729"
@@ -20337,7 +20337,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 4.39,
+        "rating": 4.4,
         "review_count": null,
         "lips_product_id": "679462",
         "url": "https://lipscosme.com/products/679462"
@@ -20433,7 +20433,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.39,
+        "rating": 4.4,
         "review_count": null,
         "lips_product_id": "679462",
         "url": "https://lipscosme.com/products/679462"
@@ -20471,7 +20471,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 4.24,
+        "rating": 4.25,
         "review_count": null,
         "lips_product_id": "373263",
         "url": "https://lipscosme.com/products/373263"
@@ -20575,7 +20575,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 4.23,
+        "rating": 4.24,
         "review_count": null,
         "lips_product_id": "664064",
         "url": "https://lipscosme.com/products/664064"
@@ -20713,7 +20713,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 4.01,
+        "rating": 4.02,
         "review_count": null,
         "lips_product_id": "588075",
         "url": "https://lipscosme.com/products/588075"
@@ -20775,7 +20775,7 @@
         "category_id": 139,
         "category_name": "化粧水",
         "group": "skin",
-        "rating": 3.9,
+        "rating": 3.87,
         "review_count": null,
         "lips_product_id": "653973",
         "url": "https://lipscosme.com/products/653973"
@@ -20823,7 +20823,7 @@
         "category_id": 148,
         "category_name": "フェイスクリーム",
         "group": "skin",
-        "rating": 3.62,
+        "rating": 3.63,
         "review_count": null,
         "lips_product_id": "622185",
         "url": "https://lipscosme.com/products/622185"
@@ -20835,7 +20835,7 @@
         "category_id": 148,
         "category_name": "フェイスクリーム",
         "group": "skin",
-        "rating": 3.97,
+        "rating": 3.99,
         "review_count": null,
         "lips_product_id": "649608",
         "url": "https://lipscosme.com/products/649608"
@@ -21187,7 +21187,7 @@
         "category_id": 148,
         "category_name": "フェイスクリーム",
         "group": "skin",
-        "rating": 3.91,
+        "rating": 3.92,
         "review_count": null,
         "lips_product_id": "685666",
         "url": "https://lipscosme.com/products/685666"
@@ -21255,7 +21255,7 @@
         "category_id": 145,
         "category_name": "美容液",
         "group": "skin",
-        "rating": 3.88,
+        "rating": 3.89,
         "review_count": null,
         "lips_product_id": "477728",
         "url": "https://lipscosme.com/products/477728"
@@ -21471,7 +21471,7 @@
         "category_id": 130,
         "category_name": "スキンケア基礎",
         "group": "skin",
-        "rating": 4.23,
+        "rating": 4.19,
         "review_count": null,
         "lips_product_id": "684987",
         "url": "https://lipscosme.com/products/684987"
@@ -21701,7 +21701,7 @@
         "category_id": 149,
         "category_name": "乳液",
         "group": "skin",
-        "rating": 4.16,
+        "rating": 4.17,
         "review_count": null,
         "lips_product_id": "410640",
         "url": "https://lipscosme.com/products/410640"
@@ -22115,7 +22115,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 4.17,
+        "rating": 4.16,
         "review_count": null,
         "lips_product_id": "688255",
         "url": "https://lipscosme.com/products/688255"
@@ -22257,7 +22257,7 @@
         "category_id": 156,
         "category_name": "洗顔料",
         "group": "skin",
-        "rating": 3.42,
+        "rating": 3.43,
         "review_count": null,
         "lips_product_id": "69742",
         "url": "https://lipscosme.com/products/69742"
@@ -22719,7 +22719,7 @@
         "category_id": 165,
         "category_name": "フェイスオイル",
         "group": "skin",
-        "rating": 3.98,
+        "rating": 3.97,
         "review_count": null,
         "lips_product_id": "515356",
         "url": "https://lipscosme.com/products/515356"
