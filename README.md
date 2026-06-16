@@ -1,6 +1,7 @@
-# Competitor New Products — Qoo10 JP
+# JP Product Trend Dashboard
 
-상품기획자에게 주간 전달할 **타사 신상품** 자동 수집/대시보드 프로젝트.
+상품기획자에게 주간 전달할 **일본 시장 경쟁사 신상품 + 랭킹 + SNS 화제도** 자동 수집/대시보드 프로젝트.
+(이전 이름: Competitor New Products)
 
 ## 개요
 

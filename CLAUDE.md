@@ -1,6 +1,7 @@
-# 프로젝트 컨벤션 — competitor_new_products
+# 프로젝트 컨벤션 — JP Product Trend Dashboard
 
 이 저장소에서 작업하는 Claude Code 인스턴스용 룰.
+(repo 디렉토리명은 `competitor_new_products` 유지 — git 경로 호환)
 
 ---
 
