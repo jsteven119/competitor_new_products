@@ -1,0 +1,446 @@
+{
+  "date": "2026-06-27",
+  "shops": [
+    {
+      "brand_key": "anua",
+      "category": "skin",
+      "source": "shop_slug=anua",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "medicube",
+      "category": "skin",
+      "source": "shop_slug=medicube",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "dalba",
+      "category": "skin",
+      "source": "shop_slug=dalba",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "vt",
+      "category": "skin",
+      "source": "shop_slug=vtcosmetics",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "skin1004",
+      "category": "skin",
+      "source": "shop_slug=skin1004japan",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "cosrx",
+      "category": "skin",
+      "source": "shop_slug=cosrx",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "kopher",
+      "category": "skin",
+      "source": "shop_slug=kopher",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "manyo",
+      "category": "skin",
+      "source": "shop_slug=manyofactory",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "aestura",
+      "category": "skin",
+      "source": "shop_slug=aestura",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "biodance",
+      "category": "skin",
+      "source": "shop_slug=biodance",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "numbuzin",
+      "category": "skin",
+      "source": "shop_slug=numbuzin",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "tirtir",
+      "category": "skin",
+      "source": "shop_slug=tirtir",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "abib",
+      "category": "skin",
+      "source": "shop_slug=abib",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "tocobo",
+      "category": "skin",
+      "source": "shop_slug=tocobo",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "isntree",
+      "category": "skin",
+      "source": "shop_slug=isntree",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "mixsoon",
+      "category": "skin",
+      "source": "shop_slug=mixsoon",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "mediheal",
+      "category": "skin",
+      "source": "shop_slug=medihealofficial",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "haruharu",
+      "category": "skin",
+      "source": "shop_slug=haruharu",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "samu",
+      "category": "skin",
+      "source": "shop_slug=samu",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "ongredients",
+      "category": "skin",
+      "source": "shop_slug=ongredients",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "beautyofjoseon",
+      "category": "skin",
+      "source": "shop_slug=beautyofjoseon",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "torriden",
+      "category": "skin",
+      "source": "shop_slug=torriden",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "drjart",
+      "category": "skin",
+      "source": "shop_slug=drjart",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "laneige",
+      "category": "skin",
+      "source": "shop_slug=laneige",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "kahi",
+      "category": "skin",
+      "source": "shop_slug=kahi",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "innisfree",
+      "category": "skin",
+      "source": "shop_slug=innisfree",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "hadalabo",
+      "category": "skin",
+      "source": "shop_slug=hadalabo",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "sekkisei",
+      "category": "skin",
+      "source": "shop_slug=kose-cosmeport",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "curel",
+      "category": "skin",
+      "source": "shop_slug=curel",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "fancl",
+      "category": "skin",
+      "source": "shop_slug=fancl",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "fwee",
+      "category": "color",
+      "source": "shop_slug=fwee",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "celimax",
+      "category": "color",
+      "source": "shop_slug=celimax",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "romand",
+      "category": "color",
+      "source": "shop_slug=romand",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "abouttone",
+      "category": "color",
+      "source": "shop_slug=abouttone",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "dasique",
+      "category": "color",
+      "source": "shop_slug=dasique",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "peripera",
+      "category": "color",
+      "source": "shop_slug=peripera",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "banilaco",
+      "category": "color",
+      "source": "shop_slug=banilaco",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "amuse",
+      "category": "color",
+      "source": "shop_slug=amuse",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "laka",
+      "category": "color",
+      "source": "shop_slug=laka",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "dinto",
+      "category": "color",
+      "source": "shop_slug=dinto",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "23yearsold",
+      "category": "color",
+      "source": "shop_slug=23yearsold",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "clio",
+      "category": "color",
+      "source": "shop_slug=clio",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "hince",
+      "category": "color",
+      "source": "shop_slug=hince",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "lilybyred",
+      "category": "color",
+      "source": "shop_slug=lilybyred",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "bbia",
+      "category": "color",
+      "source": "shop_slug=bbia",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "millefee",
+      "category": "color",
+      "source": "shop_slug=millefee",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "olens",
+      "category": "color",
+      "source": "shop_slug=olens",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "etude",
+      "category": "color",
+      "source": "shop_slug=etude",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "ohora",
+      "category": "color",
+      "source": "shop_slug=ohora",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "age20s",
+      "category": "color",
+      "source": "shop_slug=age20s",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "3ce",
+      "category": "color",
+      "source": "shop_slug=3ce",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "2aN",
+      "category": "color",
+      "source": "shop_slug=2anjp",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "iope",
+      "category": "color",
+      "source": "shop_slug=iope",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "canmake",
+      "category": "color",
+      "source": "shop_slug=canmake",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "cezanne",
+      "category": "color",
+      "source": "shop_slug=cezanne",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "kate",
+      "category": "color",
+      "source": "shop_slug=kate-tokyo",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "visee",
+      "category": "color",
+      "source": "shop_slug=visee",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "excel",
+      "category": "color",
+      "source": "shop_slug=excel",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "kissme",
+      "category": "color",
+      "source": "shop_slug=kissme",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "cipicipi",
+      "category": "color",
+      "source": "shop_slug=cipicipi",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "medicube_ager",
+      "category": "device",
+      "source": "shop_slug=medicube",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "ya-man",
+      "category": "device",
+      "source": "shop_slug=ya-man",
+      "products_total": 0,
+      "products": []
+    },
+    {
+      "brand_key": "mtg",
+      "category": "device",
+      "source": "shop_slug=mtg-online",
+      "products_total": 0,
+      "products": []
+    }
+  ]
+}

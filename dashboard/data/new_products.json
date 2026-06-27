@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-26T11:53:29+09:00",
+  "last_updated": "2026-06-27T11:43:50+09:00",
   "window_days": 30,
-  "cutoff_date": "2026-05-27",
+  "cutoff_date": "2026-05-28",
   "schema": {
     "columns": [
       "카테고리",
