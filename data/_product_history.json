@@ -2,7 +2,7 @@
   "schema_version": 1,
   "purpose": "각 상품(goodscode)의 첫 관측일/최종 관측일 — 신상품 졸업 판정용",
   "graduate_days": 21,
-  "last_updated": "2026-06-27T11:43:50+09:00",
+  "last_updated": "2026-06-28T11:58:40+09:00",
   "products": {
     "1114201571": {
       "first_seen": "2026-05-29",
