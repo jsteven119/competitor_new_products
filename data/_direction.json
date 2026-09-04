@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T11:42:52+09:00",
+  "last_updated": "2026-09-04T11:39:35+09:00",
   "skin": {
     "ingredients": [
       {
         "name": "PDRN",
-        "count": 9,
+        "count": 10,
         "brands_count": 6,
         "examples": [
           {
@@ -35,8 +35,40 @@
         ]
       },
       {
+        "name": "ヒアルロン酸",
+        "count": 9,
+        "brands_count": 2,
+        "examples": [
+          {
+            "brand": "MEDIHEAL",
+            "title": "【ひかるコラボ】[詰め替え用1+1特価]30枚マスク (NEWミルクブライトニング/PDRN/マデカッソシド/ティーツリ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1132765231"
+          },
+          {
+            "brand": "MEDIHEAL",
+            "title": "【公式】【日本限定】 3ミニッツマスク(全9種) NEW PDRN/マデカッソシド/ティーツリー/ティーツリーポア/ヒア",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1135018799"
+          },
+          {
+            "brand": "MEDIHEAL",
+            "title": "【公式】スクエアセラム40mL（全7種）NEW 低分子ヒアルロン酸/マデカッソシド / ティーツリー / コラーゲン /",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1119169958"
+          },
+          {
+            "brand": "MEDIHEAL",
+            "title": "【公式】【日本限定】NEWヒアルロン酸/3ミニッツマスク(7枚入り)",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1192883001"
+          },
+          {
+            "brand": "MEDIHEAL",
+            "title": "【公式】【新発売】選べるラッピングセラムマスクパック＊10枚入り（全6種）（マデカッソシド/PDRN/ティーツリー/ビタ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1129484264"
+          }
+        ]
+      },
+      {
         "name": "コラーゲン",
-        "count": 7,
+        "count": 8,
         "brands_count": 3,
         "examples": [
           {
@@ -67,45 +99,13 @@
         ]
       },
       {
-        "name": "ヒアルロン酸",
-        "count": 7,
-        "brands_count": 2,
-        "examples": [
-          {
-            "brand": "MEDIHEAL",
-            "title": "【ひかるコラボ】[詰め替え用1+1特価]30枚マスク (NEWミルクブライトニング/PDRN/マデカッソシド/ティーツリ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1132765231"
-          },
-          {
-            "brand": "MEDIHEAL",
-            "title": "【公式】【日本限定】 3ミニッツマスク(全9種) NEW PDRN/マデカッソシド/ティーツリー/ティーツリーポア/ヒア",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1135018799"
-          },
-          {
-            "brand": "MEDIHEAL",
-            "title": "【公式】【日本限定】NEWヒアルロン酸/3ミニッツマスク(7枚入り)",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1192883001"
-          },
-          {
-            "brand": "MEDIHEAL",
-            "title": "【公式】スクエアセラム40mL（全7種）NEW 低分子ヒアルロン酸/マデカッソシド / ティーツリー / コラーゲン /",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1119169958"
-          },
-          {
-            "brand": "TORRIDEN",
-            "title": "【シカクリーム80ml贈呈】[リニューアル] ダイブイン トナー 300ml ヒアルロン酸 導入化粧水 ヒアルロン酸2倍",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=874242374"
-          }
-        ]
-      },
-      {
         "name": "ペプチド",
-        "count": 6,
+        "count": 7,
         "brands_count": 4,
         "examples": [
           {
             "brand": "VT",
-            "title": "【9/3 10時～限定特価】【新作】レチナールペプチドセラム 30ml",
+            "title": "【メガ割最大50%OFF】【新作】レチナールペプチドセラム 30ml",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1207322396"
           },
           {
@@ -124,15 +124,15 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1130155499"
           },
           {
-            "brand": "Biodance",
-            "title": "【新作登場! 選べる美容液4種】 【公式】コラーゲンペプチド セラム / セラノール セラム / シーケルプ セラム /",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1149760938"
+            "brand": "COSRX",
+            "title": "【新商品】ザ ブルー ペプチド バクチオール プランプ グロウ セラム 50ml",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1205916309"
           }
         ]
       },
       {
         "name": "ビタミンC",
-        "count": 6,
+        "count": 7,
         "brands_count": 3,
         "examples": [
           {
@@ -164,7 +164,7 @@
       },
       {
         "name": "茶 / 緑茶",
-        "count": 6,
+        "count": 7,
         "brands_count": 1,
         "examples": [
           {
@@ -197,17 +197,12 @@
       {
         "name": "ナイアシンアミド",
         "count": 5,
-        "brands_count": 5,
+        "brands_count": 4,
         "examples": [
           {
             "brand": "COSRX",
             "title": "【Qoo10先行発売】アルファアルブチンセラム デイリーシートマスク30枚/ニキビ跡ケア/シートマスク/パック/ナイアシ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1208332376"
-          },
-          {
-            "brand": "MANYO",
-            "title": "【NEW】ガラクナイアシン3.0エッセンス 60ml　毛穴 肌トーンケア 導入美容液",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1178445323"
           },
           {
             "brand": "Biodance",
@@ -220,6 +215,11 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1135018799"
           },
           {
+            "brand": "MEDIHEAL",
+            "title": "【公式】【日本限定】NEW ナイアシンアミド/3ミニッツマスク(7枚入り)",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1192867972"
+          },
+          {
             "brand": "HARUHARU",
             "title": "【NEW】 *肌の輝き・潤いクリーム* センテラ5％ナイアシンアミドラディアンスゲルクリーム 90ml or 40ml ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1125195231"
@@ -227,8 +227,40 @@
         ]
       },
       {
+        "name": "シカ (CICA)",
+        "count": 5,
+        "brands_count": 5,
+        "examples": [
+          {
+            "brand": "COSRX",
+            "title": "【LDKビューティー受賞/100枚大容量】ワンステップトナーパッド4種/ピンクもちペプチドコラーゲン/透明トーンケア/4",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=617313421"
+          },
+          {
+            "brand": "MANYO",
+            "title": "【manyo公式】日本先行発売 アズレンヒアルロンセラムクレンジングオイル 200ml（化粧落とし 鎮静 洗顔 朝洗顔 ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1208946259"
+          },
+          {
+            "brand": "AESTURA",
+            "title": "[正規品]NEW A-CICA365 スージングリペア マスク PH4.5 1box(5枚入り)/ZEROID (ゼロイ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1159717488"
+          },
+          {
+            "brand": "TORRIDEN",
+            "title": "【9/4限定特価】【シカクリーム80ml贈呈】[リニューアル] ダイブイン トナー 300ml ヒアルロン酸 導入化粧水",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=874242374"
+          },
+          {
+            "brand": "Dr.Jart+",
+            "title": "シカペア CCTクリーム, 50ml (シカペアリカバーリニューアル)",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1033180033"
+          }
+        ]
+      },
+      {
         "name": "アゼライン酸",
-        "count": 4,
+        "count": 3,
         "brands_count": 3,
         "examples": [
           {
@@ -242,41 +274,9 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1206776235"
           },
           {
-            "brand": "COSRX",
-            "title": "【7月新作】 アゼライン酸10%ニキビケアクリーム 30ml /初心者/敏感肌/アゼライン酸/肌荒れケア/ニキビケア/ニ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1206777974"
-          },
-          {
             "brand": "HARUHARU",
             "title": "【NEW】 ローズ PDRNスージングセラム30ml 敏感肌/化粧水/美容液/保湿/ハリ/インナードライ/アゼライン酸",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1185008649"
-          }
-        ]
-      },
-      {
-        "name": "シカ (CICA)",
-        "count": 4,
-        "brands_count": 4,
-        "examples": [
-          {
-            "brand": "COSRX",
-            "title": "【LDKビューティー受賞/100枚大容量】ワンステップトナーパッド4種/ピンクもちペプチドコラーゲン/透明トーンケア/4",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=617313421"
-          },
-          {
-            "brand": "MANYO",
-            "title": "【manyo公式】日本先行発売 アズレンヒアルロンセラムクレンジングオイル 200ml（化粧落とし 鎮静 洗顔 朝洗顔 ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1208946259"
-          },
-          {
-            "brand": "TORRIDEN",
-            "title": "【シカクリーム80ml贈呈】[リニューアル] ダイブイン トナー 300ml ヒアルロン酸 導入化粧水 ヒアルロン酸2倍",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=874242374"
-          },
-          {
-            "brand": "Dr.Jart+",
-            "title": "シカペア CCTクリーム, 50ml (シカペアリカバーリニューアル)",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1033180033"
           }
         ]
       },
@@ -324,11 +324,11 @@
       {
         "name": "セラム / 美容液",
         "count": 18,
-        "avg_price": 3915,
+        "avg_price": 3608,
         "examples": [
           {
             "brand": "VT",
-            "title": "【9/3 10時～限定特価】【新作】レチナールペプチドセラム 30ml"
+            "title": "【メガ割最大50%OFF】【新作】レチナールペプチドセラム 30ml"
           },
           {
             "brand": "SKIN1004",
@@ -350,8 +350,8 @@
       },
       {
         "name": "マスク / シート",
-        "count": 16,
-        "avg_price": 3251,
+        "count": 18,
+        "avg_price": 2875,
         "examples": [
           {
             "brand": "COSRX",
@@ -366,19 +366,19 @@
             "title": "【NEW】ハイドロゲルマスクパック（3枚入り）選べる4種 エステ級／PDRN / アルファアルブチン／ペプチドコラーゲン"
           },
           {
-            "brand": "TIRTIR",
-            "title": "【NEW】【あやぱん共同開発】エッセンスクレンジングシート(50枚入り) 低刺激 ノーウォッシュクレンジング"
+            "brand": "AESTURA",
+            "title": "[正規品]NEW A-CICA365 スージングリペア マスク PH4.5 1box(5枚入り)/ZEROID (ゼロイ"
           },
           {
-            "brand": "ABIB",
-            "title": "【公式】NEW ヒアルロニック登場！シートマスクデイリーピック 30枚, 1+1 SET/ヒアルロニック/グルタチオン/"
+            "brand": "TIRTIR",
+            "title": "【NEW】【あやぱん共同開発】エッセンスクレンジングシート(50枚入り) 低刺激 ノーウォッシュクレンジング"
           }
         ]
       },
       {
         "name": "クリーム",
-        "count": 14,
-        "avg_price": 4521,
+        "count": 12,
+        "avg_price": 4183,
         "examples": [
           {
             "brand": "Anua",
@@ -393,19 +393,19 @@
             "title": "【7月新作】アゼライン酸20%集中ニキビケアクリーム(30mL) 高濃度アゼライン酸/肌荒れケア/トラブル肌"
           },
           {
-            "brand": "COSRX",
-            "title": "【7月新作】 アゼライン酸10%ニキビケアクリーム 30ml /初心者/敏感肌/アゼライン酸/肌荒れケア/ニキビケア/ニ"
-          },
-          {
             "brand": "Kopher",
             "title": "【NEW・3 - 4点セット】メラクリーム ライン セット（クレンジング・アンプル・保湿クリーム・メラクリーム・SOSシ"
+          },
+          {
+            "brand": "isntree",
+            "title": "【NEW】海苔PDRNハイドロファーミングクリーム50ml／GIM(ギム)次世代植物性PDRN (保湿/ハリケア/乳液/"
           }
         ]
       },
       {
         "name": "トナー",
         "count": 10,
-        "avg_price": 4595,
+        "avg_price": 3756,
         "examples": [
           {
             "brand": "COSRX",
@@ -431,8 +431,8 @@
       },
       {
         "name": "クレンザー / 洗顔",
-        "count": 6,
-        "avg_price": 2298,
+        "count": 7,
+        "avg_price": 2253,
         "examples": [
           {
             "brand": "MANYO",
@@ -478,11 +478,11 @@
       {
         "name": "エッセンス",
         "count": 3,
-        "avg_price": 2230,
+        "avg_price": 3283,
         "examples": [
           {
-            "brand": "MANYO",
-            "title": "【NEW】ガラクナイアシン3.0エッセンス 60ml　毛穴 肌トーンケア 導入美容液"
+            "brand": "AESTURA",
+            "title": "[正規品]NEW A-CICA365 スージングリペア マスク PH4.5 1box(5枚入り)/ZEROID (ゼロイ"
           },
           {
             "brand": "TIRTIR",
@@ -505,7 +505,7 @@
           },
           {
             "brand": "TORRIDEN",
-            "title": "【9/3特価】【ダイブイントナー50ml贈呈】【Qoo10アワーズ保湿ジェル 1位】[リニューアル] ダイブインスージン"
+            "title": "【ダイブイントナー50ml贈呈】【Qoo10アワーズ保湿ジェル 1位】[リニューアル] ダイブインスージングクリーム 1"
           }
         ]
       },
@@ -528,40 +528,45 @@
     "concerns": [
       {
         "name": "鎮静 / トラブル",
-        "count": 20
+        "count": 19
       },
       {
         "name": "保湿",
-        "count": 11
-      },
-      {
-        "name": "毛穴 / 角質",
-        "count": 7
-      },
-      {
-        "name": "美白 / トーンアップ",
-        "count": 6
+        "count": 13
       },
       {
         "name": "エイジング / ハリ",
         "count": 6
       },
       {
+        "name": "毛穴 / 角質",
+        "count": 6
+      },
+      {
+        "name": "美白 / トーンアップ",
+        "count": 5
+      },
+      {
         "name": "ノニオイ / 無香料",
         "count": 3
       }
     ],
-    "total_products": 61,
-    "avg_price": 3601,
-    "price_count": 61
+    "total_products": 64,
+    "avg_price": 3467,
+    "price_count": 64
   },
   "color": {
     "categories": [
       {
         "name": "チーク / ブラッシャー",
-        "count": 30,
-        "avg_price": 2233,
+        "count": 34,
+        "avg_price": 2300,
         "examples": [
+          {
+            "brand": "fwee",
+            "title": "【NEW アンコールリクエストアイテム/バター＆バニー発売】フューリップ＆チーク ブラリー プリンポット 5g 単品/企",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1207724900"
+          },
           {
             "brand": "rom&nd",
             "title": "【メガ割限定セール】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレクションQoo10先行発売】",
@@ -581,18 +586,13 @@
             "brand": "ABOUT TONE",
             "title": "【正規品扱い店】[NEW] スキンレイヤーフィットチーク全20色",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1213627510"
-          },
-          {
-            "brand": "ABOUT TONE",
-            "title": "[新色追加]スキンレイヤーフィットチーク 20色 / ブラッシャー / セミマット / セミグロウ / リキッドチーク ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1125999986"
           }
         ]
       },
       {
         "name": "リップティント",
-        "count": 26,
-        "avg_price": 2440,
+        "count": 31,
+        "avg_price": 2318,
         "examples": [
           {
             "brand": "DASIQUE",
@@ -615,9 +615,9 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1035777684"
           },
           {
-            "brand": "Laka",
-            "title": "【新色発売 911 912】パーフェクトツインリップ 全12色 / デュアルリップ / マットリップ / グロス / ブ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1083261015"
+            "brand": "PERIPERA",
+            "title": "【21 22 23 24 25 新色追加】 ムードグロイ ティント 27色 / リニューアル",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1077036256"
           }
         ]
       },
@@ -655,18 +655,13 @@
       },
       {
         "name": "パウダー",
-        "count": 13,
-        "avg_price": 1906,
+        "count": 12,
+        "avg_price": 1831,
         "examples": [
           {
             "brand": "rom&nd",
             "title": "【メガ割限定セール】 ベターザンチーク / パウダー / チーク 【豆乳カラーコレクションQoo10先行発売】",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=613431648"
-          },
-          {
-            "brand": "23 years old",
-            "title": "【新カラー発売/ミニパウダーGIFT】 ハートリーフシンカバークッション(5種) /ミニコンシーラーギフト/ドクダミ成分",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1060832111"
           },
           {
             "brand": "BBIA",
@@ -682,28 +677,28 @@
             "brand": "MilleFée",
             "title": "[NEW]2個購入300円OFF【キャラクターコラボ】メイクパフ キャラクター パウダーパフ おぱんちゅうさぎ んぽちゃ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1153044008"
+          },
+          {
+            "brand": "MilleFée",
+            "title": "【NEW】【公式】モンチッチメイクパフ　単品 [パウダーパフ マシュマロパフ 指パフ ちびパフ] メイクパフ パフ メイ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1201456850"
           }
         ]
       },
       {
         "name": "ペンシル / ライナー",
-        "count": 12,
-        "avg_price": 1602,
+        "count": 10,
+        "avg_price": 1457,
         "examples": [
-          {
-            "brand": "PERIPERA",
-            "title": "[NEW/ 8色]パピー プランピング デュー リップ ペンシル/ NEW01 ソフトベージュ,NEW02 クリーミーピ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1176812892"
-          },
           {
             "brand": "PERIPERA",
             "title": "[NEW/ 8色]パピー プランピング デュー リップ ペンシル/ NEW01 ソフトベージュ,NEW02 クリーミーピ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1176813747"
           },
           {
-            "brand": "AMUSE",
-            "title": "[NEW]エバーラスティング アイペンシル 全6色/Everlasting Eye Pencil/AMUSE/05モーヴ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1134145595"
+            "brand": "PERIPERA",
+            "title": "[NEW/ 8色]パピー プランピング デュー リップ ペンシル/ NEW01 ソフトベージュ,NEW02 クリーミーピ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1176812892"
           },
           {
             "brand": "CLIO",
@@ -711,16 +706,21 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=919815101"
           },
           {
-            "brand": "CLIO",
-            "title": "NEW ! シャープソーシンプルウォータープルーフペンシルライナー",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1060220920"
+            "brand": "BBIA",
+            "title": "【メガ割限定GIFT】【NEW】中顔面縮小！涙袋ペンシル全7色",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=592564381"
+          },
+          {
+            "brand": "BBIA",
+            "title": "【メガ割限定GIFT】【NEW/盛れ唇ペンシル】ヌーディリップペンシル全7色",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1030525267"
           }
         ]
       },
       {
         "name": "クッション",
-        "count": 8,
-        "avg_price": 4556,
+        "count": 9,
+        "avg_price": 4283,
         "examples": [
           {
             "brand": "fwee",
@@ -739,7 +739,7 @@
           },
           {
             "brand": "AMUSE",
-            "title": "【新発売】エアリーポアブラーパクト新発売！エアリーシリーズ3種(エアリーポアブラーパクト/エアリーポアカバークッション,",
+            "title": "【9/4限定特価】【新発売】エアリーポアブラーパクト新発売！エアリーシリーズ3種(エアリーポアブラーパクト/エアリーポア",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1161376682"
           },
           {
@@ -750,19 +750,46 @@
         ]
       },
       {
-        "name": "リップグロス / オイル",
+        "name": "アイブロウ",
         "count": 8,
-        "avg_price": 1942,
+        "avg_price": 1317,
+        "examples": [
+          {
+            "brand": "rom&nd",
+            "title": "新色入荷！国内発送 ハンオール ブロウカラ 11種類 眉マスカラ アイブロウマスカラ ポイントメイク アイメイク 眉毛マ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=984266691"
+          },
+          {
+            "brand": "PERIPERA",
+            "title": "【新色発売】スピーディー スキニー ブロウマスカラ / スピーディーアイブロウライン / ナチュラルなカラーバリ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=590339348"
+          },
+          {
+            "brand": "PERIPERA",
+            "title": "【正規品】[NEWカラー] スピーディ スキニー ブロウ 8 Colors",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1173835159"
+          },
+          {
+            "brand": "ETUDE",
+            "title": "【2026リニューアル/先行発売】ドローイングアイブロウペンシルプロ/ブロウペンシル/眉毛/ナチュラルカラー/落ちにくい",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=963321406"
+          },
+          {
+            "brand": "2aN",
+            "title": "【公式】【新作発売】アートカラーリングブロウカラ4種",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1195597405"
+          }
+        ]
+      },
+      {
+        "name": "リップグロス / オイル",
+        "count": 7,
+        "avg_price": 1919,
         "examples": [
           {
             "brand": "rom&nd",
             "title": "【9/3~4限定リップオイルミニGIFT付】 グラスティングカラーグロス 新色12カラー登場 スパークルライン ヌードラ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1076143786"
-          },
-          {
-            "brand": "rom&nd",
-            "title": "[NEW]グラスティング カラー グロス/NEW14ミュイジ,21 トフィークリーム/22 クリームマッド/23 クリー",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1181472486"
           },
           {
             "brand": "Laka",
@@ -778,45 +805,18 @@
             "brand": "MilleFée",
             "title": "NEW【2個購入300円OFF】アイドル2in1リップティント グロス マット 保湿 リップ メイクキープ 落ちにくい ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1190021097"
-          }
-        ]
-      },
-      {
-        "name": "アイブロウ",
-        "count": 7,
-        "avg_price": 1248,
-        "examples": [
-          {
-            "brand": "rom&nd",
-            "title": "新色入荷！国内発送 ハンオール ブロウカラ 11種類 眉マスカラ アイブロウマスカラ ポイントメイク アイメイク 眉毛マ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=984266691"
           },
           {
-            "brand": "PERIPERA",
-            "title": "【新色発売】スピーディー スキニー ブロウマスカラ / スピーディーアイブロウライン / ナチュラルなカラーバリ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=590339348"
-          },
-          {
-            "brand": "ETUDE",
-            "title": "【2026リニューアル/先行発売】ドローイングアイブロウペンシルプロ/ブロウペンシル/眉毛/ナチュラルカラー/落ちにくい",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=963321406"
-          },
-          {
-            "brand": "2aN",
-            "title": "【公式】【新作発売】アートカラーリングブロウカラ4種",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1195597405"
-          },
-          {
-            "brand": "excel",
-            "title": "【選べる リニューアル】エクセル ザ　プライムアイブロウ 3機能1体型 PE01 / PE02 / PE03 / PE0",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1029493172"
+            "brand": "MilleFée",
+            "title": "【NEW】モンチッチコラボコスメ （単品）ソフトムードシャドウパレット・うるうるフィットグロス・シェイクドロップチーク ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1161735228"
           }
         ]
       },
       {
         "name": "ファンデーション",
-        "count": 5,
-        "avg_price": 4539,
+        "count": 6,
+        "avg_price": 4133,
         "examples": [
           {
             "brand": "ABOUT TONE",
@@ -834,14 +834,14 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1206195349"
           },
           {
-            "brand": "23 years old",
-            "title": "【新カラー発売/ミニパウダーGIFT】 ハートリーフシンカバークッション(5種) /ミニコンシーラーギフト/ドクダミ成分",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1060832111"
-          },
-          {
             "brand": "ETUDE",
             "title": "【最大73%/GIFT/メガ割り限定企画セット】新作ベースメイク完成セット/ファンデーション+コンシーラーポット+コンシ",
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1209200867"
+          },
+          {
+            "brand": "CEZANNE",
+            "title": "【リニューアル】セザ ンヌ CE ZANNE セラムクッションファンデーション N20 自然なオークル系",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1209047115"
           }
         ]
       },
@@ -878,6 +878,38 @@
         ]
       },
       {
+        "name": "コンシーラー",
+        "count": 5,
+        "avg_price": 4306,
+        "examples": [
+          {
+            "brand": "AMUSE",
+            "title": "【9/4限定特価】【新発売】エアリーポアブラーパクト新発売！エアリーシリーズ3種(エアリーポアブラーパクト/エアリーポア",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1161376682"
+          },
+          {
+            "brand": "23 years old",
+            "title": "【NEWカラー先行解禁】【2点購入で未発売カラーGIFT】ダーマシンコンシーラー 5g 12種 / 薬局コスメ/ 肌荒れ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=869317232"
+          },
+          {
+            "brand": "23 years old",
+            "title": "【NEWカラー先行解禁/2個購入時】【日本限定カラー】ダーマシンコンシーラー 5g 11種 / 薬局コスメ/ 肌荒れカバ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1205039124"
+          },
+          {
+            "brand": "BBIA",
+            "title": "[1+1] NEW ラストオートジェルアイライナー 0.3g /ラストパウダーペンシルコンシーラー 涙袋 アイシャドウ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=961685794"
+          },
+          {
+            "brand": "ETUDE",
+            "title": "【最大73%/GIFT/メガ割り限定企画セット】新作ベースメイク完成セット/ファンデーション+コンシーラーポット+コンシ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1209200867"
+          }
+        ]
+      },
+      {
         "name": "マスカラ",
         "count": 4,
         "avg_price": 1372,
@@ -905,36 +937,9 @@
         ]
       },
       {
-        "name": "コンシーラー",
-        "count": 4,
-        "avg_price": 4482,
-        "examples": [
-          {
-            "brand": "AMUSE",
-            "title": "【新発売】エアリーポアブラーパクト新発売！エアリーシリーズ3種(エアリーポアブラーパクト/エアリーポアカバークッション,",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1161376682"
-          },
-          {
-            "brand": "23 years old",
-            "title": "【新カラー発売/ミニパウダーGIFT】 ハートリーフシンカバークッション(5種) /ミニコンシーラーギフト/ドクダミ成分",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1060832111"
-          },
-          {
-            "brand": "BBIA",
-            "title": "[1+1] NEW ラストオートジェルアイライナー 0.3g /ラストパウダーペンシルコンシーラー 涙袋 アイシャドウ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=961685794"
-          },
-          {
-            "brand": "ETUDE",
-            "title": "【最大73%/GIFT/メガ割り限定企画セット】新作ベースメイク完成セット/ファンデーション+コンシーラーポット+コンシ",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1209200867"
-          }
-        ]
-      },
-      {
         "name": "ハイライト / コントゥア",
         "count": 3,
-        "avg_price": 2743,
+        "avg_price": 2369,
         "examples": [
           {
             "brand": "AMUSE",
@@ -947,9 +952,9 @@
             "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1093706599"
           },
           {
-            "brand": "2aN",
-            "title": "【8/10 新作発売】ジェリーグロウ ハイライト 5色 / 01 Moon Dust 02 Cosmic Pink 03",
-            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1086490332"
+            "brand": "excel",
+            "title": "オーラティック ブラッシュ チーク ABシリーズ 5色 NEW COLOER 新色 ポイントメイク メイクアップ ハイラ",
+            "url": "https://m.qoo10.jp/gmkt.inc/Mobile/goods/goods.aspx?goodscode=1008784583"
           }
         ]
       },
@@ -991,40 +996,40 @@
     "category_groups": [
       {
         "name": "립",
-        "count": 43,
-        "avg_price": 2113
+        "count": 45,
+        "avg_price": 2056
       },
       {
         "name": "아이",
-        "count": 21,
-        "avg_price": 2387
+        "count": 22,
+        "avg_price": 2360
       },
       {
         "name": "베이스",
-        "count": 20,
-        "avg_price": 3563
+        "count": 23,
+        "avg_price": 3468
       },
       {
         "name": "페이스",
-        "count": 24,
-        "avg_price": 2163
+        "count": 27,
+        "avg_price": 2226
       }
     ],
     "formulations": [
       {
         "name": "스틱 / ペン",
-        "count": 16
+        "count": 14
       },
       {
         "name": "ベルベット / 매트",
-        "count": 9
-      },
-      {
-        "name": "バーム / 밤",
-        "count": 7
+        "count": 10
       },
       {
         "name": "리퀴드 / リキッド",
+        "count": 8
+      },
+      {
+        "name": "バーム / 밤",
         "count": 7
       },
       {
@@ -1043,23 +1048,28 @@
     "color_families": [
       {
         "name": "다채 / 멀티",
-        "count": 42,
-        "avg_price": 2646
+        "count": 41,
+        "avg_price": 2650
       },
       {
         "name": "핑크",
         "count": 7,
-        "avg_price": 2744
+        "avg_price": 2644
       },
       {
         "name": "ヌード / 누드",
-        "count": 4,
-        "avg_price": 1682
+        "count": 5,
+        "avg_price": 1736
       },
       {
         "name": "브라운",
-        "count": 3,
-        "avg_price": 1823
+        "count": 4,
+        "avg_price": 1698
+      },
+      {
+        "name": "레드",
+        "count": 1,
+        "avg_price": 3700
       },
       {
         "name": "베리 / 와인",
@@ -1070,11 +1080,6 @@
         "name": "코랄 / 오렌지",
         "count": 1,
         "avg_price": 1970
-      },
-      {
-        "name": "퍼플 / 라일락",
-        "count": 1,
-        "avg_price": 3000
       }
     ],
     "shade_releases": [
@@ -1129,31 +1134,31 @@
         "title": "【NEWカラー発売】ラブビーム チークバーム（全16色・1色選択）"
       }
     ],
-    "total_products": 136,
-    "avg_price": 2528,
-    "price_count": 136
+    "total_products": 148,
+    "avg_price": 2515,
+    "price_count": 148
   },
   "self_action": [
     {
       "for_brand": "BOH / 브링그린 (스킨)",
       "category": "성분",
       "trend": "PDRN",
-      "evidence": "30일간 경쟁사 신상품 9건 (6개 브랜드)이 PDRN 채택",
+      "evidence": "30일간 경쟁사 신상품 10건 (6개 브랜드)이 PDRN 채택",
       "action": "자사 PDRN 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
     },
     {
       "for_brand": "BOH / 브링그린 (스킨)",
       "category": "성분",
-      "trend": "コラーゲン",
-      "evidence": "30일간 경쟁사 신상품 7건 (3개 브랜드)이 コラーゲン 채택",
-      "action": "자사 コラーゲン 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
+      "trend": "ヒアルロン酸",
+      "evidence": "30일간 경쟁사 신상품 9건 (2개 브랜드)이 ヒアルロン酸 채택",
+      "action": "자사 ヒアルロン酸 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
     },
     {
       "for_brand": "BOH / 브링그린 (스킨)",
       "category": "성분",
-      "trend": "ヒアルロン酸",
-      "evidence": "30일간 경쟁사 신상품 7건 (2개 브랜드)이 ヒアルロン酸 채택",
-      "action": "자사 ヒアルロン酸 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
+      "trend": "コラーゲン",
+      "evidence": "30일간 경쟁사 신상품 8건 (3개 브랜드)이 コラーゲン 채택",
+      "action": "자사 コラーゲン 함유 라인 점검 — 없으면 차기 기획 우선순위 검토, 있으면 마케팅 메시지 강화"
     },
     {
       "for_brand": "BOH / 브링그린 (스킨)",
@@ -1166,7 +1171,7 @@
       "for_brand": "웨이크메이크 / 컬러그램 (색조)",
       "category": "카테고리",
       "trend": "チーク / ブラッシャー",
-      "evidence": "30일 색조 신상품 중 1위 카테고리 — 30건",
+      "evidence": "30일 색조 신상품 중 1위 카테고리 — 34건",
       "action": "자사 チーク / ブラッシャー 라인 SKU 수 확인. 부족 시 추가 기획 / 충분 시 기존 라인 마케팅 강화"
     },
     {
@@ -1180,7 +1185,7 @@
       "for_brand": "웨이크메이크 / 컬러그램 (색조)",
       "category": "색 계열",
       "trend": "다채 / 멀티",
-      "evidence": "30일 색조 신상품 색 계열 1위 — 42건",
+      "evidence": "30일 색조 신상품 색 계열 1위 — 41건",
       "action": "자사 색조 차기 컬렉션 메인 색 결정 시 우선 검토"
     }
   ]
